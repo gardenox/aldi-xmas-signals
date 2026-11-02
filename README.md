@@ -25,3 +25,14 @@ Period data is served with `Cache-Control: no-cache`, so clients see a new perio
 Required (the site validates these): `meta.targetBrand`, `executiveSummary` (overview, dominantMood, culturalNuances, commercialOpportunity), `themes[]` (themeId, themeName, momentum.status, summary.description, dataSources), `actionPlan` (optimalTiming, keyContentPillars, regionalStrategy).
 
 Optional, shown when present: `platformCoverage[]` (the "Where the conversation is" panel and per-platform counts), `themes[].exampleContent[]` (example posts), `themes[].dataConfidence` / `confidenceNote` / `platformFocus`.
+
+## Password
+The whole site, including the data files, sits behind a password gate that runs on the host before anything is served (`auth/gate.js`, used by `netlify/edge-functions/gate.js` on Netlify and `middleware.js` on Vercel). It works on the free plans of both.
+
+- Set the password as an environment variable called **`SITE_PASSWORD`** on the host, then redeploy.
+  - Netlify: Site configuration → Environment variables.
+  - Vercel: Project → Settings → Environment Variables (tick Production).
+- Until it is set, the site shows "Site password is not configured" instead of the report.
+- Visitors stay signed in for 30 days. Changing `SITE_PASSWORD` signs everyone out.
+- Sign out: visit `/__logout`.
+- The password is never stored in this repo.
