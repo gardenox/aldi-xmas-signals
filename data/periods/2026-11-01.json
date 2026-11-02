@@ -4,7 +4,7 @@
  "end": "2026-11-01",
  "analysisDate": "2026-11-02",
  "netSentiment": 73,
- "addedAt": "2026-11-02T10:42:12.646Z",
+ "addedAt": "2026-11-02T12:27:11.807Z",
  "reports": {
   "en": {
    "meta": {
@@ -57,6 +57,74 @@
        ]
       }
      },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@une.bulle.de.chipie",
+       "authorName": "Magalie 🎀 | Créatrice de contenu 📸🎥",
+       "authorType": "Creator",
+       "authorFollowers": 36510,
+       "language": "fr",
+       "postDate": "2026-10-18",
+       "contentFormat": "Image post",
+       "postText": "🎄✨ CONCOURS DE NOËL ✨🎁 Et si on faisait entrer un peu de magie de Noël chez vous ? ❤️🎅🏻 Aujourd'hui, je vous propose de tenter votre chance pour remporter ce magnifique calendrier de l'Avent Rituals en forme de train de Noël 🚂🎄 POUR PARTICIPER : Être abonné(e) à mon compte @une.bulle.de.chipie, Aimer ce post, Inviter des ami(e)s. Fin du concours : le 5 novembre à 23h59.",
+       "translationEn": "CHRISTMAS GIVEAWAY. What if we brought a little Christmas magic into your home? Today I'm giving you the chance to win this magnificent Rituals Advent calendar shaped like a Christmas train. TO ENTER: follow my account @une.bulle.de.chipie, like this post, invite friends. Giveaway ends 5 November at 23:59.",
+       "engagement": {
+        "likes": 1821,
+        "comments": 4299,
+        "shares": null,
+        "views": null,
+        "total": 4299
+       },
+       "url": "https://www.instagram.com/p/DepRISQgThk/",
+       "whyItMatters": "A premium-beauty (Rituals) Advent-calendar giveaway — the dominant mechanic driving this theme; this is a giveaway/concours post.",
+       "translationLocal": "CHRISTMAS GIVEAWAY. What if we brought a little Christmas magic into your home? Today I'm giving you the chance to win this magnificent Rituals Advent calendar shaped like a Christmas train. TO ENTER: follow my account @une.bulle.de.chipie, like this post, invite friends. Giveaway ends 5 November at 23:59."
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@nailsby_lie",
+       "authorName": "Julie 🤍",
+       "authorType": "Creator",
+       "authorFollowers": 10919,
+       "language": "fr",
+       "postDate": "2026-10-28",
+       "contentFormat": "Reel",
+       "postText": "🎄✨ CONCOURS EXCEPTIONNEL – OA NAILS SYSTEM ✨🎄 Et si la magie de Noël commençait un peu plus tôt cette année ? 🎁❤️ En collaboration avec @oanailsystem, j'ai le plaisir de vous offrir LE DERNIER CALENDRIER DE L'AVENT ! POUR PARTICIPER : Être abonné(e) à mon compte @nailsby_lie, Liker cette publication, Identifier des ami(e)s. CONCOURS EXPRESS, tirage demain soir jeudi 29 octobre.",
+       "translationEn": "EXCEPTIONAL GIVEAWAY – OA NAILS SYSTEM. What if Christmas magic started a little earlier this year? In collaboration with @oanailsystem, I'm delighted to offer you THE LATEST ADVENT CALENDAR! TO ENTER: follow my account @nailsby_lie, like this post, tag friends. EXPRESS giveaway, draw tomorrow evening Thursday 29 October.",
+       "engagement": {
+        "likes": 894,
+        "comments": 3906,
+        "shares": null,
+        "views": null,
+        "total": 3906
+       },
+       "url": "https://www.instagram.com/reel/DfDVCWAC3Ug/",
+       "whyItMatters": "An express beauty Advent-calendar giveaway with explicit 'magie de Noël commence plus tôt' framing; this is a giveaway/collaboration post.",
+       "translationLocal": "EXCEPTIONAL GIVEAWAY – OA NAILS SYSTEM. What if Christmas magic started a little earlier this year? In collaboration with @oanailsystem, I'm delighted to offer you THE LATEST ADVENT CALENDAR! TO ENTER: follow my account @nailsby_lie, like this post, tag friends. EXPRESS giveaway, draw tomorrow evening Thursday 29 October."
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@marion_mkp",
+       "authorName": "Marion & Co ™",
+       "authorType": "Creator",
+       "authorFollowers": 85394,
+       "language": "fr",
+       "postDate": "2026-10-25",
+       "contentFormat": "Image post",
+       "postText": "🎄✨ CONCOURS calendrier de l'avent ✨🎁 Aujourd'hui on vous gâte en vous offrant le calendrier de l'Avent Premium Yves Rocher 💄 À GAGNER : Un calendrier de l'Avent Yves Rocher Premium d'une valeur de 89,99€ pour plus de 230€ de produits 😍 Pour participer : Like ce post, Republie ce post, Abonne-toi à nos comptes, Identifie un maximum de personnes. Fin du concours : le 3 novembre.",
+       "translationEn": "ADVENT CALENDAR GIVEAWAY. Today we're spoiling you with the Yves Rocher Premium Advent calendar. TO WIN: a Yves Rocher Premium Advent calendar worth €89.99 with over €230 of products. To enter: like this post, repost it, follow our accounts, tag as many people as possible. Giveaway ends 3 November.",
+       "engagement": {
+        "likes": 315,
+        "comments": 954,
+        "shares": null,
+        "views": null,
+        "total": 954
+       },
+       "url": "https://www.instagram.com/p/De7L-xVRH6C/",
+       "whyItMatters": "A premium Yves Rocher Advent-calendar giveaway stating explicit retail value — shows the value-vs-premium benchmark; this is a giveaway/concours post.",
+       "translationLocal": "ADVENT CALENDAR GIVEAWAY. Today we're spoiling you with the Yves Rocher Premium Advent calendar. TO WIN: a Yves Rocher Premium Advent calendar worth €89.99 with over €230 of products. To enter: like this post, repost it, follow our accounts, tag as many people as possible. Giveaway ends 3 November."
+      }
+     ],
      "shortLabel": "Premium\nAdvent"
     },
     {
@@ -94,6 +162,52 @@
        ]
       }
      },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@zaplaser_",
+       "authorName": "ZapLaser",
+       "authorType": "Brand",
+       "authorFollowers": null,
+       "language": "fr",
+       "postDate": "2026-10-30",
+       "contentFormat": "Reel",
+       "postText": "Commente « ZAP » si tu veux le même ⚡😅 #lasergame #jeuxenfants #ideecadeau #noel2026",
+       "translationEn": "Comment 'ZAP' if you want the same one ⚡😅 #lasergame #kidsgames #giftidea #christmas2026",
+       "engagement": {
+        "likes": 93636,
+        "comments": 1773,
+        "shares": null,
+        "views": null,
+        "total": 1773
+       },
+       "url": "https://www.instagram.com/reel/DfIUDtnRpdV/",
+       "whyItMatters": "Kids' laser-game explicitly tagged #ideecadeau #noel2026 — a clear kids'-gift example; a comment-to-action lead-gen post.",
+       "translationLocal": "Comment 'ZAP' if you want the same one ⚡😅 #lasergame #kidsgames #giftidea #christmas2026"
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@elise.bgn",
+       "authorName": "Elise l Vie de Maman &. De couple en Humour",
+       "authorType": "Creator",
+       "authorFollowers": 87392,
+       "language": "fr",
+       "postDate": "2026-10-22",
+       "contentFormat": "Reel",
+       "postText": "🎁 CONCOURS 🎁 Vos enfants ont déjà fait leur liste au Père Noël ? La lettre au père de Noël de Milo était plutôt claire cette année : une console sans manette, où il peut bouger sauter et danser, mais aussi apprendre en s'amusant ! Avec LeapMOVE+, les enfants de 4 à 11 ans peuvent découvrir 25 jeux et aventures. Avec VTech, on est très heureux de pouvoir vous faire gagner une LeapMove+ pour Noël ! Publicité #leapmoveplus #vtech",
+       "translationEn": "GIVEAWAY. Have your kids already made their letter to Santa? Milo's letter to Santa was pretty clear this year: a controller-free console where he can move, jump and dance, and also learn while having fun! With LeapMOVE+, kids aged 4 to 11 can discover 25 games and adventures. With VTech, we're delighted to let you win a LeapMove+ for Christmas! Advertisement #leapmoveplus #vtech",
+       "engagement": {
+        "likes": 3,
+        "comments": 1236,
+        "shares": null,
+        "views": null,
+        "total": 1236
+       },
+       "url": "https://www.instagram.com/reel/DeznleFtdZ5/",
+       "whyItMatters": "Kids' tech gift (VTech LeapMove) with 'lettre au Père Noël' framing — core gift-planning behaviour; this is a paid/advertised giveaway post.",
+       "translationLocal": "GIVEAWAY. Have your kids already made their letter to Santa? Milo's letter to Santa was pretty clear this year: a controller-free console where he can move, jump and dance, and also learn while having fun! With LeapMOVE+, kids aged 4 to 11 can discover 25 games and adventures. With VTech, we're delighted to let you win a LeapMove+ for Christmas! Advertisement #leapmoveplus #vtech"
+      }
+     ],
      "shortLabel": "Gift\nplanning"
     },
     {
@@ -107,7 +221,7 @@
      "isCrossPlatform": true,
      "momentum": {
       "status": "Growing",
-      "timelineDetails": "Cosy framing sustained (#cozyvibes 606, #kerstsfeer 494) and newly joined by 'magie de Noël' (#magiedenoel 454, #magiedenoël 392) and a Christmas-travel/market vein emerging late October."
+      "timelineDetails": "Cosy framing sustained (#cozyvibes 606, #kerstsfeer 494) and newly joined by 'magie de Noël' (#magiedenoel 454, #magiedeNoël 392) and a Christmas-travel/market vein emerging late October."
      },
      "summary": {
       "description": "The emotional core broadens from warmth-and-craft (#faitmain 1,191, #artisanat 668, festive recipes) into explicit 'magie de Noël' celebration AND festive experiences — Christmas-market city breaks (London, Amsterdam, Vienna, Prague), Interrail itineraries and a Brussels–Milan Christmas night train. Hygge home-styling, decor and hosting content throughout.",
@@ -132,6 +246,74 @@
        ]
       }
      },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@tinadventures",
+       "authorName": "Eglantine Chavanne - Voyages et aventures 🌺",
+       "authorType": "Creator",
+       "authorFollowers": 129428,
+       "language": "fr",
+       "postDate": "2026-10-25",
+       "contentFormat": "Reel",
+       "postText": "le guide ultime pour visiter Londres à Noël 🤭🎄 #christmaslondon #visitlondon #londonchristmasmarket #conseilvoyage",
+       "translationEn": "the ultimate guide to visiting London at Christmas 🤭🎄 #christmaslondon #visitlondon #londonchristmasmarket #traveltip",
+       "engagement": {
+        "likes": 1110,
+        "comments": 2774,
+        "shares": null,
+        "views": null,
+        "total": 2774
+       },
+       "url": "https://www.instagram.com/reel/De6cBG7O0Y9/",
+       "whyItMatters": "High-visibility Christmas city-break guide (London) — the new festive-experience/travel vein; organic creator content, not a giveaway.",
+       "translationLocal": "the ultimate guide to visiting London at Christmas 🤭🎄 #christmaslondon #visitlondon #londonchristmasmarket #traveltip"
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@mollowfr",
+       "authorName": "Mollow | Voyages en train",
+       "authorType": "Media",
+       "authorFollowers": 274173,
+       "language": "fr",
+       "postDate": "2026-10-30",
+       "contentFormat": "Reel",
+       "postText": "6 villes à absolument voir Noël en un seul voyage en train 🚆✨ 🇳🇱 Amsterdam : les canaux illuminés... 🇩🇪 Berlin : la ville se transforme TOTALEMENT en hiver avec des marchés partout ! 🇨🇿 Prague, 🇦🇹 Vienne, 🇦🇹 Innsbruck, 🇨🇭 Bâle. Le tout avec un pass Interrail de 7 jours. Commente \"TRAIN\" pour recevoir d'autres itinéraires.",
+       "translationEn": "6 cities you absolutely must see at Christmas in a single train trip. Amsterdam: the illuminated canals... Berlin: the city transforms TOTALLY in winter with markets everywhere! Prague, Vienna, Innsbruck, Basel. All with a 7-day Interrail pass. Comment 'TRAIN' to receive more itineraries.",
+       "engagement": {
+        "likes": 2012,
+        "comments": 974,
+        "shares": null,
+        "views": null,
+        "total": 974
+       },
+       "url": "https://www.instagram.com/reel/DfIEamtB6aU/",
+       "whyItMatters": "Interrail European Christmas-market itinerary — crystallises the 'plan festive experiences' shift; organic lead-gen content, not a giveaway.",
+       "translationLocal": "6 cities you absolutely must see at Christmas in a single train trip. Amsterdam: the illuminated canals... Berlin: the city transforms TOTALLY in winter with markets everywhere! Prague, Vienna, Innsbruck, Basel. All with a 7-day Interrail pass. Comment 'TRAIN' to receive more itineraries."
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@kinettebeautyfood",
+       "authorName": "Kinette Beautyfood",
+       "authorType": "Creator",
+       "authorFollowers": 476525,
+       "language": "fr",
+       "postDate": "2026-10-18",
+       "contentFormat": "Reel",
+       "postText": "✨🎄 Idée Recette Spécial fêtes 🎄✨ Ingrédients : 2 pâtes feuilletées, des rondelles de carottes 🥕, 1 jaune d'œuf, des graines de sésame, du saumon fumé, du Boursin, de l'aneth, du citron, des œufs de lompe rouges. Cuisson 20 min MAX à 180°. Des petites cuillères feuilletées parfaites pour un apéritif de fête ! 🥄✨ Idéal pour régaler tes invités à Noël 🎄😋 #recette #noël",
+       "translationEn": "Special holiday recipe idea. Ingredients: 2 puff pastries, carrot slices, 1 egg yolk, sesame seeds, smoked salmon, Boursin, dill, lemon, red lumpfish roe. Bake 20 min MAX at 180°. Little puff-pastry spoons perfect for a festive aperitif! Ideal to delight your Christmas guests. #recipe #christmas",
+       "engagement": {
+        "likes": 112263,
+        "comments": 771,
+        "shares": null,
+        "views": null,
+        "total": 771
+       },
+       "url": "https://www.instagram.com/reel/DepNJ4hxoty/",
+       "whyItMatters": "Festive-hosting recipe content — the food/hosting angle ALDI can own; organic creator content, not a giveaway.",
+       "translationLocal": "Special holiday recipe idea. Ingredients: 2 puff pastries, carrot slices, 1 egg yolk, sesame seeds, smoked salmon, Boursin, dill, lemon, red lumpfish roe. Bake 20 min MAX at 180°. Little puff-pastry spoons perfect for a festive aperitif! Ideal to delight your Christmas guests. #recipe #christmas"
+      }
+     ],
      "shortLabel": "Magie\nde Noël"
     },
     {
@@ -143,8 +325,8 @@
      ],
      "isCrossPlatform": true,
      "momentum": {
-      "status": "Steady",
-      "timelineDetails": "Still present but now less distinctive as the broader conversation has caught up with the 'early' crowd; dominant NATIVE theme on TikTok, though TikTok volume stays small (352 posts)."
+      "status": "Stable",
+      "timelineDetails": "Still present but now less distinctive as the broader conversation has caught up with the 'early' crowd; dominant native theme on TikTok, though TikTok volume stays small (352 posts)."
      },
      "summary": {
       "description": "The self-aware 'Noëliste / too early and proud' humour persists, but as the whole market ramps, 'too early' is becoming 'right on time'. On TikTok it remains the main native theme and the platform stays overwhelmingly positive and an uncontested retail white space (only Famiflora, Kruidvat, Wibra, Action testing).",
@@ -167,6 +349,52 @@
        ]
       }
      },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@luminoel.off",
+       "authorName": "LumiNoël",
+       "authorType": "Brand",
+       "authorFollowers": null,
+       "language": "fr",
+       "postDate": "2026-10-19",
+       "contentFormat": "Reel",
+       "postText": "Commente \"Noel\" si t'en veux un 🎅🎄✨️ #noel #christmas #noël",
+       "translationEn": "Comment 'Noel' if you want one 🎅🎄✨️ #christmas",
+       "engagement": {
+        "likes": 16051,
+        "comments": 1377,
+        "shares": null,
+        "views": null,
+        "total": 1377
+       },
+       "url": "https://www.instagram.com/reel/Derbc9iC33I/",
+       "whyItMatters": "Early-Christmas 'want one?' decor post riding the 'start Christmas early' mood; a comment-to-action lead-gen post.",
+       "translationLocal": "Comment 'Noel' if you want one 🎅🎄✨️ #christmas"
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@une.bulle.de.chipie",
+       "authorName": "Magalie 🎀 | Créatrice de contenu 📸🎥",
+       "authorType": "Creator",
+       "authorFollowers": 36510,
+       "language": "fr",
+       "postDate": "2026-10-15",
+       "contentFormat": "Image post",
+       "postText": "🎁✨ CONCOURS ✨🎁 Le calendrier de l'Avent Ava & May est à l'honneur ! 🎄💖 Et si cette année, la magie de Noël commençait un peu plus tôt ? 🥰🎁 J'ai décidé de vous gâter en vous offrant la chance de remporter ce joli calendrier de l'Avent ! Fin du concours : 31 octobre 2026 à 23h59.",
+       "translationEn": "GIVEAWAY. The Ava & May Advent calendar takes centre stage! What if this year Christmas magic started a little earlier? I've decided to spoil you with the chance to win this lovely Advent calendar! Giveaway ends 31 October 2026 at 23:59.",
+       "engagement": {
+        "likes": 871,
+        "comments": 2342,
+        "shares": null,
+        "views": null,
+        "total": 2342
+       },
+       "url": "https://www.instagram.com/p/DehQbEKgNR6/",
+       "whyItMatters": "Explicit 'magie de Noël commençait un peu plus tôt' framing — the 'start early and proud' sentiment; this is a giveaway/concours post.",
+       "translationLocal": "GIVEAWAY. The Ava & May Advent calendar takes centre stage! What if this year Christmas magic started a little earlier? I've decided to spoil you with the chance to win this lovely Advent calendar! Giveaway ends 31 October 2026 at 23:59."
+      }
+     ],
      "shortLabel": "Too early?\nNoëlistes"
     }
    ],
@@ -257,7 +485,75 @@
         "Qualité"
        ]
       }
-     }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@une.bulle.de.chipie",
+       "authorName": "Magalie 🎀 | Créatrice de contenu 📸🎥",
+       "authorType": "Creator",
+       "authorFollowers": 36510,
+       "language": "fr",
+       "postDate": "2026-10-18",
+       "contentFormat": "Image post",
+       "postText": "🎄✨ CONCOURS DE NOËL ✨🎁 Et si on faisait entrer un peu de magie de Noël chez vous ? ❤️🎅🏻 Aujourd'hui, je vous propose de tenter votre chance pour remporter ce magnifique calendrier de l'Avent Rituals en forme de train de Noël 🚂🎄 POUR PARTICIPER : Être abonné(e) à mon compte @une.bulle.de.chipie, Aimer ce post, Inviter des ami(e)s. Fin du concours : le 5 novembre à 23h59.",
+       "translationEn": "CHRISTMAS GIVEAWAY. What if we brought a little Christmas magic into your home? Today I'm giving you the chance to win this magnificent Rituals Advent calendar shaped like a Christmas train. TO ENTER: follow my account @une.bulle.de.chipie, like this post, invite friends. Giveaway ends 5 November at 23:59.",
+       "engagement": {
+        "likes": 1821,
+        "comments": 4299,
+        "shares": null,
+        "views": null,
+        "total": 4299
+       },
+       "url": "https://www.instagram.com/p/DepRISQgThk/",
+       "whyItMatters": "Un concours de calendrier de l'Avent beauté premium (Rituals) : la mécanique dominante de ce thème ; c'est un post concours.",
+       "translationLocal": null
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@nailsby_lie",
+       "authorName": "Julie 🤍",
+       "authorType": "Creator",
+       "authorFollowers": 10919,
+       "language": "fr",
+       "postDate": "2026-10-28",
+       "contentFormat": "Reel",
+       "postText": "🎄✨ CONCOURS EXCEPTIONNEL – OA NAILS SYSTEM ✨🎄 Et si la magie de Noël commençait un peu plus tôt cette année ? 🎁❤️ En collaboration avec @oanailsystem, j'ai le plaisir de vous offrir LE DERNIER CALENDRIER DE L'AVENT ! POUR PARTICIPER : Être abonné(e) à mon compte @nailsby_lie, Liker cette publication, Identifier des ami(e)s. CONCOURS EXPRESS, tirage demain soir jeudi 29 octobre.",
+       "translationEn": "EXCEPTIONAL GIVEAWAY – OA NAILS SYSTEM. What if Christmas magic started a little earlier this year? In collaboration with @oanailsystem, I'm delighted to offer you THE LATEST ADVENT CALENDAR! TO ENTER: follow my account @nailsby_lie, like this post, tag friends. EXPRESS giveaway, draw tomorrow evening Thursday 29 October.",
+       "engagement": {
+        "likes": 894,
+        "comments": 3906,
+        "shares": null,
+        "views": null,
+        "total": 3906
+       },
+       "url": "https://www.instagram.com/reel/DfDVCWAC3Ug/",
+       "whyItMatters": "Un concours express de calendrier de l'Avent beauté avec le cadrage explicite « la magie de Noël commence plus tôt » ; c'est un post concours en collaboration.",
+       "translationLocal": null
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@marion_mkp",
+       "authorName": "Marion & Co ™",
+       "authorType": "Creator",
+       "authorFollowers": 85394,
+       "language": "fr",
+       "postDate": "2026-10-25",
+       "contentFormat": "Image post",
+       "postText": "🎄✨ CONCOURS calendrier de l'avent ✨🎁 Aujourd'hui on vous gâte en vous offrant le calendrier de l'Avent Premium Yves Rocher 💄 À GAGNER : Un calendrier de l'Avent Yves Rocher Premium d'une valeur de 89,99€ pour plus de 230€ de produits 😍 Pour participer : Like ce post, Republie ce post, Abonne-toi à nos comptes, Identifie un maximum de personnes. Fin du concours : le 3 novembre.",
+       "translationEn": "ADVENT CALENDAR GIVEAWAY. Today we're spoiling you with the Yves Rocher Premium Advent calendar. TO WIN: a Yves Rocher Premium Advent calendar worth €89.99 with over €230 of products. To enter: like this post, repost it, follow our accounts, tag as many people as possible. Giveaway ends 3 November.",
+       "engagement": {
+        "likes": 315,
+        "comments": 954,
+        "shares": null,
+        "views": null,
+        "total": 954
+       },
+       "url": "https://www.instagram.com/p/De7L-xVRH6C/",
+       "whyItMatters": "Un concours de calendrier de l'Avent premium Yves Rocher qui affiche sa valeur en magasin : il illustre la comparaison valeur contre premium ; c'est un post concours.",
+       "translationLocal": null
+      }
+     ]
     },
     {
      "themeId": "theme_2",
@@ -294,7 +590,53 @@
         "Gamme festive"
        ]
       }
-     }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@zaplaser_",
+       "authorName": "ZapLaser",
+       "authorType": "Brand",
+       "authorFollowers": null,
+       "language": "fr",
+       "postDate": "2026-10-30",
+       "contentFormat": "Reel",
+       "postText": "Commente « ZAP » si tu veux le même ⚡😅 #lasergame #jeuxenfants #ideecadeau #noel2026",
+       "translationEn": "Comment 'ZAP' if you want the same one ⚡😅 #lasergame #kidsgames #giftidea #christmas2026",
+       "engagement": {
+        "likes": 93636,
+        "comments": 1773,
+        "shares": null,
+        "views": null,
+        "total": 1773
+       },
+       "url": "https://www.instagram.com/reel/DfIUDtnRpdV/",
+       "whyItMatters": "Laser game pour enfants explicitement tagué #ideecadeau #noel2026 : un exemple clair de cadeau pour enfants ; un post « commente pour recevoir » qui sert à générer des contacts.",
+       "translationLocal": null
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@elise.bgn",
+       "authorName": "Elise l Vie de Maman &. De couple en Humour",
+       "authorType": "Creator",
+       "authorFollowers": 87392,
+       "language": "fr",
+       "postDate": "2026-10-22",
+       "contentFormat": "Reel",
+       "postText": "🎁 CONCOURS 🎁 Vos enfants ont déjà fait leur liste au Père Noël ? La lettre au père de Noël de Milo était plutôt claire cette année : une console sans manette, où il peut bouger sauter et danser, mais aussi apprendre en s'amusant ! Avec LeapMOVE+, les enfants de 4 à 11 ans peuvent découvrir 25 jeux et aventures. Avec VTech, on est très heureux de pouvoir vous faire gagner une LeapMove+ pour Noël ! Publicité #leapmoveplus #vtech",
+       "translationEn": "GIVEAWAY. Have your kids already made their letter to Santa? Milo's letter to Santa was pretty clear this year: a controller-free console where he can move, jump and dance, and also learn while having fun! With LeapMOVE+, kids aged 4 to 11 can discover 25 games and adventures. With VTech, we're delighted to let you win a LeapMove+ for Christmas! Advertisement #leapmoveplus #vtech",
+       "engagement": {
+        "likes": 3,
+        "comments": 1236,
+        "shares": null,
+        "views": null,
+        "total": 1236
+       },
+       "url": "https://www.instagram.com/reel/DeznleFtdZ5/",
+       "whyItMatters": "Cadeau high-tech pour enfants (VTech LeapMove) avec le registre « lettre au Père Noël » : le cœur de la préparation des cadeaux ; c'est un concours rémunéré (publicité).",
+       "translationLocal": null
+      }
+     ]
     },
     {
      "themeId": "theme_3",
@@ -332,7 +674,75 @@
         "Meilleur prix"
        ]
       }
-     }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@tinadventures",
+       "authorName": "Eglantine Chavanne - Voyages et aventures 🌺",
+       "authorType": "Creator",
+       "authorFollowers": 129428,
+       "language": "fr",
+       "postDate": "2026-10-25",
+       "contentFormat": "Reel",
+       "postText": "le guide ultime pour visiter Londres à Noël 🤭🎄 #christmaslondon #visitlondon #londonchristmasmarket #conseilvoyage",
+       "translationEn": "the ultimate guide to visiting London at Christmas 🤭🎄 #christmaslondon #visitlondon #londonchristmasmarket #traveltip",
+       "engagement": {
+        "likes": 1110,
+        "comments": 2774,
+        "shares": null,
+        "views": null,
+        "total": 2774
+       },
+       "url": "https://www.instagram.com/reel/De6cBG7O0Y9/",
+       "whyItMatters": "Guide de city-trip de Noël (Londres) très visible : la nouvelle veine expériences de fête et voyages ; contenu de créateur organique, pas un concours.",
+       "translationLocal": null
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@mollowfr",
+       "authorName": "Mollow | Voyages en train",
+       "authorType": "Media",
+       "authorFollowers": 274173,
+       "language": "fr",
+       "postDate": "2026-10-30",
+       "contentFormat": "Reel",
+       "postText": "6 villes à absolument voir Noël en un seul voyage en train 🚆✨ 🇳🇱 Amsterdam : les canaux illuminés... 🇩🇪 Berlin : la ville se transforme TOTALEMENT en hiver avec des marchés partout ! 🇨🇿 Prague, 🇦🇹 Vienne, 🇦🇹 Innsbruck, 🇨🇭 Bâle. Le tout avec un pass Interrail de 7 jours. Commente \"TRAIN\" pour recevoir d'autres itinéraires.",
+       "translationEn": "6 cities you absolutely must see at Christmas in a single train trip. Amsterdam: the illuminated canals... Berlin: the city transforms TOTALLY in winter with markets everywhere! Prague, Vienna, Innsbruck, Basel. All with a 7-day Interrail pass. Comment 'TRAIN' to receive more itineraries.",
+       "engagement": {
+        "likes": 2012,
+        "comments": 974,
+        "shares": null,
+        "views": null,
+        "total": 974
+       },
+       "url": "https://www.instagram.com/reel/DfIEamtB6aU/",
+       "whyItMatters": "Itinéraire Interrail des marchés de Noël européens : il cristallise l'envie de « planifier des expériences de fête » ; contenu organique de génération de contacts, pas un concours.",
+       "translationLocal": null
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@kinettebeautyfood",
+       "authorName": "Kinette Beautyfood",
+       "authorType": "Creator",
+       "authorFollowers": 476525,
+       "language": "fr",
+       "postDate": "2026-10-18",
+       "contentFormat": "Reel",
+       "postText": "✨🎄 Idée Recette Spécial fêtes 🎄✨ Ingrédients : 2 pâtes feuilletées, des rondelles de carottes 🥕, 1 jaune d'œuf, des graines de sésame, du saumon fumé, du Boursin, de l'aneth, du citron, des œufs de lompe rouges. Cuisson 20 min MAX à 180°. Des petites cuillères feuilletées parfaites pour un apéritif de fête ! 🥄✨ Idéal pour régaler tes invités à Noël 🎄😋 #recette #noël",
+       "translationEn": "Special holiday recipe idea. Ingredients: 2 puff pastries, carrot slices, 1 egg yolk, sesame seeds, smoked salmon, Boursin, dill, lemon, red lumpfish roe. Bake 20 min MAX at 180°. Little puff-pastry spoons perfect for a festive aperitif! Ideal to delight your Christmas guests. #recipe #christmas",
+       "engagement": {
+        "likes": 112263,
+        "comments": 771,
+        "shares": null,
+        "views": null,
+        "total": 771
+       },
+       "url": "https://www.instagram.com/reel/DepNJ4hxoty/",
+       "whyItMatters": "Recette pour les réceptions de fête : l'angle cuisine et réception qu'ALDI peut s'approprier ; contenu de créateur organique, pas un concours.",
+       "translationLocal": null
+      }
+     ]
     },
     {
      "themeId": "theme_4",
@@ -344,7 +754,7 @@
      ],
      "isCrossPlatform": true,
      "momentum": {
-      "status": "Steady",
+      "status": "Stable",
       "timelineDetails": "Toujours présent, mais moins distinctif maintenant que la conversation générale a rattrapé les « précoces » ; c'est le thème natif dominant sur TikTok, même si le volume TikTok reste faible (352 publications)."
      },
      "summary": {
@@ -367,7 +777,53 @@
         "Gamme festive"
        ]
       }
-     }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@luminoel.off",
+       "authorName": "LumiNoël",
+       "authorType": "Brand",
+       "authorFollowers": null,
+       "language": "fr",
+       "postDate": "2026-10-19",
+       "contentFormat": "Reel",
+       "postText": "Commente \"Noel\" si t'en veux un 🎅🎄✨️ #noel #christmas #noël",
+       "translationEn": "Comment 'Noel' if you want one 🎅🎄✨️ #christmas",
+       "engagement": {
+        "likes": 16051,
+        "comments": 1377,
+        "shares": null,
+        "views": null,
+        "total": 1377
+       },
+       "url": "https://www.instagram.com/reel/Derbc9iC33I/",
+       "whyItMatters": "Post déco « tu en veux un ? » qui surfe sur l'envie de lancer Noël tôt ; un post « commente pour recevoir » qui sert à générer des contacts.",
+       "translationLocal": null
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@une.bulle.de.chipie",
+       "authorName": "Magalie 🎀 | Créatrice de contenu 📸🎥",
+       "authorType": "Creator",
+       "authorFollowers": 36510,
+       "language": "fr",
+       "postDate": "2026-10-15",
+       "contentFormat": "Image post",
+       "postText": "🎁✨ CONCOURS ✨🎁 Le calendrier de l'Avent Ava & May est à l'honneur ! 🎄💖 Et si cette année, la magie de Noël commençait un peu plus tôt ? 🥰🎁 J'ai décidé de vous gâter en vous offrant la chance de remporter ce joli calendrier de l'Avent ! Fin du concours : 31 octobre 2026 à 23h59.",
+       "translationEn": "GIVEAWAY. The Ava & May Advent calendar takes centre stage! What if this year Christmas magic started a little earlier? I've decided to spoil you with the chance to win this lovely Advent calendar! Giveaway ends 31 October 2026 at 23:59.",
+       "engagement": {
+        "likes": 871,
+        "comments": 2342,
+        "shares": null,
+        "views": null,
+        "total": 2342
+       },
+       "url": "https://www.instagram.com/p/DehQbEKgNR6/",
+       "whyItMatters": "Cadrage explicite « la magie de Noël commençait un peu plus tôt » : le sentiment « tôt et fier de l'être » ; c'est un post concours.",
+       "translationLocal": null
+      }
+     ]
     }
    ],
    "actionPlan": {
@@ -457,7 +913,75 @@
         "Kwaliteit"
        ]
       }
-     }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@une.bulle.de.chipie",
+       "authorName": "Magalie 🎀 | Créatrice de contenu 📸🎥",
+       "authorType": "Creator",
+       "authorFollowers": 36510,
+       "language": "fr",
+       "postDate": "2026-10-18",
+       "contentFormat": "Image post",
+       "postText": "🎄✨ CONCOURS DE NOËL ✨🎁 Et si on faisait entrer un peu de magie de Noël chez vous ? ❤️🎅🏻 Aujourd'hui, je vous propose de tenter votre chance pour remporter ce magnifique calendrier de l'Avent Rituals en forme de train de Noël 🚂🎄 POUR PARTICIPER : Être abonné(e) à mon compte @une.bulle.de.chipie, Aimer ce post, Inviter des ami(e)s. Fin du concours : le 5 novembre à 23h59.",
+       "translationEn": "CHRISTMAS GIVEAWAY. What if we brought a little Christmas magic into your home? Today I'm giving you the chance to win this magnificent Rituals Advent calendar shaped like a Christmas train. TO ENTER: follow my account @une.bulle.de.chipie, like this post, invite friends. Giveaway ends 5 November at 23:59.",
+       "engagement": {
+        "likes": 1821,
+        "comments": 4299,
+        "shares": null,
+        "views": null,
+        "total": 4299
+       },
+       "url": "https://www.instagram.com/p/DepRISQgThk/",
+       "whyItMatters": "Een winactie met een premium beauty-adventskalender (Rituals): de dominante mechaniek achter dit thema; dit is een winactiepost.",
+       "translationLocal": "KERSTWINACTIE. Wat als we een beetje kerstmagie bij jou thuis brengen? Vandaag krijg je de kans om deze prachtige adventskalender van Rituals in de vorm van een kersttrein te winnen. MEEDOEN: volg mijn account @une.bulle.de.chipie, like deze post, nodig vrienden uit. De winactie loopt tot 5 november om 23.59 uur."
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@nailsby_lie",
+       "authorName": "Julie 🤍",
+       "authorType": "Creator",
+       "authorFollowers": 10919,
+       "language": "fr",
+       "postDate": "2026-10-28",
+       "contentFormat": "Reel",
+       "postText": "🎄✨ CONCOURS EXCEPTIONNEL – OA NAILS SYSTEM ✨🎄 Et si la magie de Noël commençait un peu plus tôt cette année ? 🎁❤️ En collaboration avec @oanailsystem, j'ai le plaisir de vous offrir LE DERNIER CALENDRIER DE L'AVENT ! POUR PARTICIPER : Être abonné(e) à mon compte @nailsby_lie, Liker cette publication, Identifier des ami(e)s. CONCOURS EXPRESS, tirage demain soir jeudi 29 octobre.",
+       "translationEn": "EXCEPTIONAL GIVEAWAY – OA NAILS SYSTEM. What if Christmas magic started a little earlier this year? In collaboration with @oanailsystem, I'm delighted to offer you THE LATEST ADVENT CALENDAR! TO ENTER: follow my account @nailsby_lie, like this post, tag friends. EXPRESS giveaway, draw tomorrow evening Thursday 29 October.",
+       "engagement": {
+        "likes": 894,
+        "comments": 3906,
+        "shares": null,
+        "views": null,
+        "total": 3906
+       },
+       "url": "https://www.instagram.com/reel/DfDVCWAC3Ug/",
+       "whyItMatters": "Een express-winactie met een beauty-adventskalender en de expliciete framing 'de kerstmagie begint vroeger'; dit is een winactie in samenwerking met een merk.",
+       "translationLocal": "UITZONDERLIJKE WINACTIE – OA NAILS SYSTEM. Wat als de kerstmagie dit jaar wat vroeger begint? In samenwerking met @oanailsystem mag ik jullie DE NIEUWSTE ADVENTSKALENDER geven! MEEDOEN: volg mijn account @nailsby_lie, like deze post, tag vrienden. EXPRESS-WINACTIE, trekking morgenavond, donderdag 29 oktober."
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@marion_mkp",
+       "authorName": "Marion & Co ™",
+       "authorType": "Creator",
+       "authorFollowers": 85394,
+       "language": "fr",
+       "postDate": "2026-10-25",
+       "contentFormat": "Image post",
+       "postText": "🎄✨ CONCOURS calendrier de l'avent ✨🎁 Aujourd'hui on vous gâte en vous offrant le calendrier de l'Avent Premium Yves Rocher 💄 À GAGNER : Un calendrier de l'Avent Yves Rocher Premium d'une valeur de 89,99€ pour plus de 230€ de produits 😍 Pour participer : Like ce post, Republie ce post, Abonne-toi à nos comptes, Identifie un maximum de personnes. Fin du concours : le 3 novembre.",
+       "translationEn": "ADVENT CALENDAR GIVEAWAY. Today we're spoiling you with the Yves Rocher Premium Advent calendar. TO WIN: a Yves Rocher Premium Advent calendar worth €89.99 with over €230 of products. To enter: like this post, repost it, follow our accounts, tag as many people as possible. Giveaway ends 3 November.",
+       "engagement": {
+        "likes": 315,
+        "comments": 954,
+        "shares": null,
+        "views": null,
+        "total": 954
+       },
+       "url": "https://www.instagram.com/p/De7L-xVRH6C/",
+       "whyItMatters": "Een winactie met de premium adventskalender van Yves Rocher die de winkelwaarde vermeldt: toont de vergelijking tussen waarde en premium; dit is een winactiepost.",
+       "translationLocal": "WINACTIE adventskalender. Vandaag verwennen we jullie met de premium adventskalender van Yves Rocher. TE WINNEN: een premium adventskalender van Yves Rocher ter waarde van € 89,99 met voor meer dan € 230 aan producten. Meedoen: like deze post, repost hem, volg onze accounts, tag zo veel mogelijk mensen. De winactie loopt tot 3 november."
+      }
+     ]
     },
     {
      "themeId": "theme_2",
@@ -494,7 +1018,53 @@
         "Feestassortiment"
        ]
       }
-     }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@zaplaser_",
+       "authorName": "ZapLaser",
+       "authorType": "Brand",
+       "authorFollowers": null,
+       "language": "fr",
+       "postDate": "2026-10-30",
+       "contentFormat": "Reel",
+       "postText": "Commente « ZAP » si tu veux le même ⚡😅 #lasergame #jeuxenfants #ideecadeau #noel2026",
+       "translationEn": "Comment 'ZAP' if you want the same one ⚡😅 #lasergame #kidsgames #giftidea #christmas2026",
+       "engagement": {
+        "likes": 93636,
+        "comments": 1773,
+        "shares": null,
+        "views": null,
+        "total": 1773
+       },
+       "url": "https://www.instagram.com/reel/DfIUDtnRpdV/",
+       "whyItMatters": "Lasergame voor kinderen, expliciet getagd #ideecadeau #noel2026: een duidelijk voorbeeld van een kindercadeau; een 'reageer om te ontvangen'-post om leads te verzamelen.",
+       "translationLocal": "Reageer met 'ZAP' als je er ook een wilt ⚡😅 #lasergame #kinderspelletjes #cadeauidee #kerst2026"
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@elise.bgn",
+       "authorName": "Elise l Vie de Maman &. De couple en Humour",
+       "authorType": "Creator",
+       "authorFollowers": 87392,
+       "language": "fr",
+       "postDate": "2026-10-22",
+       "contentFormat": "Reel",
+       "postText": "🎁 CONCOURS 🎁 Vos enfants ont déjà fait leur liste au Père Noël ? La lettre au père de Noël de Milo était plutôt claire cette année : une console sans manette, où il peut bouger sauter et danser, mais aussi apprendre en s'amusant ! Avec LeapMOVE+, les enfants de 4 à 11 ans peuvent découvrir 25 jeux et aventures. Avec VTech, on est très heureux de pouvoir vous faire gagner une LeapMove+ pour Noël ! Publicité #leapmoveplus #vtech",
+       "translationEn": "GIVEAWAY. Have your kids already made their letter to Santa? Milo's letter to Santa was pretty clear this year: a controller-free console where he can move, jump and dance, and also learn while having fun! With LeapMOVE+, kids aged 4 to 11 can discover 25 games and adventures. With VTech, we're delighted to let you win a LeapMove+ for Christmas! Advertisement #leapmoveplus #vtech",
+       "engagement": {
+        "likes": 3,
+        "comments": 1236,
+        "shares": null,
+        "views": null,
+        "total": 1236
+       },
+       "url": "https://www.instagram.com/reel/DeznleFtdZ5/",
+       "whyItMatters": "Techcadeau voor kinderen (VTech LeapMove) met de framing 'brief aan de Kerstman': de kern van cadeauplanning; dit is een betaalde winactie (advertentie).",
+       "translationLocal": "WINACTIE. Hebben jouw kinderen hun verlanglijstje voor de Kerstman al gemaakt? Milo's brief aan de Kerstman was dit jaar vrij duidelijk: een console zonder controller, waarmee hij kan bewegen, springen en dansen, en ook spelenderwijs kan leren! Met LeapMOVE+ ontdekken kinderen van 4 tot 11 jaar 25 spellen en avonturen. Samen met VTech zijn we heel blij dat we jullie een LeapMove+ voor kerst kunnen laten winnen! Advertentie #leapmoveplus #vtech"
+      }
+     ]
     },
     {
      "themeId": "theme_3",
@@ -532,7 +1102,75 @@
         "Prijsleiderschap"
        ]
       }
-     }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@tinadventures",
+       "authorName": "Eglantine Chavanne - Voyages et aventures 🌺",
+       "authorType": "Creator",
+       "authorFollowers": 129428,
+       "language": "fr",
+       "postDate": "2026-10-25",
+       "contentFormat": "Reel",
+       "postText": "le guide ultime pour visiter Londres à Noël 🤭🎄 #christmaslondon #visitlondon #londonchristmasmarket #conseilvoyage",
+       "translationEn": "the ultimate guide to visiting London at Christmas 🤭🎄 #christmaslondon #visitlondon #londonchristmasmarket #traveltip",
+       "engagement": {
+        "likes": 1110,
+        "comments": 2774,
+        "shares": null,
+        "views": null,
+        "total": 2774
+       },
+       "url": "https://www.instagram.com/reel/De6cBG7O0Y9/",
+       "whyItMatters": "Zeer zichtbare gids voor een kerstcitytrip (Londen): de nieuwe lijn rond feestelijke belevenissen en reizen; organische creatorcontent, geen winactie.",
+       "translationLocal": "de ultieme gids om Londen met kerst te bezoeken 🤭🎄 #christmaslondon #visitlondon #londonchristmasmarket #reistip"
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@mollowfr",
+       "authorName": "Mollow | Voyages en train",
+       "authorType": "Media",
+       "authorFollowers": 274173,
+       "language": "fr",
+       "postDate": "2026-10-30",
+       "contentFormat": "Reel",
+       "postText": "6 villes à absolument voir Noël en un seul voyage en train 🚆✨ 🇳🇱 Amsterdam : les canaux illuminés... 🇩🇪 Berlin : la ville se transforme TOTALEMENT en hiver avec des marchés partout ! 🇨🇿 Prague, 🇦🇹 Vienne, 🇦🇹 Innsbruck, 🇨🇭 Bâle. Le tout avec un pass Interrail de 7 jours. Commente \"TRAIN\" pour recevoir d'autres itinéraires.",
+       "translationEn": "6 cities you absolutely must see at Christmas in a single train trip. Amsterdam: the illuminated canals... Berlin: the city transforms TOTALLY in winter with markets everywhere! Prague, Vienna, Innsbruck, Basel. All with a 7-day Interrail pass. Comment 'TRAIN' to receive more itineraries.",
+       "engagement": {
+        "likes": 2012,
+        "comments": 974,
+        "shares": null,
+        "views": null,
+        "total": 974
+       },
+       "url": "https://www.instagram.com/reel/DfIEamtB6aU/",
+       "whyItMatters": "Interrail-route langs Europese kerstmarkten: vat de zin om 'feestelijke belevenissen te plannen' samen; organische content om leads te verzamelen, geen winactie.",
+       "translationLocal": "6 steden die je met kerst absoluut moet zien, in één treinreis 🚆✨ Amsterdam: de verlichte grachten... Berlijn: de stad verandert in de winter HELEMAAL, met overal markten! Praag, Wenen, Innsbruck, Bazel. Alles met een Interrail-pas van 7 dagen. Reageer met 'TRAIN' om meer routes te ontvangen."
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@kinettebeautyfood",
+       "authorName": "Kinette Beautyfood",
+       "authorType": "Creator",
+       "authorFollowers": 476525,
+       "language": "fr",
+       "postDate": "2026-10-18",
+       "contentFormat": "Reel",
+       "postText": "✨🎄 Idée Recette Spécial fêtes 🎄✨ Ingrédients : 2 pâtes feuilletées, des rondelles de carottes 🥕, 1 jaune d'œuf, des graines de sésame, du saumon fumé, du Boursin, de l'aneth, du citron, des œufs de lompe rouges. Cuisson 20 min MAX à 180°. Des petites cuillères feuilletées parfaites pour un apéritif de fête ! 🥄✨ Idéal pour régaler tes invités à Noël 🎄😋 #recette #noël",
+       "translationEn": "Special holiday recipe idea. Ingredients: 2 puff pastries, carrot slices, 1 egg yolk, sesame seeds, smoked salmon, Boursin, dill, lemon, red lumpfish roe. Bake 20 min MAX at 180°. Little puff-pastry spoons perfect for a festive aperitif! Ideal to delight your Christmas guests. #recipe #christmas",
+       "engagement": {
+        "likes": 112263,
+        "comments": 771,
+        "shares": null,
+        "views": null,
+        "total": 771
+       },
+       "url": "https://www.instagram.com/reel/DepNJ4hxoty/",
+       "whyItMatters": "Recept om gasten te ontvangen tijdens de feestdagen: de invalshoek rond eten en ontvangen die ALDI kan claimen; organische creatorcontent, geen winactie.",
+       "translationLocal": "✨🎄 Receptidee speciaal voor de feestdagen 🎄✨ Ingrediënten: 2 rollen bladerdeeg, wortelschijfjes, 1 eigeel, sesamzaad, gerookte zalm, Boursin, dille, citroen, rode lompviseitjes. Bakken: 20 min MAX op 180°. Kleine bladerdeeglepeltjes, perfect voor een feestelijk aperitief! Ideaal om je gasten met kerst te verwennen 🎄😋 #recept #kerst"
+      }
+     ]
     },
     {
      "themeId": "theme_4",
@@ -544,7 +1182,7 @@
      ],
      "isCrossPlatform": true,
      "momentum": {
-      "status": "Steady",
+      "status": "Stable",
       "timelineDetails": "Nog steeds aanwezig, maar minder onderscheidend nu het bredere gesprek de 'vroege' groep heeft ingehaald; het dominante eigen thema op TikTok, al blijft het TikTok-volume klein (352 posts)."
      },
      "summary": {
@@ -567,7 +1205,53 @@
         "Feestassortiment"
        ]
       }
-     }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@luminoel.off",
+       "authorName": "LumiNoël",
+       "authorType": "Brand",
+       "authorFollowers": null,
+       "language": "fr",
+       "postDate": "2026-10-19",
+       "contentFormat": "Reel",
+       "postText": "Commente \"Noel\" si t'en veux un 🎅🎄✨️ #noel #christmas #noël",
+       "translationEn": "Comment 'Noel' if you want one 🎅🎄✨️ #christmas",
+       "engagement": {
+        "likes": 16051,
+        "comments": 1377,
+        "shares": null,
+        "views": null,
+        "total": 1377
+       },
+       "url": "https://www.instagram.com/reel/Derbc9iC33I/",
+       "whyItMatters": "Decoratiepost 'wil je er ook een?' die inspeelt op de zin om vroeg met kerst te beginnen; een 'reageer om te ontvangen'-post om leads te verzamelen.",
+       "translationLocal": "Reageer met 'Noël' als je er ook een wilt 🎅🎄✨️ #kerst"
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@une.bulle.de.chipie",
+       "authorName": "Magalie 🎀 | Créatrice de contenu 📸🎥",
+       "authorType": "Creator",
+       "authorFollowers": 36510,
+       "language": "fr",
+       "postDate": "2026-10-15",
+       "contentFormat": "Image post",
+       "postText": "🎁✨ CONCOURS ✨🎁 Le calendrier de l'Avent Ava & May est à l'honneur ! 🎄💖 Et si cette année, la magie de Noël commençait un peu plus tôt ? 🥰🎁 J'ai décidé de vous gâter en vous offrant la chance de remporter ce joli calendrier de l'Avent ! Fin du concours : 31 octobre 2026 à 23h59.",
+       "translationEn": "GIVEAWAY. The Ava & May Advent calendar takes centre stage! What if this year Christmas magic started a little earlier? I've decided to spoil you with the chance to win this lovely Advent calendar! Giveaway ends 31 October 2026 at 23:59.",
+       "engagement": {
+        "likes": 871,
+        "comments": 2342,
+        "shares": null,
+        "views": null,
+        "total": 2342
+       },
+       "url": "https://www.instagram.com/p/DehQbEKgNR6/",
+       "whyItMatters": "Expliciete framing 'de kerstmagie begon een beetje vroeger': het gevoel 'vroeg en trots'; dit is een winactiepost.",
+       "translationLocal": "WINACTIE. De adventskalender van Ava & May staat in de kijker! Wat als de kerstmagie dit jaar wat vroeger begint? Ik verwen jullie met de kans om deze mooie adventskalender te winnen! De winactie loopt tot 31 oktober 2026 om 23.59 uur."
+      }
+     ]
     }
    ],
    "actionPlan": {

@@ -744,7 +744,7 @@ function renderPlatforms(){
 /* ===================== theme cards ===================== */
 function postCard(ex,enEx){
   const l=L(),p=ex.platform||"",fol=isNum(ex.authorFollowers)?fmtCompact(ex.authorFollowers)+" "+l.followers:l.noFollowers;
-  const giveaway=/giveaway|paid|affiliate/i.test((enEx&&enEx.whyItMatters)||"");
+  const gw=(enEx&&enEx.whyItMatters)||"";const giveaway=/giveaway|paid|affiliate|advertis/i.test(gw.replace(/\b(not|no|non)[ -](a |an )?(giveaway|paid|affiliate|advertis\w*)/gi,""));
   const trans=state.ui==="en"?ex.translationEn:ex.translationLocal;const showTrans=trans&&ex.language!==state.ui;
   const e=ex.engagement||{};const eng=["likes","comments","shares","views"].filter(k=>isNum(e[k])).map(k=>'<span><b>'+fmtNum(e[k])+'</b> '+esc(l.eng[k])+'</span>').join("");
   const meta=[l.authorType[ex.authorType]||ex.authorType,fol].filter(Boolean).join(", ");
