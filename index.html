@@ -139,6 +139,9 @@ body.locked #gate{display:flex;min-height:100vh;align-items:center;justify-conte
 #gate button{margin-top:16px;width:100%;padding:12px;border:0;border-radius:999px;background:var(--pulsar-blue);color:#fff;font:inherit;font-weight:600;font-size:1rem;cursor:pointer;}
 #gate .gerr{margin:14px 0 0;color:#FFB59A;font-size:.88rem;min-height:1.2em;}
 
+.datanotes{margin:0;padding-left:18px;}
+.datanotes li{margin:0 0 8px;}
+
 /* ===================== Period tabs ===================== */
 .period-row{flex-wrap:nowrap;}
 .ptabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin;padding:2px;min-width:0;}
@@ -308,8 +311,9 @@ body[data-lang="nl"] .regions,body[data-lang="fr"] .regions{grid-template-column
 .post-plat i{width:8px;height:8px;border-radius:50%;display:inline-block;}
 .author strong{display:block;color:var(--heading);font-family:var(--font-display);font-weight:600;font-size:.95rem;overflow-wrap:anywhere;}
 .author span{font-size:.78rem;color:var(--grey);}
+.post blockquote .ptext{white-space:pre-line;}
 .post blockquote{margin:0;padding:10px 12px;border-left:3px solid var(--pulsar-blue-tint);background:var(--bg);border-radius:0 10px 10px 0;color:var(--heading);overflow-wrap:anywhere;}
-.post .trans{display:block;margin-top:6px;color:var(--grey);font-size:.8rem;}
+.post .trans{white-space:normal;display:block;margin-top:6px;color:var(--grey);font-size:.8rem;}
 .eng{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.78rem;color:var(--grey);}
 .eng b{color:var(--heading);font-weight:600;}
 .post .pwhy{margin:0;font-size:.82rem;}
@@ -510,7 +514,7 @@ const CACHE={};
    INTERFACE TEXT
    ========================================================================== */
 const UI={
-en:{locale:"en-GB",heroTitle:"Early Christmas Signals",periodLbl:"Period",latest:"Latest",launch:"Launch report",loading:"Loading the latest insights…",loadErr:"The insights could not be loaded. Refresh the page to try again.",periodNote:(a,b)=>a+" to "+b,heroSub:b=>b+", Dutch and French posts",analysed:d=>"Analysed "+d,
+en:{locale:"en-GB",heroTitle:"Early Christmas Signals",totalMentions:"Mentions in the period",dataNotesH:"Notes on this period's data",dataNotesSub:"From the analysis itself: read these alongside the numbers.",periodLbl:"Period",latest:"Latest",launch:"Launch report",loading:"Loading the latest insights…",loadErr:"The insights could not be loaded. Refresh the page to try again.",periodNote:(a,b)=>a+" to "+b,heroSub:b=>b+", Dutch and French posts",analysed:d=>"Analysed "+d,
   themesSurfaced:"Themes surfaced",
   regBoth:"Both regions",regNl:"Flanders (NL)",regFr:"Wallonia and Brussels (FR)",reportLang:"Report language",momentum:"Momentum",platformLbl:"Platform",all:"All",
   mood:"Mood",netWord:"net sentiment",pos:p=>"About "+p+"% positive",neg:n=>"About "+n+"% negative",sentAria:(p,n)=>"About "+p+"% positive, "+n+"% negative",
@@ -545,7 +549,7 @@ en:{locale:"en-GB",heroTitle:"Early Christmas Signals",periodLbl:"Period",latest
 <h4>Themes and momentum</h4><p>The internal LLM reads every post and groups them into themes that emerge from the data. <strong>Momentum</strong> (Growing, Emerging, Stable, Declining) is its judgement of how each theme moved across the window. The French and Dutch split is directional: language detection on short posts is imperfect.</p>
 <h4>The theme map</h4><p>Each star is a theme. Star size and colour follow momentum. A line joins two themes that share a recommended channel or content pillar beyond the ones every theme has in common. The orange star at the centre is the leading growing theme.</p>
 <h4>Periods</h4><p>Each tab is one run of the analysis. Weekly runs cover the previous four weeks, so neighbouring periods overlap by three weeks: compare them to see what is gaining or fading, rather than adding them up. The launch report covers a longer window. Theme names and numbering are set fresh in each run.</p><h4>Translation</h4><p>The report was written in English and translated into French and Dutch. Post excerpts and hashtags stay in their original language, with a translation underneath when the post is in another language.</p>`},
-fr:{locale:"fr-BE",heroTitle:"Signaux précoces de Noël",periodLbl:"Période",latest:"Dernière",launch:"Rapport de lancement",loading:"Chargement des dernières analyses…",loadErr:"Impossible de charger les analyses. Actualisez la page pour réessayer.",periodNote:(a,b)=>"Du "+a+" au "+b,heroSub:b=>b+", publications en néerlandais et en français",analysed:d=>"Analysé le "+d,
+fr:{locale:"fr-BE",heroTitle:"Signaux précoces de Noël",totalMentions:"Mentions sur la période",dataNotesH:"Remarques sur les données de cette période",dataNotesSub:"Issues de l'analyse elle-même : à lire avec les chiffres.",periodLbl:"Période",latest:"Dernière",launch:"Rapport de lancement",loading:"Chargement des dernières analyses…",loadErr:"Impossible de charger les analyses. Actualisez la page pour réessayer.",periodNote:(a,b)=>"Du "+a+" au "+b,heroSub:b=>b+", publications en néerlandais et en français",analysed:d=>"Analysé le "+d,
   themesSurfaced:"Thèmes identifiés",
   regBoth:"Les deux régions",regNl:"Flandre (NL)",regFr:"Wallonie et Bruxelles (FR)",reportLang:"Langue du rapport",momentum:"Dynamique",platformLbl:"Plateforme",all:"Tout",
   mood:"Humeur",netWord:"sentiment net",pos:p=>"Environ "+p+"\u202f% positives",neg:n=>"Environ "+n+"\u202f% négatives",sentAria:(p,n)=>"Environ "+p+" % positives, "+n+" % négatives",
@@ -580,7 +584,7 @@ fr:{locale:"fr-BE",heroTitle:"Signaux précoces de Noël",periodLbl:"Période",l
 <h4>Thèmes et dynamique</h4><p>Le LLM interne lit chaque publication et les regroupe en thèmes qui émergent des données. La <strong>dynamique</strong> (En hausse, Émergent, Stable, En baisse) est son appréciation de l'évolution de chaque thème sur la période. La répartition entre français et néerlandais est indicative : la détection de langue sur des publications courtes reste imparfaite.</p>
 <h4>La carte des thèmes</h4><p>Chaque étoile est un thème. Sa taille et sa couleur suivent la dynamique. Un trait relie deux thèmes qui partagent un canal recommandé ou un pilier de contenu, au-delà de ceux communs à tous les thèmes. L'étoile orange au centre est le principal thème en hausse.</p>
 <h4>Périodes</h4><p>Chaque onglet correspond à une exécution de l'analyse. Les analyses hebdomadaires couvrent les quatre semaines précédentes : deux périodes voisines se chevauchent donc sur trois semaines. Comparez-les pour voir ce qui progresse ou recule, sans les additionner. Le rapport de lancement couvre une période plus longue. Les noms et numéros des thèmes sont redéfinis à chaque analyse.</p><h4>Traduction</h4><p>Le rapport a été rédigé en anglais puis traduit en français et en néerlandais. Les extraits de publications et les hashtags restent dans leur langue d'origine, avec une traduction en dessous lorsque la publication est dans une autre langue.</p>`},
-nl:{locale:"nl-BE",heroTitle:"Vroege kerstsignalen",periodLbl:"Periode",latest:"Nieuwste",launch:"Lanceringsrapport",loading:"De nieuwste inzichten worden geladen…",loadErr:"De inzichten konden niet worden geladen. Vernieuw de pagina om het opnieuw te proberen.",periodNote:(a,b)=>a+" tot "+b,heroSub:b=>b+", Nederlandstalige en Franstalige posts",analysed:d=>"Geanalyseerd op "+d,
+nl:{locale:"nl-BE",heroTitle:"Vroege kerstsignalen",totalMentions:"Vermeldingen in de periode",dataNotesH:"Opmerkingen bij de data van deze periode",dataNotesSub:"Uit de analyse zelf: lees ze samen met de cijfers.",periodLbl:"Periode",latest:"Nieuwste",launch:"Lanceringsrapport",loading:"De nieuwste inzichten worden geladen…",loadErr:"De inzichten konden niet worden geladen. Vernieuw de pagina om het opnieuw te proberen.",periodNote:(a,b)=>a+" tot "+b,heroSub:b=>b+", Nederlandstalige en Franstalige posts",analysed:d=>"Geanalyseerd op "+d,
   themesSurfaced:"Thema's gevonden",
   regBoth:"Beide regio's",regNl:"Vlaanderen (NL)",regFr:"Wallonië en Brussel (FR)",reportLang:"Taal van het rapport",momentum:"Momentum",platformLbl:"Platform",all:"Alles",
   mood:"Sfeer",netWord:"netto sentiment",pos:p=>"Ongeveer "+p+"% positief",neg:n=>"Ongeveer "+n+"% negatief",sentAria:(p,n)=>"Ongeveer "+p+"% positief, "+n+"% negatief",
@@ -643,7 +647,14 @@ const sortThemes=th=>[...th].sort((a,b)=>MOM[momKey(a)].rank-MOM[momKey(b)].rank
 const shortName=t=>t.shortLabel||t.themeName;
 const domId=t=>"t-"+String(t.themeId).replace(/[^a-z0-9]+/gi,"-").toLowerCase();
 const platColor=p=>CONFIG.platformColors[p]||"#6E6E73";
-const coverage=()=>arr(R().platformCoverage);
+const PLAT_NAME={instagram:"Instagram",facebook:"Facebook",tiktok:"TikTok",x:"X",twitter:"X",youtube:"YouTube",reddit:"Reddit",news:"News",blogs:"Blogs",forums:"Forums",linkedin:"LinkedIn",pinterest:"Pinterest",threads:"Threads"};
+const enMeta=()=>(REPORTS.en&&REPORTS.en.meta)||{};
+const coverage=()=>{const c=arr(R().platformCoverage);if(c.length)return c;
+  const mix=enMeta().platformMix;if(!mix||typeof mix!=="object")return [];
+  const rows=Object.entries(mix).filter(([,n])=>isNum(n)).map(([k,n])=>({platform:PLAT_NAME[String(k).toLowerCase()]||k,postCount:n}));
+  const tot=rows.reduce((a,r)=>a+r.postCount,0)||1;
+  return rows.map(r=>({...r,shareOfPosts:(r.postCount/tot*100<1&&r.postCount>0?"<1":(r.postCount/tot*100).toFixed(1))+"%"}));};
+const handle=h=>{h=String(h||"").trim();return h&&!h.startsWith("@")&&!/\s/.test(h)?"@"+h:h;};
 const activePlatforms=()=>coverage().filter(p=>p.postCount>0).sort((a,b)=>b.postCount-a.postCount);
 /* platforms for the filter chips: from coverage when the run has it, otherwise from the themes' data sources */
 const filterPlatforms=()=>{if(activePlatforms().length)return activePlatforms().map(p=>p.platform);const n={};themes().forEach(t=>arr(t.dataSources).forEach(p=>n[p]=(n[p]||0)+1));return Object.keys(n).sort((a,b)=>n[b]-n[a]);};
@@ -653,7 +664,8 @@ function logoHtml(){return CONFIG.logoSrc?'<img src="'+esc(CONFIG.logoSrc)+'" al
 function renderStatic(){
   const l=L();document.documentElement.lang=state.ui;
   document.querySelectorAll("[data-i18n]").forEach(el=>{const v=l[el.dataset.i18n];if(typeof v==="string")el.textContent=v;});
-  $("methodBody").innerHTML=l.method;
+  const dq=R().dataQualityNotes||REPORTS.en.dataQualityNotes;const notes=dq&&typeof dq==="object"?Object.values(dq).filter(v=>typeof v==="string"&&v.trim()):arr(dq);
+  $("methodBody").innerHTML=(notes.length?'<h4>'+esc(l.dataNotesH)+'</h4><p>'+esc(l.dataNotesSub)+'</p><ul class="datanotes">'+notes.map(n=>'<li>'+esc(n)+'</li>').join("")+'</ul>':'')+l.method;
   $("uiSeg").setAttribute("aria-label",l.reportLang);
   $("uiSeg").querySelectorAll("button").forEach(b=>{const on=b.dataset.ui===state.ui;b.classList.toggle("active",on);b.setAttribute("aria-pressed",on?"true":"false");});
   const m=R().meta||{};$("footNote").textContent=l.footer(m.targetBrand||CONFIG.client,fmtDate(m.analysisDate));
@@ -669,7 +681,8 @@ function renderHero(){
   const ov=String(ex.overview||"");const cut=ov.search(/\.\s+(?=[A-ZÀ-Ý])/);
   $("leadLine").textContent=cut>0?ov.slice(0,cut+1):ov;
   $("verdict").textContent=cut>0?ov.slice(cut+1).trim():"";
-  const meta=arr(R().headlineStats).map(s=>[s.value,s.label]).concat([[String(themes().length),l.themesSurfaced]]);
+  const tm=enMeta().totalMentions,hs=arr(R().headlineStats);
+  const meta=(isNum(tm)&&!hs.some(s=>String(s.value).replace(/\D/g,"")===String(tm))?[[fmtNum(tm),l.totalMentions]]:[]).concat(hs.map(s=>[s.value,s.label])).concat([[String(themes().length),l.themesSurfaced]]);
   $("periodLine").textContent=PERIOD?l.periodNote(fmtDate(PERIOD.start),fmtDate(PERIOD.end)):"";
   $("meta").innerHTML=meta.map(s=>'<span><strong>'+esc(s[0])+'</strong>'+esc(s[1])+'</span>').join("");
 }
@@ -688,7 +701,8 @@ function renderSky(){
   const lead=sortThemes(th)[0],W=640,H=470;
   const nodes=th.map(t=>({id:domId(t),label:shortName(t),value:momLabel(momKey(t)),size:MOM[momKey(t)].size,color:MOM[momKey(t)].color,dim:momKey(t)==="emerging"||confKey(t)==="low",lead:t===lead}));
   Cosmos.orbitLayout(nodes,{width:W,height:H,centerId:domId(lead),padX:.13,padY:.16,startAngle:-Math.PI/2});
-  const chart=Cosmos.constellation(host,{width:W,height:H,nodes,links:computeLinks()},{starHref:STAR_SRC,textSize:13,interactive:true,
+  const ids=new Set(nodes.map(n=>n.id));
+  const chart=Cosmos.constellation(host,{width:W,height:H,nodes,links:computeLinks().filter(k=>ids.has(k[0])&&ids.has(k[1]))},{starHref:STAR_SRC,textSize:13,interactive:true,
     label:l.skyAria,onFocus:(n,linked)=>skyDetail(n,linked),onSelect:n=>jumpTo(n.id)});
   const used=new Set(th.map(momKey));
   $("skyLegend").innerHTML=Object.keys(MOM).filter(k=>used.has(k)).map(k=>'<span><i style="background:'+MOM[k].color+'"></i>'+esc(momLabel(k))+'</span>').join("")+'<span>'+esc(l.skySize)+'</span><span>'+esc(l.skyLines)+'</span>';
@@ -738,10 +752,14 @@ function renderPlatforms(){
       +'<p>'+esc(p.contentCharacter)+'</p>'
       +(here.length?'<div><span class="ctl-label">'+esc(l.themesOn)+'</span><div class="tchips" style="margin-top:6px">'+here.map(t=>'<button class="tchip'+(t.platformFocus===p.platform?" lead":"")+'" data-jump="'+domId(t)+'"'+(t.platformFocus===p.platform?' title="'+esc(l.strongest(p.platform))+'"':'')+'>'+esc(shortName(t).replace(/-?\n/g,m=>m.startsWith("-")?"":" "))+'</button>').join("")+'</div></div>':'')
       +'</div>';}).join("");
-  $("platZero").textContent=zero.length?l.zero(zero.map(p=>p.platform).join(", "))+" "+l.leadsHint:l.leadsHint;
+  const hint=th.some(t=>t.platformFocus)?l.leadsHint:"";$("platZero").textContent=((zero.length?l.zero(zero.map(p=>p.platform).join(", "))+" ":"")+hint).trim();
 }
 
 /* ===================== theme cards ===================== */
+/* trims stray whitespace; adds "…" when the excerpt was cut mid-text */
+function postBody(ex){let t=String(ex.postText||"").replace(/[ \t]+\n/g,"\n").replace(/\n{3,}/g,"\n\n").trim();
+  const cut=ex.postTextTruncated===true||(t.length>=240&&/[\p{L}\p{N},:;–-]$/u.test(t));
+  return cut&&!/…$/.test(t)?t.replace(/[\s,:;–-]+$/,"")+"…":t;}
 function postCard(ex,enEx){
   const l=L(),p=ex.platform||"",fol=isNum(ex.authorFollowers)?fmtCompact(ex.authorFollowers)+" "+l.followers:l.noFollowers;
   const gw=(enEx&&enEx.whyItMatters)||"";const giveaway=/giveaway|paid|affiliate|advertis/i.test(gw.replace(/\b(not|no|non)[ -](a |an )?(giveaway|paid|affiliate|advertis\w*)/gi,""));
@@ -750,9 +768,9 @@ function postCard(ex,enEx){
   const meta=[l.authorType[ex.authorType]||ex.authorType,fol].filter(Boolean).join(", ");
   return '<article class="post">'
     +'<div class="post-top"><span class="post-plat"><i style="background:'+platColor(p)+'"></i>'+esc(p)+'</span><span>'+esc([l.format[ex.contentFormat]||ex.contentFormat,fmtShort(ex.postDate)].filter(Boolean).join(", "))+'</span></div>'
-    +'<div class="author"><strong>'+esc(ex.authorName||ex.authorHandle||"-")+'</strong>'+(ex.authorHandle&&ex.authorHandle!==ex.authorName?'<span>'+esc(ex.authorHandle)+'</span><br>':'')+'<span>'+esc(meta)+'</span></div>'
+    +'<div class="author"><strong>'+esc(ex.authorName||handle(ex.authorHandle)||"-")+'</strong>'+(ex.authorHandle&&ex.authorHandle!==ex.authorName?'<span>'+esc(handle(ex.authorHandle))+'</span><br>':'')+'<span>'+esc(meta)+'</span></div>'
     +(giveaway?'<div><span class="flag">'+esc(l.giveaway)+'</span></div>':'')
-    +'<blockquote lang="'+esc(ex.language||"")+'">'+esc(ex.postText)+(showTrans?'<span class="trans" lang="'+state.ui+'">'+esc(l.translation)+': '+esc(trans)+'</span>':'')+'</blockquote>'
+    +'<blockquote lang="'+esc(ex.language||"")+'"><span class="ptext">'+esc(postBody(ex))+'</span>'+(showTrans?'<span class="trans" lang="'+state.ui+'">'+esc(l.translation)+': '+esc(trans)+'</span>':'')+'</blockquote>'
     +(eng?'<div class="eng">'+eng+'</div>':'')
     +(ex.whyItMatters?'<p class="pwhy">'+esc(ex.whyItMatters)+'</p>':'')
     +(ex.url&&/^https?:\/\//.test(ex.url)?'<a class="open" href="'+esc(ex.url)+'" target="_blank" rel="noopener noreferrer">'+esc(l.open(p))+'</a>':'')

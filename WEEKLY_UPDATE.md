@@ -18,6 +18,7 @@ These are the instructions the weekly scheduled task follows. They can also be r
 - `extras.json`:
   - `start`, `end`
   - `netSentiment`: only if the JSON gives positive and negative counts: round((pos − neg) / (pos + neg) × 100). Otherwise `null`. Never estimate.
+  - `headlineStats`: do not include total mentions when `meta.totalMentions` is present (the site shows it automatically).
   - `headlineStats`: 2–4 `{ "value", "label" }` items. Use only numbers stated in the JSON (volume, growth, peak, sentiment, language split). Short value ("+60%", "~2,000"), label under 50 characters.
   - `shortLabels`: one per themeId, 1–3 words on up to two lines (use `\n`), about 12 characters per line. Used on the theme map.
 - `fr.json` (French for Belgium, fr-BE) and `nl.json` (Flemish Dutch, nl-BE): full translations of the English report, plus `headlineStats` and a `shortLabel` on every theme.
@@ -26,6 +27,8 @@ These are the instructions the weekly scheduled task follows. They can also be r
   - Keep unchanged: hashtags, @handles, quoted post text, brand names, platform and channel names (Instagram Reels, Facebook, TikTok, Pinterest…), `momentum.status`, `dataSources`, `isCrossPlatform`, numbers.
   - Local number style: FR "2 000", "+60 %" (narrow no-break space before %); NL "2.000", "+60%".
   - Example posts (`themes[].exampleContent[]`, when the run includes them): copy every field unchanged (platform, author, followers, language, date, format, `postText`, `translationEn`, engagement, `url`). Only two fields change per language: translate `whyItMatters`, and set `translationLocal` to a translation of `postText` into that report's language, or `null` when the post is already in that language. In the English report, `translationLocal` = `translationEn`. Never alter `postText` or `url`.
+  - `meta`: copy `totalMentions`, `platformMix`, `languageMix`, `searchId` and other numbers unchanged into every language; translate only `reportTitle` and `timeframe`.
+  - `dataQualityNotes` (when present): translate each note; keep the keys.
   - Sinterklaas (Flanders) / Saint-Nicolas (Wallonia): keep both names as the English does.
   - Tone: plain, client-ready, no em-dash overuse. Dutch and French should read as native, not word-for-word.
 
