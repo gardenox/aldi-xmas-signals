@@ -25,6 +25,7 @@ These are the instructions the weekly scheduled task follows. They can also be r
   - Translate: all prose, themeName, timeframe, pillar names (use the glossary below).
   - Keep unchanged: hashtags, @handles, quoted post text, brand names, platform and channel names (Instagram Reels, Facebook, TikTok, Pinterest…), `momentum.status`, `dataSources`, `isCrossPlatform`, numbers.
   - Local number style: FR "2 000", "+60 %" (narrow no-break space before %); NL "2.000", "+60%".
+  - Example posts (`themes[].exampleContent[]`, when the run includes them): copy every field unchanged (platform, author, followers, language, date, format, `postText`, `translationEn`, engagement, `url`). Only two fields change per language: translate `whyItMatters`, and set `translationLocal` to a translation of `postText` into that report's language, or `null` when the post is already in that language. In the English report, `translationLocal` = `translationEn`. Never alter `postText` or `url`.
   - Sinterklaas (Flanders) / Saint-Nicolas (Wallonia): keep both names as the English does.
   - Tone: plain, client-ready, no em-dash overuse. Dutch and French should read as native, not word-for-word.
 
