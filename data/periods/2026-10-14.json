@@ -1,0 +1,616 @@
+{
+ "id": "2026-10-14",
+ "start": "2026-09-17",
+ "end": "2026-10-14",
+ "analysisDate": "2026-10-15",
+ "netSentiment": 53,
+ "addedAt": "2026-11-02T09:47:14.370Z",
+ "reports": {
+  "en": {
+   "meta": {
+    "reportTitle": "Early Christmas Signals Analysis - Belgium (Last 4 Weeks, all platforms incl. TikTok)",
+    "targetBrand": "ALDI Belgium",
+    "analysisDate": "2026-10-15",
+    "timeframe": "17 September – 14 October 2026 (rolling 4 weeks)"
+   },
+   "executiveSummary": {
+    "overview": "Over the last four weeks, early Christmas conversation in Belgium is live and still accelerating, with daily volume up ~60% within the window (from ~1,000 to a peak of ~2,023 mentions/day on 13 October). The discourse is warm, nostalgic and planning-led rather than deal-driven, centred on Advent calendars, gift ideas and cosy festive rituals. Even with TikTok included in the main run, it is overwhelmingly a Meta phenomenon (Facebook + Instagram ≈99%; TikTok 255 posts, <1%) and French-leaning (≈77% FR vs ≈23% NL, directionally). The Advent-calendar season is the commercial starting gun, now peaking with October launch and draw dates.",
+    "dominantMood": "Strongly positive and anticipatory (positive 25,700 vs negative 7,972; joy ≈63% of classified emotion). A nostalgia/sentimental undercurrent (family, loss, memories) sits alongside clear excitement — 'cosy, sentimental, getting-ready', not 'bargain-hunting'.",
+    "culturalNuances": "Clear FR/NL divergence: Flemish (Flanders) content is playful and debate-driven around 'how early is too early' and already bridges Sinterklaas/5 december with early gift and toy content (kerst, kerstmarkt, kerstcadeau, kerstdecoratie, kerstsfeer, kerstrecepten). French (Wallonia/Brussels) content skews to gifting (idée cadeau, calendrier de l'Avent) and nostalgia. On TikTok specifically the FR/NL split is far more balanced (~1.4:1) and the tone is pure 'Noëliste' humour. The Sinterklaas (Flanders) / Saint-Nicolas (Wallonia, 6 Dec) gifting moment overlaps the pre-Christmas window and is a distinct child-and-gift ritual brands should respect rather than overwrite with commercial Christmas messaging.",
+    "commercialOpportunity": "ALDI can own the early planning window on Meta (October onward) as the affordable enabler of a cosy, well-prepared Christmas — leading on Advent calendars, gift ideas and festive-range teasers at a price-leadership angle — while running a low-cost TikTok test to claim uncontested early-Christmas creator space, before the Sinterklaas/Saint-Nicolas pause and the full December peak."
+   },
+   "themes": [
+    {
+     "themeId": "theme_1",
+     "themeName": "Advent Calendar Season Peaking",
+     "dataSources": [
+      "Instagram",
+      "Facebook",
+      "TikTok"
+     ],
+     "isCrossPlatform": true,
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Intensifies across the 4-week window, peaking in volume terms 9–14 October, with multiple October launch/draw dates (1, 4, 11, 12, 14 Oct) cited across brands; 15 Oct named by some as calendar-release day."
+     },
+     "summary": {
+      "description": "Advent calendars are the clearest early commercial hook and dominate high-visibility festive content. Posts are heavy on 'concours'/giveaway mechanics (follow, like, tag, republish) tied to 2026 Advent calendars across beauty, fragrance, jewellery, books and kids. #calendrierdelavent (946) is a top festive hashtag. Behaviour is planning/anticipation plus giveaway participation; visual hooks are product reveals, 24-day countdown framing and unboxing teasers (@adoptparfums 24 bougies, @weledafr, @melina_santangelo x adopt parfums at Cora, @lauliebijoux).",
+      "languageBreakdown": {
+       "dutchFlanders": "Present via #kerstcadeau and early festive pre-orders (@uitpaulineskeuken kerstspecial); adventskalender framing growing but lower volume than FR.",
+       "frenchWallonia": "Dominant: 'calendrier de l'Avent 2026' is the single biggest driver, with explicit October launch/draw dates and dense giveaway activity."
+      }
+     },
+     "aldiImplications": {
+      "strategicValue": "Advent calendars are a natural ALDI price-leadership and festive-range showcase and the earliest high-intent gifting trigger. Owning the October reveal lets ALDI set the value benchmark before premium brands dominate the narrative.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram Reels",
+        "Facebook",
+        "Instagram Stories",
+        "TikTok"
+       ],
+       "creativeConcept": "'Advent calendar reveal + budget haul': teaser/unboxing Reels showing ALDI's festive Advent range vs pricey alternatives, plus a shareable giveaway to ride the existing concours behaviour; cross-post a budget-haul cut to TikTok.",
+       "keyPillars": [
+        "Price Leadership",
+        "Festive Range",
+        "Quality"
+       ]
+      }
+     },
+     "shortLabel": "Advent\ncalendars"
+    },
+    {
+     "themeId": "theme_2",
+     "themeName": "Gift Planning Accelerating (Idée Cadeau)",
+     "dataSources": [
+      "Instagram",
+      "Facebook"
+     ],
+     "isCrossPlatform": true,
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Sustained and accelerating across the window; #ideecadeau (866) and #cadeau/#cadeaunoel/#idéescadeaux/#cadeaudenoel consistent."
+     },
+     "summary": {
+      "description": "Consumers are actively sourcing and bookmarking gift ideas well ahead of December, framed as inspiration, kids' gifts and early budgeting. Save/tag behaviour is high; formats are gift-guide carousels, kids'-toy reveals and 'C'est Noël avant l'heure' framing. NL creators publish early gift and kids'-show lists ('je kunt maar beter op tijd zijn').",
+      "languageBreakdown": {
+       "dutchFlanders": "#kerstcadeau and early gift/show-list Reels (@reismae.nl, @kinderkoopjesjager.nl), pragmatic and 5-december-aware framing.",
+       "frenchWallonia": "#idéecadeau / #cadeaunoel / #idéescadeaux dominant; strong kids', beauty and fragrance gifting with cost-consciousness references."
+      }
+     },
+     "aldiImplications": {
+      "strategicValue": "Positions ALDI as the smart, affordable gifting destination at the exact moment shoppers build their lists — capturing consideration before competitors.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram Reels",
+        "Pinterest",
+        "Facebook"
+       ],
+       "creativeConcept": "'ALDI gift guide under €X': budget-led gift-idea Reels and Pinterest boards segmented by recipient (kids, foodies, cosy-home), emphasising quality-for-price.",
+       "keyPillars": [
+        "Price Leadership",
+        "Quality",
+        "Festive Range"
+       ]
+      }
+     },
+     "shortLabel": "Gift\nplanning"
+    },
+    {
+     "themeId": "theme_3",
+     "themeName": "Cosy, Handmade & Christmas-Market Ritual",
+     "dataSources": [
+      "Instagram",
+      "Facebook",
+      "TikTok"
+     ],
+     "isCrossPlatform": true,
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Cosy framing (#cozyvibes 506, #kerstsfeer 174) sustained through the window, transitioning into Christmas-market anticipation (#marchédenoël 274, #kerstmarkt 163)."
+     },
+     "summary": {
+      "description": "A warmth-and-craft narrative: cosy home vibes, DIY/handmade (#faitmain 532, #artisanat 334), festive recipes (kerstrecepten) and Christmas-market anticipation. The emotional, non-transactional core of early Christmas — hygge-style content, decor/home scenes and 'getting ready' rituals.",
+      "languageBreakdown": {
+       "dutchFlanders": "#kerstdecoratie (290), #kerstsfeer (174), #kerstmarkt (163), #kerstmis; playful 'how early is too early' tree debate.",
+       "frenchWallonia": "#cozyvibes, #faitmain, #marchédenoël, #lecomptoirdemathilde; nostalgia and home-warmth storytelling."
+      }
+     },
+     "aldiImplications": {
+      "strategicValue": "Lets ALDI attach to the emotional, shareable side of Christmas (not just price), building brand warmth and bridging the Halloween→autumn→Christmas seasonal overlap.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram Reels",
+        "Pinterest",
+        "TikTok"
+       ],
+       "creativeConcept": "'Cosy Christmas on an ALDI budget': home-styling, festive-food and DIY/decor Reels with a warm aesthetic; tie to Christmas-market and hosting season.",
+       "keyPillars": [
+        "Festive Range",
+        "Quality",
+        "Price Leadership"
+       ]
+      }
+     },
+     "shortLabel": "Cosy and\nhandmade"
+    },
+    {
+     "themeId": "theme_4",
+     "themeName": "'How Early Is Too Early?' Debate & TikTok 'Noëliste' Culture",
+     "dataSources": [
+      "Instagram",
+      "TikTok"
+     ],
+     "isCrossPlatform": true,
+     "momentum": {
+      "status": "Emerging",
+      "timelineDetails": "High-engagement creator content across the window; the dominant NATIVE theme on TikTok specifically, though TikTok volume is small (255 posts)."
+     },
+     "summary": {
+      "description": "A culturally charged, high-engagement debate about when it's acceptable to start Christmas (tree up, decorations, Mariah Carey season). On TikTok this crystallises into a self-aware 'Noëliste / Noëlopathie' identity (@lilosquare) and 'il est beaucoup trop tôt' humour (@guihome_vous_detend). Playful, meme-led, highly shareable — a conversation starter and cheap reach lever rather than a purchase driver. TikTok is overwhelmingly positive and an uncontested retail white space (only Famiflora, Kruidvat, Wibra, Action testing).",
+      "languageBreakdown": {
+       "dutchFlanders": "@belandjor-style couple/humour on 'wanneer mag de kerstboom staan' / 'kerst fanaat'; TikTok FR/NL more balanced (~1.4:1).",
+       "frenchWallonia": "@guihome_vous_detend, @lilosquare 'Noëliste' humour; Mariah Carey / 'Noël avant l'heure' framing."
+      }
+     },
+     "aldiImplications": {
+      "strategicValue": "A low-cost, high-reach engagement lever and a chance to claim uncontested TikTok early-Christmas creator space — ALDI can be first grocery discounter there. Treat TikTok as a test, not a budget shift (audience not at scale yet).",
+      "contentActivation": {
+       "recommendedChannels": [
+        "TikTok",
+        "Instagram Reels",
+        "Facebook"
+       ],
+       "creativeConcept": "Playful 'proud Noëliste' / 'Te vroeg of niet?' / 'Trop tôt pour Noël?' creator content and duets, lightly teasing ALDI's festive range as the reward for early planners.",
+       "keyPillars": [
+        "Cultural Relevance",
+        "Festive Range",
+        "Price Leadership"
+       ]
+      }
+     },
+     "shortLabel": "Too early?\nNoëlistes"
+    }
+   ],
+   "actionPlan": {
+    "optimalTiming": {
+     "earlyTeasers": "Launch now (mid-October): Advent-calendar and gift-idea conversation is at window highs (~1,900–2,000 mentions/day) and competitor calendars are launching with October draw dates. Front-load cosy/festive-range teasers on Meta while the conversation is still accelerating (+60% within the 4 weeks). Run a small parallel TikTok test on 'Noëliste' humour.",
+     "sinterklaasPause": "From roughly mid/late November to 6 December, soften overt commercial-Christmas messaging and respect the Sinterklaas (Flanders) / Saint-Nicolas (Wallonia) gifting moment — pivot to child-/family-gift and in-store support, especially in NL where Sinterklaas is strongest and already blending with early Christmas content.",
+     "peakCampaign": "Roll out the full holiday campaign from ~7–8 December through Christmas, when Sinterklaas is over and festive-food, hosting and last-minute gifting intent peaks. Scale TikTok only if the October test shows traction."
+    },
+    "keyContentPillars": [
+     "Price Leadership — 'cosy, well-prepared Christmas on an ALDI budget'; Advent calendars and gift guides that benchmark value vs premium brands.",
+     "Festive Range & Quality — showcase festive food, Advent and decor range with warm, shareable, hygge-style creative.",
+     "Cultural Relevance — ride the 'how early is too early' debate and 'Noëliste' humour to earn reach cheaply before commercial pushes.",
+     "Platform Fit — prioritise Facebook + Instagram where the audience is; run TikTok as a low-cost, separately-measured test for younger planners."
+    ],
+    "regionalStrategy": {
+     "flanders": "Lead with playful, humour-led Dutch content on the 'wanneer mag de kerstboom staan' debate and kerstmarkt/kerstdecoratie/kerstsfeer/kerstrecepten rituals; explicitly bridge Sinterklaas/5 december with early gift content, then keep Sinterklaas sacred (late Nov–6 Dec).",
+     "walloniaBrussels": "Lead French content on calendrier de l'Avent and idée cadeau with a warm, nostalgic, value-for-money tone; respect Saint-Nicolas (6 Dec) as a distinct child-gifting moment before the December peak."
+    }
+   },
+   "headlineStats": [
+    {
+     "value": "~2,000",
+     "label": "Peak mentions per day, 13 October"
+    },
+    {
+     "value": "+60%",
+     "label": "Growth in daily volume across the 4 weeks"
+    },
+    {
+     "value": "+53%",
+     "label": "Net sentiment"
+    },
+    {
+     "value": "77 / 23",
+     "label": "French / Dutch split in %, directional"
+    }
+   ]
+  },
+  "fr": {
+   "meta": {
+    "reportTitle": "Analyse des signaux précoces de Noël – Belgique (4 dernières semaines, toutes plateformes dont TikTok)",
+    "targetBrand": "ALDI Belgium",
+    "analysisDate": "2026-10-15",
+    "timeframe": "17 septembre – 14 octobre 2026 (4 semaines glissantes)"
+   },
+   "executiveSummary": {
+    "overview": "Sur les quatre dernières semaines, la conversation précoce autour de Noël en Belgique est bien lancée et continue d'accélérer : le volume quotidien progresse d'environ 60 % sur la période (d'environ 1 000 à un pic d'environ 2 023 mentions par jour le 13 octobre). Le ton est chaleureux, nostalgique et tourné vers la préparation plutôt que vers les promotions, autour des calendriers de l'Avent, des idées cadeaux et des rituels festifs cocooning. Même avec TikTok inclus, le phénomène reste presque entièrement Meta (Facebook + Instagram ≈ 99 % ; TikTok 255 publications, moins de 1 %) et à dominante francophone (≈ 77 % FR contre ≈ 23 % NL, à titre indicatif). La saison des calendriers de l'Avent donne le coup d'envoi commercial et atteint son pic avec les lancements et tirages d'octobre.",
+    "dominantMood": "Nettement positif et dans l'anticipation (25 700 positives contre 7 972 négatives ; la joie représente ≈ 63 % des émotions classées). Un fond de nostalgie et de sentiment (famille, deuil, souvenirs) accompagne une vraie excitation : l'ambiance est « cocooning, émotion, préparatifs », pas « chasse aux bonnes affaires ».",
+    "culturalNuances": "Divergence nette entre FR et NL : les contenus flamands sont ludiques et animés par le débat « est-ce trop tôt ? », et font déjà le lien entre Sinterklaas/5 décembre et les premiers contenus cadeaux et jouets (kerst, kerstmarkt, kerstcadeau, kerstdecoratie, kerstsfeer, kerstrecepten). Les contenus francophones (Wallonie/Bruxelles) penchent vers les cadeaux (idée cadeau, calendrier de l'Avent) et la nostalgie. Sur TikTok, l'équilibre FR/NL est bien plus marqué (~1,4 : 1) et le ton relève de l'humour « Noëliste ». Le moment cadeaux de Sinterklaas (Flandre) / Saint-Nicolas (Wallonie, 6 décembre) chevauche la période avant Noël : c'est un rituel distinct, centré sur les enfants et les cadeaux, que les marques doivent respecter plutôt que de le recouvrir de messages commerciaux de Noël.",
+    "commercialOpportunity": "ALDI peut s'approprier la période de préparation sur Meta (dès octobre) en se positionnant comme l'allié abordable d'un Noël cocooning et bien préparé, en misant sur les calendriers de l'Avent, les idées cadeaux et les avant-premières de la gamme festive sous l'angle du meilleur prix, tout en menant un test TikTok à petit budget pour occuper un espace créateurs encore libre, avant la pause Sinterklaas/Saint-Nicolas et le grand pic de décembre."
+   },
+   "themes": [
+    {
+     "themeId": "theme_1",
+     "themeName": "La saison des calendriers de l'Avent à son pic",
+     "shortLabel": "Calendriers\nde l'Avent",
+     "dataSources": [
+      "Instagram",
+      "Facebook",
+      "TikTok"
+     ],
+     "isCrossPlatform": true,
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "S'intensifie sur les 4 semaines, avec un pic de volume du 9 au 14 octobre ; plusieurs dates de lancement ou de tirage en octobre (1er, 4, 11, 12 et 14) sont citées par différentes marques, et le 15 octobre est présenté par certains comme le jour de sortie des calendriers."
+     },
+     "summary": {
+      "description": "Les calendriers de l'Avent sont le premier levier commercial le plus clair et dominent les contenus festifs les plus visibles. Les publications reposent beaucoup sur la mécanique des concours (s'abonner, aimer, identifier, republier) autour des calendriers de l'Avent 2026 en beauté, parfum, bijoux, livres et jouets. #calendrierdelavent (946) est l'un des principaux hashtags festifs. Les comportements relèvent de la préparation et de l'anticipation, plus la participation aux concours ; les accroches visuelles sont les révélations de produits, le compte à rebours sur 24 jours et les teasers d'unboxing (@adoptparfums 24 bougies, @weledafr, @melina_santangelo x adopt parfums chez Cora, @lauliebijoux).",
+      "languageBreakdown": {
+       "dutchFlanders": "Présent via #kerstcadeau et les précommandes festives anticipées (kerstspecial de @uitpaulineskeuken) ; le terme adventskalender progresse mais avec un volume inférieur au FR.",
+       "frenchWallonia": "Dominant : « calendrier de l'Avent 2026 » est le premier moteur, avec des dates de lancement et de tirage explicites en octobre et de nombreux concours."
+      }
+     },
+     "aldiImplications": {
+      "strategicValue": "Les calendriers de l'Avent sont une vitrine naturelle pour le leadership prix et la gamme festive d'ALDI, et le tout premier déclencheur d'intention d'achat cadeau. Occuper la révélation d'octobre permet à ALDI de fixer la référence en matière de rapport qualité-prix avant que les marques premium ne dominent le récit.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram Reels",
+        "Facebook",
+        "Instagram Stories",
+        "TikTok"
+       ],
+       "creativeConcept": "« Révélation du calendrier de l'Avent + haul petit budget » : Reels teasers et unboxing montrant la gamme Avent d'ALDI face à des alternatives coûteuses, plus un concours partageable qui s'appuie sur les habitudes de participation existantes ; déclinaison « haul petit budget » sur TikTok.",
+       "keyPillars": [
+        "Meilleur prix",
+        "Gamme festive",
+        "Qualité"
+       ]
+      }
+     }
+    },
+    {
+     "themeId": "theme_2",
+     "themeName": "Les idées cadeaux s'accélèrent",
+     "shortLabel": "Idées\ncadeaux",
+     "dataSources": [
+      "Instagram",
+      "Facebook"
+     ],
+     "isCrossPlatform": true,
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Soutenu et en accélération sur toute la période ; #ideecadeau (866) et #cadeau/#cadeaunoel/#idéescadeaux/#cadeaudenoel restent constants."
+     },
+     "summary": {
+      "description": "Les consommateurs recherchent et enregistrent activement des idées cadeaux bien avant décembre, sous forme d'inspiration, de cadeaux pour enfants et de budget anticipé. Les enregistrements et identifications sont nombreux ; les formats sont les carrousels de guides cadeaux, les révélations de jouets et le cadrage « C'est Noël avant l'heure ». Les créateurs néerlandophones publient tôt des listes de cadeaux et de spectacles pour enfants (« je kunt maar beter op tijd zijn »).",
+      "languageBreakdown": {
+       "dutchFlanders": "#kerstcadeau et Reels de listes de cadeaux et de spectacles publiés tôt (@reismae.nl, @kinderkoopjesjager.nl), ton pragmatique et attentif au 5 décembre.",
+       "frenchWallonia": "#idéecadeau / #cadeaunoel / #idéescadeaux dominent ; forte présence des cadeaux pour enfants, de la beauté et du parfum, avec des références à la maîtrise du budget."
+      }
+     },
+     "aldiImplications": {
+      "strategicValue": "Positionne ALDI comme la destination cadeaux maligne et abordable au moment précis où les acheteurs établissent leur liste, pour capter la considération avant les concurrents.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram Reels",
+        "Pinterest",
+        "Facebook"
+       ],
+       "creativeConcept": "« Le guide cadeaux ALDI à moins de X € » : Reels et tableaux Pinterest d'idées cadeaux à petit budget, classés par destinataire (enfants, gourmands, déco cocooning), mettant en avant la qualité au juste prix.",
+       "keyPillars": [
+        "Meilleur prix",
+        "Qualité",
+        "Gamme festive"
+       ]
+      }
+     }
+    },
+    {
+     "themeId": "theme_3",
+     "themeName": "Cocooning, fait main et rituel des marchés de Noël",
+     "shortLabel": "Cocooning et\nfait main",
+     "dataSources": [
+      "Instagram",
+      "Facebook",
+      "TikTok"
+     ],
+     "isCrossPlatform": true,
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Le registre cocooning (#cozyvibes 506, #kerstsfeer 174) se maintient sur la période et glisse vers l'attente des marchés de Noël (#marchédenoël 274, #kerstmarkt 163)."
+     },
+     "summary": {
+      "description": "Un récit de chaleur et d'artisanat : ambiance cocooning à la maison, fait main et DIY (#faitmain 532, #artisanat 334), recettes de fête (kerstrecepten) et attente des marchés de Noël. C'est le cœur émotionnel et non transactionnel du Noël précoce : contenus de style hygge, scènes de déco et d'intérieur, rituels de préparation.",
+      "languageBreakdown": {
+       "dutchFlanders": "#kerstdecoratie (290), #kerstsfeer (174), #kerstmarkt (163), #kerstmis ; débat ludique sur le sapin « est-ce trop tôt ? ».",
+       "frenchWallonia": "#cozyvibes, #faitmain, #marchédenoël, #lecomptoirdemathilde ; récits de nostalgie et de chaleur du foyer."
+      }
+     },
+     "aldiImplications": {
+      "strategicValue": "Permet à ALDI de s'associer au côté émotionnel et partageable de Noël (pas seulement au prix), de construire de la chaleur de marque et de faire le pont entre Halloween, l'automne et Noël.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram Reels",
+        "Pinterest",
+        "TikTok"
+       ],
+       "creativeConcept": "« Un Noël cocooning avec un budget ALDI » : Reels de décoration intérieure, de cuisine festive et de DIY à l'esthétique chaleureuse, en lien avec la saison des marchés de Noël et des réceptions.",
+       "keyPillars": [
+        "Gamme festive",
+        "Qualité",
+        "Meilleur prix"
+       ]
+      }
+     }
+    },
+    {
+     "themeId": "theme_4",
+     "themeName": "Le débat « trop tôt pour Noël ? » et la culture « Noëliste » sur TikTok",
+     "shortLabel": "Trop tôt ?\nNoëlistes",
+     "dataSources": [
+      "Instagram",
+      "TikTok"
+     ],
+     "isCrossPlatform": true,
+     "momentum": {
+      "status": "Emerging",
+      "timelineDetails": "Contenus de créateurs très engageants sur toute la période ; c'est le thème natif dominant sur TikTok, même si le volume TikTok reste faible (255 publications)."
+     },
+     "summary": {
+      "description": "Un débat culturel chargé et très engageant sur le moment où il devient acceptable de lancer Noël (sapin, décorations, saison Mariah Carey). Sur TikTok, il se cristallise en une identité assumée « Noëliste / Noëlopathie » (@lilosquare) et en humour « il est beaucoup trop tôt » (@guihome_vous_detend). Ludique, porté par les mèmes et très partageable : un lanceur de conversation et un levier de portée peu coûteux plutôt qu'un déclencheur d'achat. TikTok est très majoritairement positif et reste un espace retail inoccupé (seuls Famiflora, Kruidvat, Wibra et Action s'y testent).",
+      "languageBreakdown": {
+       "dutchFlanders": "Humour de couple à la @belandjor sur « wanneer mag de kerstboom staan » / « kerst fanaat » ; sur TikTok, la répartition FR/NL est plus équilibrée (~1,4 : 1).",
+       "frenchWallonia": "@guihome_vous_detend, humour « Noëliste » de @lilosquare ; cadrage Mariah Carey / « Noël avant l'heure »."
+      }
+     },
+     "aldiImplications": {
+      "strategicValue": "Un levier d'engagement peu coûteux à forte portée et l'occasion d'occuper l'espace créateurs du Noël précoce sur TikTok, encore libre : ALDI peut être le premier discounter alimentaire présent. À traiter comme un test, pas comme un transfert de budget (l'audience n'est pas encore à l'échelle).",
+      "contentActivation": {
+       "recommendedChannels": [
+        "TikTok",
+        "Instagram Reels",
+        "Facebook"
+       ],
+       "creativeConcept": "Contenus de créateurs et duos ludiques « fier d'être Noëliste » / « Te vroeg of niet? » / « Trop tôt pour Noël ? », qui teasent légèrement la gamme festive d'ALDI comme récompense des plus prévoyants.",
+       "keyPillars": [
+        "Pertinence culturelle",
+        "Gamme festive",
+        "Meilleur prix"
+       ]
+      }
+     }
+    }
+   ],
+   "actionPlan": {
+    "optimalTiming": {
+     "earlyTeasers": "Lancer dès maintenant (mi-octobre) : la conversation sur les calendriers de l'Avent et les idées cadeaux est à son plus haut de la période (~1 900–2 000 mentions par jour) et les calendriers concurrents se lancent avec des tirages en octobre. Concentrer les teasers cocooning et gamme festive sur Meta tant que la conversation accélère (+60 % sur les 4 semaines). Mener en parallèle un petit test TikTok sur l'humour « Noëliste ».",
+     "sinterklaasPause": "De la mi/fin novembre environ au 6 décembre, atténuer les messages commerciaux de Noël et respecter le moment cadeaux de Sinterklaas (Flandre) / Saint-Nicolas (Wallonie) : se recentrer sur les cadeaux pour enfants et la famille et sur le soutien en magasin, surtout en néerlandais, où Sinterklaas est le plus fort et se mêle déjà aux contenus de Noël précoces.",
+     "peakCampaign": "Déployer la campagne de fêtes complète à partir du 7–8 décembre environ jusqu'à Noël, une fois Sinterklaas passé, quand l'intention liée aux repas de fête, aux réceptions et aux cadeaux de dernière minute atteint son pic. N'augmenter TikTok que si le test d'octobre montre une traction."
+    },
+    "keyContentPillars": [
+     "Leadership prix — « un Noël cocooning et bien préparé avec un budget ALDI » ; calendriers de l'Avent et guides cadeaux qui comparent la valeur face aux marques premium.",
+     "Gamme festive et qualité — mettre en avant les produits de fête, la gamme Avent et la déco avec des créations chaleureuses, partageables et de style hygge.",
+     "Pertinence culturelle — surfer sur le débat « trop tôt ? » et l'humour « Noëliste » pour gagner de la portée à moindre coût avant les temps forts commerciaux.",
+     "Adéquation plateformes — prioriser Facebook + Instagram, où se trouve l'audience ; mener TikTok comme un test à petit budget, mesuré séparément, auprès des plus jeunes."
+    ],
+    "regionalStrategy": {
+     "flanders": "Miser sur des contenus en néerlandais ludiques et humoristiques autour du débat « wanneer mag de kerstboom staan » et des rituels kerstmarkt/kerstdecoratie/kerstsfeer/kerstrecepten ; faire explicitement le lien entre Sinterklaas/5 décembre et les premiers contenus cadeaux, puis préserver Sinterklaas (fin novembre–6 décembre).",
+     "walloniaBrussels": "Miser en français sur le calendrier de l'Avent et l'idée cadeau avec un ton chaleureux, nostalgique et axé sur le rapport qualité-prix ; respecter la Saint-Nicolas (6 décembre) comme un moment cadeaux distinct pour les enfants avant le pic de décembre."
+    }
+   },
+   "headlineStats": [
+    {
+     "value": "~2 000",
+     "label": "Mentions par jour au pic, 13 octobre"
+    },
+    {
+     "value": "+60 %",
+     "label": "Hausse du volume quotidien sur les 4 semaines"
+    },
+    {
+     "value": "+53 %",
+     "label": "Sentiment net"
+    },
+    {
+     "value": "77 / 23",
+     "label": "Répartition FR / NL en %, indicative"
+    }
+   ]
+  },
+  "nl": {
+   "meta": {
+    "reportTitle": "Analyse van vroege kerstsignalen – België (laatste 4 weken, alle platformen incl. TikTok)",
+    "targetBrand": "ALDI Belgium",
+    "analysisDate": "2026-10-15",
+    "timeframe": "17 september – 14 oktober 2026 (voortschrijdende 4 weken)"
+   },
+   "executiveSummary": {
+    "overview": "In de afgelopen vier weken is het vroege kerstgesprek in België volop bezig en versnelt het nog: het dagvolume steeg binnen de periode met zo'n 60% (van ongeveer 1.000 naar een piek van ongeveer 2.023 vermeldingen per dag op 13 oktober). Het gesprek is warm, nostalgisch en gericht op voorbereiding eerder dan op koopjes, met adventskalenders, cadeau-ideeën en gezellige feestrituelen centraal. Zelfs met TikTok erbij is het overwegend een Meta-fenomeen (Facebook + Instagram ≈ 99%; TikTok 255 posts, minder dan 1%) en overwegend Franstalig (≈ 77% FR tegenover ≈ 23% NL, indicatief). Het adventskalenderseizoen is het commerciële startschot en piekt nu met lanceer- en trekkingsdata in oktober.",
+    "dominantMood": "Duidelijk positief en vol verwachting (25.700 positief tegenover 7.972 negatief; vreugde is ≈ 63% van de geclassificeerde emoties). Een nostalgische, sentimentele onderstroom (familie, verlies, herinneringen) loopt naast echte opwinding: 'gezellig, sentimenteel, voorbereiden', niet 'koopjesjagen'.",
+    "culturalNuances": "Duidelijk verschil tussen FR en NL: Vlaamse content is speels en gedreven door het debat 'hoe vroeg is te vroeg' en legt al de brug tussen Sinterklaas/5 december en vroege cadeau- en speelgoedcontent (kerst, kerstmarkt, kerstcadeau, kerstdecoratie, kerstsfeer, kerstrecepten). Franstalige content (Wallonië/Brussel) draait meer om cadeaus (idée cadeau, calendrier de l'Avent) en nostalgie. Op TikTok is de FR/NL-verdeling veel evenwichtiger (~1,4 : 1) en is de toon pure 'Noëliste'-humor. Het cadeaumoment van Sinterklaas (Vlaanderen) / Saint-Nicolas (Wallonië, 6 december) overlapt met de periode voor kerst: een apart ritueel rond kinderen en cadeaus dat merken moeten respecteren in plaats van het te overstemmen met commerciële kerstboodschappen.",
+    "commercialOpportunity": "ALDI kan de vroege voorbereidingsperiode op Meta (vanaf oktober) claimen als de betaalbare partner voor een gezellige, goed voorbereide kerst, met adventskalenders, cadeau-ideeën en previews van het feestassortiment vanuit prijsleiderschap, en tegelijk een goedkope TikTok-test draaien om de nog onbezette ruimte voor vroege kerstcreators in te nemen, vóór de Sinterklaaspauze en de volle decemberpiek."
+   },
+   "themes": [
+    {
+     "themeId": "theme_1",
+     "themeName": "Adventskalenderseizoen bereikt piek",
+     "shortLabel": "Advents-\nkalenders",
+     "dataSources": [
+      "Instagram",
+      "Facebook",
+      "TikTok"
+     ],
+     "isCrossPlatform": true,
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Neemt toe over de 4 weken, met een volumepiek van 9 tot 14 oktober; verschillende merken noemen lanceer- of trekkingsdata in oktober (1, 4, 11, 12 en 14 oktober), en sommigen noemen 15 oktober de releasedag van de kalenders."
+     },
+     "summary": {
+      "description": "Adventskalenders zijn de duidelijkste vroege commerciële haak en domineren de meest zichtbare feestcontent. Posts leunen sterk op winactiemechanieken (volgen, liken, taggen, reposten) rond adventskalenders 2026 in beauty, parfum, juwelen, boeken en kinderartikelen. #calendrierdelavent (946) is een van de grootste feesthashtags. Het gedrag is voorbereiding en verwachting plus deelname aan winacties; visuele haken zijn productonthullingen, het aftellen over 24 dagen en unboxing-teasers (@adoptparfums 24 bougies, @weledafr, @melina_santangelo x adopt parfums bij Cora, @lauliebijoux).",
+      "languageBreakdown": {
+       "dutchFlanders": "Aanwezig via #kerstcadeau en vroege feestelijke pre-orders (kerstspecial van @uitpaulineskeuken); de term adventskalender groeit, maar met minder volume dan in het Frans.",
+       "frenchWallonia": "Dominant: 'calendrier de l'Avent 2026' is de grootste drijver, met expliciete lanceer- en trekkingsdata in oktober en veel winacties."
+      }
+     },
+     "aldiImplications": {
+      "strategicValue": "Adventskalenders zijn een natuurlijke etalage voor ALDI's prijsleiderschap en feestassortiment, en de vroegste trigger met hoge koopintentie voor cadeaus. Wie de onthulling in oktober claimt, zet de maatstaf voor waar voor je geld voordat premiummerken het verhaal domineren.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram Reels",
+        "Facebook",
+        "Instagram Stories",
+        "TikTok"
+       ],
+       "creativeConcept": "'Adventskalender-onthulling + budgethaul': teaser- en unboxing-Reels die ALDI's adventsassortiment naast dure alternatieven tonen, plus een deelbare winactie die inspeelt op het bestaande winactiegedrag; een budgethaul-versie op TikTok.",
+       "keyPillars": [
+        "Prijsleiderschap",
+        "Feestassortiment",
+        "Kwaliteit"
+       ]
+      }
+     }
+    },
+    {
+     "themeId": "theme_2",
+     "themeName": "Cadeauplanning versnelt",
+     "shortLabel": "Cadeau-\nplanning",
+     "dataSources": [
+      "Instagram",
+      "Facebook"
+     ],
+     "isCrossPlatform": true,
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Aanhoudend en versnellend over de hele periode; #ideecadeau (866) en #cadeau/#cadeaunoel/#idéescadeaux/#cadeaudenoel blijven constant."
+     },
+     "summary": {
+      "description": "Consumenten zoeken en bewaren al ruim voor december actief cadeau-ideeën, als inspiratie, cadeaus voor kinderen en vroeg budgetteren. Er wordt veel bewaard en getagd; de formats zijn carrousels met cadeaugidsen, speelgoedonthullingen en de framing 'C'est Noël avant l'heure'. Nederlandstalige creators publiceren vroeg lijstjes met cadeaus en kindervoorstellingen ('je kunt maar beter op tijd zijn').",
+      "languageBreakdown": {
+       "dutchFlanders": "#kerstcadeau en vroege Reels met cadeau- en voorstellingslijstjes (@reismae.nl, @kinderkoopjesjager.nl), pragmatisch en met oog voor 5 december.",
+       "frenchWallonia": "#idéecadeau / #cadeaunoel / #idéescadeaux domineren; veel cadeaus voor kinderen, beauty en parfum, met verwijzingen naar budgetbewustzijn."
+      }
+     },
+     "aldiImplications": {
+      "strategicValue": "Positioneert ALDI als de slimme, betaalbare cadeaubestemming op het moment dat shoppers hun lijstje maken, zodat ALDI in beeld komt vóór de concurrentie.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram Reels",
+        "Pinterest",
+        "Facebook"
+       ],
+       "creativeConcept": "'ALDI-cadeaugids onder € X': budgetgerichte Reels en Pinterest-borden met cadeau-ideeën per ontvanger (kinderen, foodies, gezellig thuis), met de nadruk op kwaliteit voor de prijs.",
+       "keyPillars": [
+        "Prijsleiderschap",
+        "Kwaliteit",
+        "Feestassortiment"
+       ]
+      }
+     }
+    },
+    {
+     "themeId": "theme_3",
+     "themeName": "Gezelligheid, handgemaakt en het kerstmarktritueel",
+     "shortLabel": "Gezelligheid\nen handwerk",
+     "dataSources": [
+      "Instagram",
+      "Facebook",
+      "TikTok"
+     ],
+     "isCrossPlatform": true,
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "De gezellige framing (#cozyvibes 506, #kerstsfeer 174) houdt de hele periode aan en schuift op naar uitkijken naar de kerstmarkten (#marchédenoël 274, #kerstmarkt 163)."
+     },
+     "summary": {
+      "description": "Een verhaal van warmte en ambacht: gezelligheid thuis, handgemaakt en DIY (#faitmain 532, #artisanat 334), feestrecepten (kerstrecepten) en uitkijken naar de kerstmarkten. Dit is de emotionele, niet-commerciële kern van de vroege kerst: hygge-achtige content, decoratie en interieurbeelden, en rituelen van het 'klaarmaken'.",
+      "languageBreakdown": {
+       "dutchFlanders": "#kerstdecoratie (290), #kerstsfeer (174), #kerstmarkt (163), #kerstmis; speels debat over 'hoe vroeg is te vroeg' voor de kerstboom.",
+       "frenchWallonia": "#cozyvibes, #faitmain, #marchédenoël, #lecomptoirdemathilde; nostalgie en verhalen over warmte thuis."
+      }
+     },
+     "aldiImplications": {
+      "strategicValue": "Laat ALDI aansluiten bij de emotionele, deelbare kant van kerst (niet alleen prijs), bouwt merkwarmte op en overbrugt de overgang van Halloween naar herfst naar kerst.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram Reels",
+        "Pinterest",
+        "TikTok"
+       ],
+       "creativeConcept": "'Gezellige kerst met een ALDI-budget': Reels over interieurstyling, feestelijk eten en DIY-decoratie met een warme look, gekoppeld aan het kerstmarkt- en ontvangseizoen.",
+       "keyPillars": [
+        "Feestassortiment",
+        "Kwaliteit",
+        "Prijsleiderschap"
+       ]
+      }
+     }
+    },
+    {
+     "themeId": "theme_4",
+     "themeName": "Het debat 'hoe vroeg is te vroeg?' en de 'Noëliste'-cultuur op TikTok",
+     "shortLabel": "Te vroeg?\nNoëlistes",
+     "dataSources": [
+      "Instagram",
+      "TikTok"
+     ],
+     "isCrossPlatform": true,
+     "momentum": {
+      "status": "Emerging",
+      "timelineDetails": "Creatorcontent met veel engagement over de hele periode; het dominante eigen thema op TikTok, al blijft het TikTok-volume klein (255 posts)."
+     },
+     "summary": {
+      "description": "Een cultureel geladen debat met veel engagement over wanneer je met kerst mag beginnen (boom, versiering, Mariah Carey-seizoen). Op TikTok kristalliseert dit uit tot een zelfbewuste 'Noëliste / Noëlopathie'-identiteit (@lilosquare) en humor in de stijl van 'il est beaucoup trop tôt' (@guihome_vous_detend). Speels, memegedreven en zeer deelbaar: een gespreksstarter en goedkope bereikhefboom eerder dan een koopdriver. TikTok is overwegend positief en een onbezette ruimte voor retail (alleen Famiflora, Kruidvat, Wibra en Action testen er).",
+      "languageBreakdown": {
+       "dutchFlanders": "Koppelhumor à la @belandjor over 'wanneer mag de kerstboom staan' / 'kerst fanaat'; op TikTok is de FR/NL-verdeling evenwichtiger (~1,4 : 1).",
+       "frenchWallonia": "@guihome_vous_detend, 'Noëliste'-humor van @lilosquare; framing rond Mariah Carey / 'Noël avant l'heure'."
+      }
+     },
+     "aldiImplications": {
+      "strategicValue": "Een goedkope hefboom voor engagement met veel bereik en een kans om de onbezette ruimte voor vroege kerstcreators op TikTok in te nemen: ALDI kan de eerste harddiscounter zijn die er staat. Behandel TikTok als test, niet als budgetverschuiving (het publiek is er nog niet op schaal).",
+      "contentActivation": {
+       "recommendedChannels": [
+        "TikTok",
+        "Instagram Reels",
+        "Facebook"
+       ],
+       "creativeConcept": "Speelse creatorcontent en duetten rond 'trotse Noëliste' / 'Te vroeg of niet?' / 'Trop tôt pour Noël ?', met een lichte teaser van ALDI's feestassortiment als beloning voor vroege planners.",
+       "keyPillars": [
+        "Culturele relevantie",
+        "Feestassortiment",
+        "Prijsleiderschap"
+       ]
+      }
+     }
+    }
+   ],
+   "actionPlan": {
+    "optimalTiming": {
+     "earlyTeasers": "Nu starten (half oktober): het gesprek over adventskalenders en cadeau-ideeën zit op het hoogste niveau van de periode (~1.900–2.000 vermeldingen per dag) en kalenders van concurrenten worden gelanceerd met trekkingen in oktober. Zet de gezellige teasers en het feestassortiment vooraan op Meta zolang het gesprek nog versnelt (+60% over de 4 weken). Draai daarnaast een kleine TikTok-test rond 'Noëliste'-humor.",
+     "sinterklaasPause": "Van ongeveer half/eind november tot 6 december de openlijk commerciële kerstboodschappen afzwakken en het cadeaumoment van Sinterklaas (Vlaanderen) / Saint-Nicolas (Wallonië) respecteren: overschakelen naar cadeaus voor kinderen en gezin en ondersteuning in de winkel, vooral in het Nederlands, waar Sinterklaas het sterkst is en al vermengd raakt met vroege kerstcontent.",
+     "peakCampaign": "De volledige feestcampagne uitrollen vanaf ongeveer 7–8 december tot kerst, wanneer Sinterklaas voorbij is en de intentie rond feestelijk eten, ontvangen en last-minute cadeaus piekt. TikTok pas opschalen als de test in oktober tractie toont."
+    },
+    "keyContentPillars": [
+     "Prijsleiderschap — 'een gezellige, goed voorbereide kerst met een ALDI-budget'; adventskalenders en cadeaugidsen die de waarde vergelijken met premiummerken.",
+     "Feestassortiment en kwaliteit — feestelijk eten, het adventsassortiment en decoratie tonen met warme, deelbare creatie in hygge-stijl.",
+     "Culturele relevantie — meeliften op het debat 'hoe vroeg is te vroeg' en de 'Noëliste'-humor om goedkoop bereik te winnen vóór de commerciële pushes.",
+     "Platformfit — Facebook + Instagram voorrang geven, waar het publiek zit; TikTok inzetten als goedkope, apart gemeten test voor jongere planners."
+    ],
+    "regionalStrategy": {
+     "flanders": "Inzetten op speelse, humoristische Nederlandstalige content rond het debat 'wanneer mag de kerstboom staan' en de rituelen rond kerstmarkt, kerstdecoratie, kerstsfeer en kerstrecepten; expliciet de brug slaan tussen Sinterklaas/5 december en vroege cadeaucontent, en Sinterklaas daarna heilig houden (eind november–6 december).",
+     "walloniaBrussels": "In het Frans inzetten op calendrier de l'Avent en idée cadeau met een warme, nostalgische toon en de nadruk op waar voor je geld; Saint-Nicolas (6 december) respecteren als apart cadeaumoment voor kinderen vóór de decemberpiek."
+    }
+   },
+   "headlineStats": [
+    {
+     "value": "~2.000",
+     "label": "Vermeldingen per dag op de piek, 13 oktober"
+    },
+    {
+     "value": "+60%",
+     "label": "Groei van het dagvolume over de 4 weken"
+    },
+    {
+     "value": "+53%",
+     "label": "Netto sentiment"
+    },
+    {
+     "value": "77 / 23",
+     "label": "Verdeling FR / NL in %, indicatief"
+    }
+   ]
+  }
+ }
+}

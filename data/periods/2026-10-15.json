@@ -1,0 +1,2107 @@
+{
+ "id": "2026-10-15",
+ "start": "2026-09-01",
+ "end": "2026-10-15",
+ "analysisDate": "2026-10-15",
+ "netSentiment": 42,
+ "note": "Launch report (6.5-week window)",
+ "reports": {
+  "en": {
+   "meta": {
+    "reportTitle": "Early Christmas Signals Analysis - Belgium",
+    "targetBrand": "ALDI Belgium",
+    "analysisDate": "2026-10-15",
+    "timeframe": "1 September – 15 October 2026"
+   },
+   "executiveSummary": {
+    "overview": "Across 1 Sep–15 Oct 2026, the Early Christmas search (ID: 228494) returned 52,401 posts, rising every week from ~6,100 to ~11,000 before the window closed mid-week. Facebook (58.7%) and Instagram (40.7%) carry almost all volume; TikTok is tiny (0.7%, 343 posts) but seeds trend language. The conversation is already commercially active, led by advent calendars, gift-planning, nostalgia and 'cosy' festive atmosphere.",
+    "dominantMood": "Predominantly positive and aspirational (net sentiment ~+42%): anticipation, cosiness and nostalgia. A negative tail exists but is cultural/political (Intermarché ad row, nativity-in-schools debate), not category criticism.",
+    "culturalNuances": "French content outweighs Dutch ~3.5:1 and is more emotional, nostalgic and brand-giveaway-driven; Dutch/Flemish content is more practical, craft- and atmosphere-led ('kerstsfeer', 'gezelligheid', 'handgemaakt', 'kerstdiner'). Sinterklaas/Saint-Nicolas (6 Dec) sits between now and Christmas and should be respected as a distinct gifting moment for children, not merged into Christmas messaging.",
+    "commercialOpportunity": "Pre-empt the November rush: own the advent-calendar and value-gifting conversation in early-to-mid October with price-led teasers, regionally split creative (DIY/hosting for Flanders, value-gifting/magic for Wallonia-Brussels), and a light TikTok play on the 'Noëliste' early-adopter identity."
+   },
+   "platformCoverage": [
+    {
+     "platform": "Facebook",
+     "postCount": 30719,
+     "shareOfPosts": "58.7%",
+     "dataConfidence": "High",
+     "contentCharacter": "Community pages, nostalgia/retro accounts and 'Père Noël' persona pages posting countdowns, poll-bait ('sapin à l'école?') and shop liquidation/giveaway posts; comment-driven engagement.",
+     "themeIds": [
+      "theme_1",
+      "theme_3",
+      "theme_5"
+     ]
+    },
+    {
+     "platform": "Instagram",
+     "postCount": 21339,
+     "shareOfPosts": "40.7%",
+     "dataConfidence": "High",
+     "contentCharacter": "Brand and creator Reels/carousels, heavily skewed to advent-calendar giveaways and festive product seeding; high follower counts, giveaway mechanics (like/follow/tag).",
+     "themeIds": [
+      "theme_1",
+      "theme_2",
+      "theme_4"
+     ]
+    },
+    {
+     "platform": "TikTok",
+     "postCount": 343,
+     "shareOfPosts": "0.7%",
+     "dataConfidence": "Low",
+     "contentCharacter": "Small but creative: humorous creator formats coining early-Christmas identity ('Noëliste', 'Noëlopathie'), retailer skits (Famiflora/Grinch), nostalgia edits; directional only.",
+     "themeIds": [
+      "theme_2",
+      "theme_4",
+      "theme_6"
+     ]
+    },
+    {
+     "platform": "X",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "No relevant posts returned in this search/window.",
+     "themeIds": []
+    },
+    {
+     "platform": "YouTube",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "No relevant posts returned in this search/window.",
+     "themeIds": []
+    },
+    {
+     "platform": "Reddit",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "No relevant posts returned in this search/window.",
+     "themeIds": []
+    },
+    {
+     "platform": "News",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "No relevant posts returned in this search/window (ad-controversy discussion appears as social posts, not news articles).",
+     "themeIds": []
+    },
+    {
+     "platform": "Blogs",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "No relevant posts returned in this search/window.",
+     "themeIds": []
+    },
+    {
+     "platform": "Forums",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "No relevant posts returned in this search/window.",
+     "themeIds": []
+    }
+   ],
+   "themes": [
+    {
+     "themeId": "theme_1",
+     "themeName": "Advent Calendars as the Early-Christmas Gateway Product",
+     "dataSources": [
+      "Instagram",
+      "Facebook",
+      "TikTok"
+     ],
+     "platformFocus": "Instagram",
+     "isCrossPlatform": true,
+     "dataConfidence": "High",
+     "confidenceNote": "Topic 'calendrier de l'avent' 1,459 + 'adventskalender/#adventskalender' in NL; dominant in IG top content. Strong signal.",
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Visible from early Sept, accelerating through late Sept into the 6–12 Oct peak as brands launch giveaway mechanics ahead of the 1 Dec first-door date."
+     },
+     "summary": {
+      "description": "Advent calendars are the single clearest purchase-intent behaviour. Brands (beauty, perfume, natural care) run like/follow/tag giveaways for 24-day calendars; consumers ask which senses/products they want inside. It is the natural entry SKU for an early-Christmas value message.",
+      "languageBreakdown": {
+       "dutchFlanders": "'#adventskalender' (119) and 'cadeautip' framing; quieter, more product-and-gift-tip oriented.",
+       "frenchWallonia": "Dominant and giveaway-led: 'calendrier de l'avent', beauty/perfume calendars, retail tie-ins (Cora)."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@adoptparfums",
+       "authorName": "adopt parfums",
+       "authorType": "Brand",
+       "authorFollowers": 416106,
+       "language": "fr",
+       "postDate": "2026-10-04",
+       "contentFormat": "Image post",
+       "postText": "CONCOURS ✨🎄 On te gâte avec LE calendrier 100 % bougies qui va parfumer toute ta maison en décembre : 24 jours, 24 bougies 🎁🕯️ Pour tenter de le remporter : 💖 Like ce post 🔔 Abonne-toi...",
+       "translationEn": "GIVEAWAY ✨🎄 We're spoiling you with THE 100% candle calendar that will perfume your whole home in December: 24 days, 24 candles 🎁🕯️ To win: Like this post, follow our account...",
+       "engagement": {
+        "likes": 4571,
+        "comments": 2770,
+        "shares": null,
+        "views": null,
+        "total": 2770
+       },
+       "url": "https://www.instagram.com/p/DeEJ-uylyDZ/",
+       "whyItMatters": "Highest-engagement festive brand post in the window; a paid/giveaway post proving advent calendars are the lead Q4 hook (flagged as giveaway mechanic).",
+       "translationLocal": "GIVEAWAY ✨🎄 We're spoiling you with THE 100% candle calendar that will perfume your whole home in December: 24 days, 24 candles 🎁🕯️ To win: Like this post, follow our account..."
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@melina_santangelo",
+       "authorName": "Melina Santangelo - Content creator & UGC",
+       "authorType": "Creator",
+       "authorFollowers": 31163,
+       "language": "fr",
+       "postDate": "2026-10-04",
+       "contentFormat": "Image post",
+       "postText": "🎁 CONCOURS - CALENDRIER DE L'AVENT 🎉 Pour fêter l'arrivée @adoptparfums.be chez Cora, une de vous remportera un calendrier de l'Avent de 94,95€ (valeur 214,75€ de produits)...",
+       "translationEn": "🎁 GIVEAWAY - ADVENT CALENDAR 🎉 To celebrate @adoptparfums.be arriving at Cora, one of you will win an advent calendar worth €94.95 (€214.75 of products)...",
+       "engagement": {
+        "likes": 854,
+        "comments": 3363,
+        "shares": null,
+        "views": null,
+        "total": 3363
+       },
+       "url": "https://www.instagram.com/p/DeEHSxPjIq5/",
+       "whyItMatters": "Creator + grocery-retailer (Cora) tie-in giveaway — the exact competitive playbook ALDI can counter on value (paid/affiliate post).",
+       "translationLocal": "🎁 GIVEAWAY - ADVENT CALENDAR 🎉 To celebrate @adoptparfums.be arriving at Cora, one of you will win an advent calendar worth €94.95 (€214.75 of products)..."
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@weledafr",
+       "authorName": "Weleda France 🌻",
+       "authorType": "Brand",
+       "authorFollowers": 126860,
+       "language": "fr",
+       "postDate": "2026-09-17",
+       "contentFormat": "Image post",
+       "postText": "🎄 Jeu concours Calendrier de l'Avent 🎄 Oui, c'est septembre. Mais certaines surprises n'attendent pas 🤭 ...24 surprises naturelles, dont de grands formats, pour patienter jusqu'à Noël 🎁",
+       "translationEn": "🎄 Advent Calendar giveaway 🎄 Yes, it's September. But some surprises can't wait 🤭 ...24 natural surprises, including full sizes, to tide you over until Christmas 🎁",
+       "engagement": {
+        "likes": 1617,
+        "comments": 1548,
+        "shares": null,
+        "views": null,
+        "total": 1548
+       },
+       "url": "https://www.instagram.com/p/DdYmIApk8k1/",
+       "whyItMatters": "Brand explicitly leaning into 'it's September but we're not waiting' — validates early-season advent activation (giveaway post).",
+       "translationLocal": "🎄 Advent Calendar giveaway 🎄 Yes, it's September. But some surprises can't wait 🤭 ...24 natural surprises, including full sizes, to tide you over until Christmas 🎁"
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "Advent calendars are a low-ticket, high-visibility entry product where ALDI can win on price-per-door versus premium beauty calendars, converting early browsers into festive-aisle shoppers.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram Reels",
+        "Facebook",
+        "Pinterest"
+       ],
+       "creativeConcept": "'24 days, smart price' advent-calendar reveal — a value-haul unboxing contrasting ALDI's calendar range against pricier rivals, plus a kid-friendly chocolate option.",
+       "keyPillars": [
+        "Price Leadership",
+        "Festive Range",
+        "Family"
+       ]
+      }
+     },
+     "shortLabel": "Advent\ncalendars"
+    },
+    {
+     "themeId": "theme_2",
+     "themeName": "'Noëliste / Noëlopathie' — the Early-Christmas Identity Trend",
+     "dataSources": [
+      "TikTok",
+      "Instagram",
+      "Facebook"
+     ],
+     "platformFocus": "TikTok",
+     "isCrossPlatform": true,
+     "dataConfidence": "Low",
+     "confidenceNote": "Based on a small TikTok set (343 posts total for the platform); creator-coined terms, directional only.",
+     "momentum": {
+      "status": "Emerging",
+      "timelineDetails": "@lilosquare posts 'Noëlopathie' (19 Sep) then 'Noëlistes' (22 Sep); concept echoes into IG/FB captions through October as a self-deprecating badge for early celebrators."
+     },
+     "summary": {
+      "description": "Creators coin playful 'conditions' ('Noëliste', 'Noëlopathie') to legitimise loving Christmas in September despite 'it's too early' pushback. It is a ready-made tone-of-voice and permission structure for brands launching early.",
+      "languageBreakdown": {
+       "dutchFlanders": "Expressed more as 'te vroeg?' playful defensiveness and cosy-season anticipation rather than a coined label.",
+       "frenchWallonia": "Explicit neologisms 'Noëliste' and 'Noëlopathie' driving the French-language identity humour."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "TikTok",
+       "authorHandle": "@lilosquare",
+       "authorName": "Lilosquare",
+       "authorType": "Creator",
+       "authorFollowers": 44073,
+       "language": "fr",
+       "postDate": "2026-09-22",
+       "contentFormat": "Video",
+       "postText": "Si vous ne savez pas quoi manger ce soir mais que vous avez déjà prévu votre dîner de Noël… c'est normal : vous faites partie des Noëlistes. 😂🎄 ...la magie de Noël commence bien avant le 24 décembre.",
+       "translationEn": "If you don't know what to eat tonight but you've already planned your Christmas dinner… it's normal: you're one of the Noëlistes. 😂🎄 ...the magic of Christmas starts well before 24 December.",
+       "engagement": {
+        "likes": 1806,
+        "comments": 1604,
+        "shares": 1585,
+        "views": 32098,
+        "total": 1604
+       },
+       "url": "https://www.tiktok.com/@lilosquare/video/7688386144198839585",
+       "whyItMatters": "Coins the 'Noëliste' identity — a ready-made, warm hook for an ALDI early-Christmas tone.",
+       "translationLocal": "If you don't know what to eat tonight but you've already planned your Christmas dinner… it's normal: you're one of the Noëlistes. 😂🎄 ...the magic of Christmas starts well before 24 December."
+      },
+      {
+       "platform": "TikTok",
+       "authorHandle": "@lilosquare",
+       "authorName": "Lilosquare",
+       "authorType": "Creator",
+       "authorFollowers": 43977,
+       "language": "fr",
+       "postDate": "2026-09-19",
+       "contentFormat": "Video",
+       "postText": "Vous souffrez peut-être de Noëlopathie… et la bonne nouvelle, c'est qu'on n'a absolument pas l'intention de vous soigner. 😂❤️ ...même quand tout le monde nous répète qu'il est « beaucoup trop tôt ».",
+       "translationEn": "You might be suffering from Noëlopathy… and the good news is we have absolutely no intention of curing you. 😂❤️ ...even when everyone keeps telling us it's 'way too early'.",
+       "engagement": {
+        "likes": 319,
+        "comments": 497,
+        "shares": 494,
+        "views": 12059,
+        "total": 497
+       },
+       "url": "https://www.tiktok.com/@lilosquare/video/7687217737642331425",
+       "whyItMatters": "Directly answers the 'too early' objection ALDI will face if it activates in October.",
+       "translationLocal": "You might be suffering from Noëlopathy… and the good news is we have absolutely no intention of curing you. 😂❤️ ...even when everyone keeps telling us it's 'way too early'."
+      },
+      {
+       "platform": "TikTok",
+       "authorHandle": "@famiflora.be_fr",
+       "authorName": "famiflora.be_fr",
+       "authorType": "Brand",
+       "authorFollowers": 17055,
+       "language": "fr",
+       "postDate": "2026-10-06",
+       "contentFormat": "Video",
+       "postText": "Attention : le grinch s'est caché chez Famiflora et il n'est pas près d'arrêter ses petites bêtises 😅👀 #grinchmas #christmas #noël #grinch #famiflora",
+       "translationEn": "Warning: the Grinch has hidden at Famiflora and he's not about to stop his little pranks 😅👀 #grinchmas #christmas #noël #grinch #famiflora",
+       "engagement": {
+        "likes": 1770,
+        "comments": 1568,
+        "shares": 1559,
+        "views": 42126,
+        "total": 1568
+       },
+       "url": "https://www.tiktok.com/@famiflora.be_fr/video/7693566968296656161",
+       "whyItMatters": "A Belgian retailer already running character-led festive TikTok skits — proof of concept for ALDI's own light retail humour.",
+       "translationLocal": "Warning: the Grinch has hidden at Famiflora and he's not about to stop his little pranks 😅👀 #grinchmas #christmas #noël #grinch #famiflora"
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "Gives ALDI a culturally-native, self-aware way to launch early without seeming pushy — aligning the brand with enthusiastic early celebrators rather than lecturing them.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "TikTok",
+        "Instagram Reels"
+       ],
+       "creativeConcept": "An ALDI 'proudly Noëliste' skit: a shopper sneaking festive ALDI products into an October trolley while a voice says 'it's too early' — budget haul meets in-joke.",
+       "keyPillars": [
+        "Festive Range",
+        "Brand Warmth",
+        "Value"
+       ]
+      }
+     },
+     "shortLabel": "Noëliste\nidentity"
+    },
+    {
+     "themeId": "theme_3",
+     "themeName": "Countdown & '100 Days to Christmas' Mechanics",
+     "dataSources": [
+      "Facebook",
+      "Instagram"
+     ],
+     "platformFocus": "Facebook",
+     "isCrossPlatform": true,
+     "dataConfidence": "Medium",
+     "confidenceNote": "Driven by high-reach persona pages (e.g. @magie2noel, 267k); countdown posts earn strong shares. Directional on exact volume.",
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "'103 jours avant Noël' lands 13 Sep; countdown framing recurs weekly as the date approaches, feeding the steady weekly volume climb."
+     },
+     "summary": {
+      "description": "Simple countdown and 'X days to go' formats are reliable engagement drivers on Facebook, often from Père Noël persona and nostalgia pages, generating high share counts and anticipation.",
+      "languageBreakdown": {
+       "dutchFlanders": "Present via 'aftellen'/cosy-anticipation framing and '#kerst2026' seasonal tagging (360).",
+       "frenchWallonia": "Explicit day-count posts from large Père Noël persona pages drive reach and shares."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "Facebook",
+       "authorHandle": "magie2noel",
+       "authorName": "Père Noël",
+       "authorType": "Community page",
+       "authorFollowers": 267000,
+       "language": "fr",
+       "postDate": "2026-09-13",
+       "contentFormat": "Image post",
+       "postText": "Il reste seulement 103 jours avant Noël 🎄🎅",
+       "translationEn": "Only 103 days left until Christmas 🎄🎅",
+       "engagement": {
+        "likes": 1823,
+        "comments": 1049,
+        "shares": 933,
+        "views": null,
+        "total": 1049
+       },
+       "url": "https://www.facebook.com/251020282205289_1390513406588898",
+       "whyItMatters": "933 shares on a one-line countdown shows how cheaply anticipation content travels on Facebook.",
+       "translationLocal": "Only 103 days left until Christmas 🎄🎅"
+      },
+      {
+       "platform": "Facebook",
+       "authorHandle": "magie2noel",
+       "authorName": "Père Noël",
+       "authorType": "Community page",
+       "authorFollowers": 267000,
+       "language": "fr",
+       "postDate": "2026-09-13",
+       "contentFormat": "Image post",
+       "postText": "Je suis favorable au passage du Père Noël dans les écoles pour les enfants 🎅🎄 et vous ?",
+       "translationEn": "I'm in favour of Santa visiting schools for the children 🎅🎄 what about you?",
+       "engagement": {
+        "likes": 7412,
+        "comments": 1609,
+        "shares": 428,
+        "views": null,
+        "total": 1609
+       },
+       "url": "https://www.facebook.com/251020282205289_1390516816588557",
+       "whyItMatters": "Highest-visibility festive Facebook post; shows poll-bait + Santa framing dominate FB reach.",
+       "translationLocal": "I'm in favour of Santa visiting schools for the children 🎅🎄 what about you?"
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "Low-cost, high-share formats ALDI can own to stay top-of-feed through the pre-season without heavy production.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Facebook",
+        "Instagram"
+       ],
+       "creativeConcept": "A weekly ALDI countdown pairing 'X days to Christmas' with one budget prep tip or product of the week (e.g. 'X days to go — this week, stock the advent calendar').",
+       "keyPillars": [
+        "Festive Range",
+        "Price Leadership",
+        "Planning Help"
+       ]
+      }
+     },
+     "shortLabel": "Countdowns"
+    },
+    {
+     "themeId": "theme_4",
+     "themeName": "Cosy Atmosphere & DIY / Handmade Festive Decor (Flanders-led)",
+     "dataSources": [
+      "Instagram",
+      "Facebook",
+      "TikTok"
+     ],
+     "platformFocus": "Instagram",
+     "isCrossPlatform": true,
+     "dataConfidence": "Medium",
+     "confidenceNote": "Strong NL hashtag cluster (#kerstdecoratie 382, #kerstsfeer 243, #handgemaakt 129, #cozyvibes 696 overall); craft-and-atmosphere led.",
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Builds steadily through September as decor/inspiration content ramps toward the October peak; overlaps with autumn/herfst crossover tags."
+     },
+     "summary": {
+      "description": "A warm, aesthetic cluster around festive atmosphere, home decoration and handmade/craft gifting — stronger and more practical in Dutch/Flemish content than French. 'Gezelligheid' (cosiness) is a defining Flemish value here.",
+      "languageBreakdown": {
+       "dutchFlanders": "Leads this theme: #kerstsfeer (243), #gezelligheid (111), #kerstdecoratie (382), #handgemaakt (129), #kerstdiner, 'schoonmoeder' (249) hosting humour.",
+       "frenchWallonia": "Present via #cozyvibes, #faitmain (675) and #artisanat (436) craft/market content, but secondary to gifting/giveaways."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "chantaljanzen.official",
+       "authorName": "Chantal Janzen",
+       "authorType": "Creator",
+       "authorFollowers": 1736674,
+       "language": "nl",
+       "postDate": "2026-09-06",
+       "contentFormat": "Image post",
+       "postText": "Viennetta met kerst, op zomervakantie naar Scheveningen... (nostalgische opsomming van jeugdherinneringen). Let's go👇",
+       "translationEn": "Viennetta at Christmas, summer holidays to Scheveningen... (a nostalgic list of childhood memories). Let's go👇",
+       "engagement": {
+        "likes": 3004,
+        "comments": 809,
+        "shares": null,
+        "views": null,
+        "total": 809
+       },
+       "url": "https://www.instagram.com/p/Dc8F32goq9s/",
+       "whyItMatters": "Dutch-language nostalgia explicitly ties a festive food memory (Viennetta 'met kerst') to cosy belonging — the emotional register of Flemish festive content.",
+       "translationLocal": "Viennetta at Christmas, summer holidays to Scheveningen... (a nostalgic list of childhood memories). Let's go👇"
+      },
+      {
+       "platform": "TikTok",
+       "authorHandle": "@lollenmetems",
+       "authorName": "LollenmetEms",
+       "authorType": "Creator",
+       "authorFollowers": 7413,
+       "language": "nl",
+       "postDate": "2026-10-08",
+       "contentFormat": "Video",
+       "postText": "Wie kent deze topper nog?🙈😂🤡🫎 #rendierhoedje #supernanny #vtm #kerstmarkt #zagenstaatvrij",
+       "translationEn": "Who still remembers this classic?🙈😂🤡🫎 #reindeerhat #supernanny #vtm #christmasmarket #moaningisallowed",
+       "engagement": {
+        "likes": 597,
+        "comments": 841,
+        "shares": 828,
+        "views": 31717,
+        "total": 841
+       },
+       "url": "https://www.tiktok.com/@lollenmetems/video/7694401551321795842",
+       "whyItMatters": "Flemish creator blending Christmas-market (#kerstmarkt) nostalgia and local VTM references — the cosy-humour tone for NL audiences.",
+       "translationLocal": "Who still remembers this classic?🙈😂🤡🫎 #reindeerhat #supernanny #vtm #christmasmarket #moaningisallowed"
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "ALDI can serve the Flemish 'gezelligheid' and DIY-decor mindset with affordable decoration and hosting ranges, positioning value as the enabler of a cosy home — not a compromise.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram Reels",
+        "Pinterest",
+        "TikTok"
+       ],
+       "creativeConcept": "'Gezellige kerst, slimme prijs' — a Flemish-language cosy-home styling reel using affordable ALDI decor and a festive-table build, with a handmade/DIY twist.",
+       "keyPillars": [
+        "Festive Range",
+        "Quality",
+        "Value"
+       ]
+      }
+     },
+     "shortLabel": "Cosy and\nDIY decor"
+    },
+    {
+     "themeId": "theme_5",
+     "themeName": "Gift Planning & 'Idées Cadeaux' / Cadeautips",
+     "dataSources": [
+      "Facebook",
+      "Instagram"
+     ],
+     "platformFocus": "Instagram",
+     "isCrossPlatform": true,
+     "dataConfidence": "High",
+     "confidenceNote": "Topic clusters 'cadeau' 1,710 + 'cadeaux' 1,373 + 'idées cadeaux' 1,078; #ideecadeau 986. Strong signal.",
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Gift-idea content rises from mid-September and compounds into the October peak as consumers begin list-making well ahead of December."
+     },
+     "summary": {
+      "description": "Consumers and creators are actively surfacing gift ideas and tips weeks early — a pre-purchase research behaviour ALDI can intercept with curated, price-anchored gift guides.",
+      "languageBreakdown": {
+       "dutchFlanders": "'cadeautip' (116) and '#kerstcadeau' (346) practical gift-tip framing.",
+       "frenchWallonia": "'idées cadeaux' / '#ideecadeau' (986) dominate; often paired with giveaways."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@adoptparfums",
+       "authorName": "adopt parfums",
+       "authorType": "Brand",
+       "authorFollowers": 416106,
+       "language": "fr",
+       "postDate": "2026-10-12",
+       "contentFormat": "Reel",
+       "postText": "CONCOURS🎄 Le plus beau cadeau avant Noël ? Recevoir cette invitation. 💌 ...Dis-nous en commentaire quel est ton produit Adopt préféré pour les fêtes",
+       "translationEn": "GIVEAWAY🎄 The nicest gift before Christmas? Receiving this invitation. 💌 ...Tell us in the comments your favourite Adopt product for the holidays",
+       "engagement": {
+        "likes": 2807,
+        "comments": 957,
+        "shares": null,
+        "views": null,
+        "total": 957
+       },
+       "url": "https://www.instagram.com/reel/DeZlwUMo0Zo/",
+       "whyItMatters": "Shows brands framing 'le cadeau avant Noël' to capture pre-season gifting intent (giveaway post).",
+       "translationLocal": "GIVEAWAY🎄 The nicest gift before Christmas? Receiving this invitation. 💌 ...Tell us in the comments your favourite Adopt product for the holidays"
+      },
+      {
+       "platform": "Facebook",
+       "authorHandle": null,
+       "authorName": "Liquidation Paradise by Ornella",
+       "authorType": "Brand",
+       "authorFollowers": 1900,
+       "language": "fr",
+       "postDate": "2026-10-13",
+       "contentFormat": "Image post",
+       "postText": "1 ACHETÉ = 1 OFFERT 🔥 ...Après… la liquidation total, on ouvre officiellement la saison de Noël 👀",
+       "translationEn": "BUY 1 = GET 1 FREE 🔥 ...After… the total clearance, we officially open the Christmas season 👀",
+       "engagement": {
+        "likes": 19,
+        "comments": 1371,
+        "shares": 320,
+        "views": null,
+        "total": 1371
+       },
+       "url": "https://www.facebook.com/571921132679196_2265027864288037",
+       "whyItMatters": "A small local retailer explicitly declaring the 'opening of Christmas season' with value offers — the grassroots value-gifting signal ALDI competes in.",
+       "translationLocal": "BUY 1 = GET 1 FREE 🔥 ...After… the total clearance, we officially open the Christmas season 👀"
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "Early gift research is the moment to establish ALDI as the value-gifting default before shoppers anchor on pricier brands.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram",
+        "Facebook",
+        "Pinterest"
+       ],
+       "creativeConcept": "'Gift ideas under €X' / 'Idées cadeaux à petit prix' carousels and reels, segmented by recipient, refreshed weekly.",
+       "keyPillars": [
+        "Price Leadership",
+        "Festive Range",
+        "Gifting"
+       ]
+      }
+     },
+     "shortLabel": "Gift\nplanning"
+    },
+    {
+     "themeId": "theme_6",
+     "themeName": "Nostalgia & 'Christmas As It Used To Be'",
+     "dataSources": [
+      "Facebook",
+      "Instagram",
+      "TikTok"
+     ],
+     "platformFocus": "Facebook",
+     "isCrossPlatform": true,
+     "dataConfidence": "Medium",
+     "confidenceNote": "Recurrent nostalgia keywords (souvenirs, années 70, #nostalgie) and high-reach retro pages; also the frame behind the Intermarché ad debate.",
+     "momentum": {
+      "status": "Stable",
+      "timelineDetails": "A constant emotional undercurrent across the window rather than a spike; amplified in early Oct by the Intermarché 'années 70' ad discussion."
+     },
+     "summary": {
+      "description": "A strong nostalgic frame — 'the Christmases of our childhood', retro references, absent loved ones — shapes much of the emotional, high-engagement content, and is the lens through which the Intermarché ad controversy played out.",
+      "languageBreakdown": {
+       "dutchFlanders": "Childhood-memory nostalgia (e.g. Viennetta 'met kerst', VTM/Supernanny throwbacks).",
+       "frenchWallonia": "'années 70', 'souvenirs', 'réveillons d'avant' retro-page content and the Intermarché ad debate."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "Facebook",
+       "authorHandle": null,
+       "authorName": "RetroVision",
+       "authorType": "Community page",
+       "authorFollowers": 1600,
+       "language": "fr",
+       "postDate": "2026-09-09",
+       "contentFormat": "Image post",
+       "postText": "Si tu as connu ces réveillons-là, tu sais que c'était bien plus que des cadeaux : c'était une ambiance, une insouciance et des absents qui nous manquent aujourd'hui. Tu avais quel âge en 1978 ? #noel",
+       "translationEn": "If you knew those Christmas Eves, you know it was much more than gifts: it was an atmosphere, a carefreeness, and absent loved ones we miss today. How old were you in 1978? #christmas",
+       "engagement": {
+        "likes": 1475,
+        "comments": 820,
+        "shares": 496,
+        "views": null,
+        "total": 820
+       },
+       "url": "https://www.facebook.com/1102118896328478_122119331727372086",
+       "whyItMatters": "Pure nostalgia bait earning 496 shares — the emotional register that outperforms on Facebook.",
+       "translationLocal": "If you knew those Christmas Eves, you know it was much more than gifts: it was an atmosphere, a carefreeness, and absent loved ones we miss today. How old were you in 1978? #christmas"
+      },
+      {
+       "platform": "Facebook",
+       "authorHandle": "padup.media",
+       "authorName": "Padup",
+       "authorType": "Media",
+       "authorFollowers": 40000,
+       "language": "fr",
+       "postDate": "2026-10-13",
+       "contentFormat": "Text post",
+       "postText": "Une famille qui se dispute la cuisson du rôti, quelque part dans les années 70. ...Intermarché se retrouve accusé de vendre une France fantasmée. ...LA NOSTALGIE N'EST PAS UN DÉLIT",
+       "translationEn": "A family arguing over how to cook the roast, somewhere in the 1970s. ...Intermarché finds itself accused of selling a fantasised France. ...NOSTALGIA IS NOT A CRIME",
+       "engagement": {
+        "likes": 968,
+        "comments": 877,
+        "shares": 214,
+        "views": null,
+        "total": 877
+       },
+       "url": "https://www.facebook.com/786960494503266_122162487807014746",
+       "whyItMatters": "Shows nostalgia as a double-edged sword: a competitor's nostalgic Christmas ad drew a public-diversity backlash — a cautionary note for ALDI's creative.",
+       "translationLocal": "A family arguing over how to cook the roast, somewhere in the 1970s. ...Intermarché finds itself accused of selling a fantasised France. ...NOSTALGIA IS NOT A CRIME"
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "Nostalgia is the most emotionally resonant and shareable register — but the Intermarché row shows it can backfire if it reads as exclusionary. ALDI can use warmth and shared memory while keeping casting and framing visibly inclusive.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Facebook",
+        "Instagram"
+       ],
+       "creativeConcept": "'Then and now, same joy, smarter price' — a warm nostalgia piece connecting childhood festive moments to an affordable modern ALDI table, with inclusive casting.",
+       "keyPillars": [
+        "Brand Warmth",
+        "Value",
+        "Inclusivity"
+       ]
+      }
+     },
+     "shortLabel": "Nostalgia"
+    }
+   ],
+   "actionPlan": {
+    "optimalTiming": {
+     "earlyTeasers": "Launch advent-calendar and gift-guide teasers now, in the W40–W42 (late Sep–mid Oct) window where competitors (adopt parfums, Weleda, Cora tie-ins, Famiflora) are already active and volume is climbing weekly. Use the 'Noëliste' permission framing to disarm 'too early' pushback.",
+     "sinterklaasPause": "Respect the Sinterklaas/Saint-Nicolas moment (peaking ~6 Dec): shift messaging to child-gifting and treats for that window, and avoid collapsing it into generic Christmas — especially in Flanders where Sinterklaas is a major distinct occasion. Resume full Christmas push immediately after 6 Dec.",
+     "peakCampaign": "Roll out the full festive campaign (table, gifting, entertaining) from mid-November, intensifying in the first two weeks of December post-Sinterklaas through to the 24th."
+    },
+    "keyContentPillars": [
+     "Price Leadership on the exact early-planning products (advent calendars, gifts, festive table) consumers are already researching.",
+     "Festive Range credibility — show breadth and quality so value never reads as 'less'.",
+     "Regional tone: cosy 'gezelligheid'/DIY for Flanders, value-gifting and 'magie de Noël' for Wallonia-Brussels.",
+     "Warm, inclusive nostalgia — borrow the emotional pull without the Intermarché-style exclusion risk.",
+     "Light cultural play ('Noëliste' / countdown formats) to stay native and shareable on social."
+    ],
+    "regionalStrategy": {
+     "flanders": "Lead in Dutch with cosy-home, DIY-decor and hosting content ('gezellige kerst, slimme prijs'); lean on #kerstsfeer/#gezelligheid; treat Sinterklaas as a key standalone child-gifting moment.",
+     "walloniaBrussels": "Lead in French with value-gifting, advent calendars and 'magie de Noël' framing; counter premium-brand giveaways with price-led gift guides; use the 'Noëliste' in-joke for social warmth."
+    }
+   },
+   "headlineStats": [
+    {
+     "value": "52,401",
+     "label": "Posts, 1 September to 15 October"
+    },
+    {
+     "value": "6.1K → 11K",
+     "label": "Weekly posts, rising every week"
+    },
+    {
+     "value": "+42%",
+     "label": "Net sentiment"
+    },
+    {
+     "value": "3.5 : 1",
+     "label": "French to Dutch posts"
+    }
+   ]
+  },
+  "fr": {
+   "meta": {
+    "reportTitle": "Signaux précoces de Noël – Belgique",
+    "targetBrand": "ALDI Belgium",
+    "analysisDate": "2026-10-15",
+    "timeframe": "1er septembre – 15 octobre 2026"
+   },
+   "executiveSummary": {
+    "overview": "Du 1er septembre au 15 octobre 2026, la recherche Early Christmas (ID : 228494) a remonté 52 401 publications, en hausse chaque semaine, d'environ 6 100 à environ 11 000, avant la clôture de la période en milieu de semaine. Facebook (58,7 %) et Instagram (40,7 %) concentrent la quasi-totalité du volume ; TikTok reste marginal (0,7 %, 343 publications) mais fait émerger le vocabulaire des tendances. La conversation est déjà active sur le plan commercial, portée par les calendriers de l'Avent, la préparation des cadeaux, la nostalgie et l'ambiance festive cocooning.",
+    "dominantMood": "Majoritairement positif et aspirationnel (sentiment net d'environ +42 %) : anticipation, cocooning et nostalgie. Une part négative existe, mais elle est culturelle ou politique (polémique autour de la publicité Intermarché, débat sur la crèche à l'école) et ne vise pas la catégorie.",
+    "culturalNuances": "Les contenus en français sont environ 3,5 fois plus nombreux que ceux en néerlandais et sont plus émotionnels, nostalgiques et portés par les concours de marques ; les contenus néerlandophones/flamands sont plus pratiques, axés sur l'artisanat et l'ambiance ('kerstsfeer', 'gezelligheid', 'handgemaakt', 'kerstdiner'). Sinterklaas/Saint-Nicolas (6 décembre) tombe entre aujourd'hui et Noël et doit être respecté comme un moment de cadeaux distinct pour les enfants, sans être fondu dans les messages de Noël.",
+    "commercialOpportunity": "Prendre de l'avance sur la ruée de novembre : s'approprier dès début-mi octobre la conversation sur les calendriers de l'Avent et les cadeaux à bon prix avec des teasers axés sur le prix, des créations différenciées par région (DIY et réceptions pour la Flandre, cadeaux à petit prix et magie de Noël pour la Wallonie et Bruxelles) et une présence légère sur TikTok autour de l'identité « Noëliste » des premiers fans de Noël."
+   },
+   "platformCoverage": [
+    {
+     "platform": "Facebook",
+     "postCount": 30719,
+     "shareOfPosts": "58.7%",
+     "dataConfidence": "High",
+     "contentCharacter": "Pages communautaires, comptes nostalgie/rétro et pages incarnant le Père Noël qui publient des comptes à rebours, des sondages pour susciter les réactions ('sapin à l'école?') et des posts de liquidation ou de concours de commerces ; engagement porté par les commentaires.",
+     "themeIds": [
+      "theme_1",
+      "theme_3",
+      "theme_5"
+     ]
+    },
+    {
+     "platform": "Instagram",
+     "postCount": 21339,
+     "shareOfPosts": "40.7%",
+     "dataConfidence": "High",
+     "contentCharacter": "Reels et carrousels de marques et de créateurs, très orientés vers les concours de calendriers de l'Avent et la mise en avant de produits festifs ; nombreux abonnés et mécaniques de concours (liker/s'abonner/identifier).",
+     "themeIds": [
+      "theme_1",
+      "theme_2",
+      "theme_4"
+     ]
+    },
+    {
+     "platform": "TikTok",
+     "postCount": 343,
+     "shareOfPosts": "0.7%",
+     "dataConfidence": "Low",
+     "contentCharacter": "Petit volume mais créatif : formats humoristiques de créateurs qui inventent une identité de Noël précoce ('Noëliste', 'Noëlopathie'), sketchs de commerces (Famiflora/Grinch), montages nostalgiques ; à lire comme une tendance.",
+     "themeIds": [
+      "theme_2",
+      "theme_4",
+      "theme_6"
+     ]
+    },
+    {
+     "platform": "X",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "Aucune publication pertinente dans cette recherche ou sur cette période.",
+     "themeIds": []
+    },
+    {
+     "platform": "YouTube",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "Aucune publication pertinente dans cette recherche ou sur cette période.",
+     "themeIds": []
+    },
+    {
+     "platform": "Reddit",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "Aucune publication pertinente dans cette recherche ou sur cette période.",
+     "themeIds": []
+    },
+    {
+     "platform": "News",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "Aucune publication pertinente dans cette recherche ou sur cette période.",
+     "themeIds": []
+    },
+    {
+     "platform": "Blogs",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "Aucune publication pertinente dans cette recherche ou sur cette période.",
+     "themeIds": []
+    },
+    {
+     "platform": "Forums",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "Aucune publication pertinente dans cette recherche ou sur cette période.",
+     "themeIds": []
+    }
+   ],
+   "themes": [
+    {
+     "themeId": "theme_1",
+     "themeName": "Les calendriers de l'Avent, porte d'entrée du Noël précoce",
+     "dataSources": [
+      "Instagram",
+      "Facebook",
+      "TikTok"
+     ],
+     "platformFocus": "Instagram",
+     "isCrossPlatform": true,
+     "dataConfidence": "High",
+     "confidenceNote": "Sujet « calendrier de l'avent » 1 459 + 'adventskalender/#adventskalender' en NL ; dominant dans les contenus Instagram les plus visibles. Signal fort.",
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Visible dès début septembre, s'accélère fin septembre jusqu'au pic du 6 au 12 octobre, quand les marques lancent leurs concours avant l'ouverture de la première case le 1er décembre."
+     },
+     "summary": {
+      "description": "Les calendriers de l'Avent sont le comportement d'intention d'achat le plus clair. Des marques (beauté, parfum, soins naturels) organisent des concours liker/s'abonner/identifier pour des calendriers de 24 jours ; les consommateurs se demandent quels produits ou quelles senteurs ils veulent y trouver. C'est le produit d'entrée naturel pour un message de valeur sur le Noël précoce.",
+      "languageBreakdown": {
+       "dutchFlanders": "'#adventskalender' (119) et le registre 'cadeautip' ; plus discret, davantage centré sur le produit et les idées cadeaux.",
+       "frenchWallonia": "Dominant et porté par les concours : 'calendrier de l'avent', calendriers beauté et parfum, partenariats avec la grande distribution (Cora)."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@adoptparfums",
+       "authorName": "adopt parfums",
+       "authorType": "Brand",
+       "authorFollowers": 416106,
+       "language": "fr",
+       "postDate": "2026-10-04",
+       "contentFormat": "Image post",
+       "postText": "CONCOURS ✨🎄 On te gâte avec LE calendrier 100 % bougies qui va parfumer toute ta maison en décembre : 24 jours, 24 bougies 🎁🕯️ Pour tenter de le remporter : 💖 Like ce post 🔔 Abonne-toi...",
+       "translationEn": "GIVEAWAY ✨🎄 We're spoiling you with THE 100% candle calendar that will perfume your whole home in December: 24 days, 24 candles 🎁🕯️ To win: Like this post, follow our account...",
+       "engagement": {
+        "likes": 4571,
+        "comments": 2770,
+        "shares": null,
+        "views": null,
+        "total": 2770
+       },
+       "url": "https://www.instagram.com/p/DeEJ-uylyDZ/",
+       "whyItMatters": "Publication festive de marque la plus engageante de la période ; un post concours qui montre que les calendriers de l'Avent sont le principal levier du T4 (mécanique de concours).",
+       "translationLocal": null
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@melina_santangelo",
+       "authorName": "Melina Santangelo - Content creator & UGC",
+       "authorType": "Creator",
+       "authorFollowers": 31163,
+       "language": "fr",
+       "postDate": "2026-10-04",
+       "contentFormat": "Image post",
+       "postText": "🎁 CONCOURS - CALENDRIER DE L'AVENT 🎉 Pour fêter l'arrivée @adoptparfums.be chez Cora, une de vous remportera un calendrier de l'Avent de 94,95€ (valeur 214,75€ de produits)...",
+       "translationEn": "🎁 GIVEAWAY - ADVENT CALENDAR 🎉 To celebrate @adoptparfums.be arriving at Cora, one of you will win an advent calendar worth €94.95 (€214.75 of products)...",
+       "engagement": {
+        "likes": 854,
+        "comments": 3363,
+        "shares": null,
+        "views": null,
+        "total": 3363
+       },
+       "url": "https://www.instagram.com/p/DeEHSxPjIq5/",
+       "whyItMatters": "Concours créatrice + distributeur (Cora) : exactement le schéma concurrentiel qu'ALDI peut contrer par la valeur (post rémunéré/affilié).",
+       "translationLocal": null
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@weledafr",
+       "authorName": "Weleda France 🌻",
+       "authorType": "Brand",
+       "authorFollowers": 126860,
+       "language": "fr",
+       "postDate": "2026-09-17",
+       "contentFormat": "Image post",
+       "postText": "🎄 Jeu concours Calendrier de l'Avent 🎄 Oui, c'est septembre. Mais certaines surprises n'attendent pas 🤭 ...24 surprises naturelles, dont de grands formats, pour patienter jusqu'à Noël 🎁",
+       "translationEn": "🎄 Advent Calendar giveaway 🎄 Yes, it's September. But some surprises can't wait 🤭 ...24 natural surprises, including full sizes, to tide you over until Christmas 🎁",
+       "engagement": {
+        "likes": 1617,
+        "comments": 1548,
+        "shares": null,
+        "views": null,
+        "total": 1548
+       },
+       "url": "https://www.instagram.com/p/DdYmIApk8k1/",
+       "whyItMatters": "Une marque qui assume « c'est septembre mais on n'attend pas » : cela valide une activation précoce autour de l'Avent (post concours).",
+       "translationLocal": null
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "Les calendriers de l'Avent sont un produit d'entrée peu cher et très visible, sur lequel ALDI peut gagner au prix par case face aux calendriers beauté premium, et transformer les curieux précoces en clients du rayon festif.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram Reels",
+        "Facebook",
+        "Pinterest"
+       ],
+       "creativeConcept": "« 24 jours, prix malin » : révélation de calendriers de l'Avent sous forme d'unboxing valeur, qui compare la gamme ALDI à des concurrents plus chers, avec une option chocolat pour les enfants.",
+       "keyPillars": [
+        "Meilleur prix",
+        "Gamme festive",
+        "Famille"
+       ]
+      }
+     },
+     "shortLabel": "Calendriers\nde l'Avent"
+    },
+    {
+     "themeId": "theme_2",
+     "themeName": "« Noëliste / Noëlopathie » : la tendance identitaire du Noël précoce",
+     "dataSources": [
+      "TikTok",
+      "Instagram",
+      "Facebook"
+     ],
+     "platformFocus": "TikTok",
+     "isCrossPlatform": true,
+     "dataConfidence": "Low",
+     "confidenceNote": "Basé sur un petit corpus TikTok (343 publications au total pour la plateforme) ; termes inventés par des créateurs, à lire comme une tendance.",
+     "momentum": {
+      "status": "Emerging",
+      "timelineDetails": "@lilosquare publie « Noëlopathie » (19 sept.) puis « Noëlistes » (22 sept.) ; le concept se retrouve dans des légendes Instagram et Facebook en octobre, comme un badge d'autodérision pour ceux qui fêtent tôt."
+     },
+     "summary": {
+      "description": "Des créateurs inventent des « pathologies » ludiques ('Noëliste', 'Noëlopathie') pour légitimer l'amour de Noël dès septembre face aux « c'est trop tôt ». C'est un ton et un cadre tout prêts pour les marques qui lancent tôt.",
+      "languageBreakdown": {
+       "dutchFlanders": "S'exprime plutôt par une défense ludique du « te vroeg? » et l'impatience de la saison cocooning que par un terme inventé.",
+       "frenchWallonia": "Néologismes explicites « Noëliste » et « Noëlopathie » qui portent l'humour identitaire en français."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "TikTok",
+       "authorHandle": "@lilosquare",
+       "authorName": "Lilosquare",
+       "authorType": "Creator",
+       "authorFollowers": 44073,
+       "language": "fr",
+       "postDate": "2026-09-22",
+       "contentFormat": "Video",
+       "postText": "Si vous ne savez pas quoi manger ce soir mais que vous avez déjà prévu votre dîner de Noël… c'est normal : vous faites partie des Noëlistes. 😂🎄 ...la magie de Noël commence bien avant le 24 décembre.",
+       "translationEn": "If you don't know what to eat tonight but you've already planned your Christmas dinner… it's normal: you're one of the Noëlistes. 😂🎄 ...the magic of Christmas starts well before 24 December.",
+       "engagement": {
+        "likes": 1806,
+        "comments": 1604,
+        "shares": 1585,
+        "views": 32098,
+        "total": 1604
+       },
+       "url": "https://www.tiktok.com/@lilosquare/video/7688386144198839585",
+       "whyItMatters": "Invente l'identité « Noëliste » : un levier chaleureux et prêt à l'emploi pour un ton de Noël précoce chez ALDI.",
+       "translationLocal": null
+      },
+      {
+       "platform": "TikTok",
+       "authorHandle": "@lilosquare",
+       "authorName": "Lilosquare",
+       "authorType": "Creator",
+       "authorFollowers": 43977,
+       "language": "fr",
+       "postDate": "2026-09-19",
+       "contentFormat": "Video",
+       "postText": "Vous souffrez peut-être de Noëlopathie… et la bonne nouvelle, c'est qu'on n'a absolument pas l'intention de vous soigner. 😂❤️ ...même quand tout le monde nous répète qu'il est « beaucoup trop tôt ».",
+       "translationEn": "You might be suffering from Noëlopathy… and the good news is we have absolutely no intention of curing you. 😂❤️ ...even when everyone keeps telling us it's 'way too early'.",
+       "engagement": {
+        "likes": 319,
+        "comments": 497,
+        "shares": 494,
+        "views": 12059,
+        "total": 497
+       },
+       "url": "https://www.tiktok.com/@lilosquare/video/7687217737642331425",
+       "whyItMatters": "Répond directement à l'objection « c'est trop tôt » qu'ALDI rencontrera si elle active en octobre.",
+       "translationLocal": null
+      },
+      {
+       "platform": "TikTok",
+       "authorHandle": "@famiflora.be_fr",
+       "authorName": "famiflora.be_fr",
+       "authorType": "Brand",
+       "authorFollowers": 17055,
+       "language": "fr",
+       "postDate": "2026-10-06",
+       "contentFormat": "Video",
+       "postText": "Attention : le grinch s'est caché chez Famiflora et il n'est pas près d'arrêter ses petites bêtises 😅👀 #grinchmas #christmas #noël #grinch #famiflora",
+       "translationEn": "Warning: the Grinch has hidden at Famiflora and he's not about to stop his little pranks 😅👀 #grinchmas #christmas #noël #grinch #famiflora",
+       "engagement": {
+        "likes": 1770,
+        "comments": 1568,
+        "shares": 1559,
+        "views": 42126,
+        "total": 1568
+       },
+       "url": "https://www.tiktok.com/@famiflora.be_fr/video/7693566968296656161",
+       "whyItMatters": "Un distributeur belge mène déjà des sketchs festifs avec un personnage sur TikTok : la preuve qu'ALDI peut oser son propre humour de commerce, léger.",
+       "translationLocal": null
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "Offre à ALDI une manière culturellement naturelle et autodérisoire de lancer tôt sans paraître insistante : la marque se range du côté des fans de Noël précoces plutôt que de leur faire la leçon.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "TikTok",
+        "Instagram Reels"
+       ],
+       "creativeConcept": "Un sketch ALDI « fièrement Noëliste » : un client glisse des produits festifs ALDI dans son caddie d'octobre pendant qu'une voix lui dit « c'est trop tôt » ; haul petit budget et clin d'œil complice.",
+       "keyPillars": [
+        "Gamme festive",
+        "Chaleur de marque",
+        "Rapport qualité-prix"
+       ]
+      }
+     },
+     "shortLabel": "Identité\nNoëliste"
+    },
+    {
+     "themeId": "theme_3",
+     "themeName": "Comptes à rebours et mécaniques « J-100 avant Noël »",
+     "dataSources": [
+      "Facebook",
+      "Instagram"
+     ],
+     "platformFocus": "Facebook",
+     "isCrossPlatform": true,
+     "dataConfidence": "Medium",
+     "confidenceNote": "Porté par des pages personnages à forte audience (p. ex. @magie2noel, 267 k) ; les comptes à rebours génèrent beaucoup de partages. Volume exact à lire comme une tendance.",
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "« 103 jours avant Noël » paraît le 13 septembre ; le compte à rebours revient chaque semaine à l'approche de la date et alimente la hausse régulière du volume hebdomadaire."
+     },
+     "summary": {
+      "description": "Les formats simples de compte à rebours (« plus que X jours ») sont des moteurs d'engagement fiables sur Facebook, souvent publiés par des pages incarnant le Père Noël ou des pages nostalgie, avec beaucoup de partages et d'impatience.",
+      "languageBreakdown": {
+       "dutchFlanders": "Présent via le registre 'aftellen' / impatience cocooning et le hashtag saisonnier '#kerst2026' (360).",
+       "frenchWallonia": "Comptes à rebours explicites de grandes pages Père Noël qui génèrent portée et partages."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "Facebook",
+       "authorHandle": "magie2noel",
+       "authorName": "Père Noël",
+       "authorType": "Community page",
+       "authorFollowers": 267000,
+       "language": "fr",
+       "postDate": "2026-09-13",
+       "contentFormat": "Image post",
+       "postText": "Il reste seulement 103 jours avant Noël 🎄🎅",
+       "translationEn": "Only 103 days left until Christmas 🎄🎅",
+       "engagement": {
+        "likes": 1823,
+        "comments": 1049,
+        "shares": 933,
+        "views": null,
+        "total": 1049
+       },
+       "url": "https://www.facebook.com/251020282205289_1390513406588898",
+       "whyItMatters": "933 partages pour un compte à rebours d'une ligne : le contenu d'impatience circule à très peu de frais sur Facebook.",
+       "translationLocal": null
+      },
+      {
+       "platform": "Facebook",
+       "authorHandle": "magie2noel",
+       "authorName": "Père Noël",
+       "authorType": "Community page",
+       "authorFollowers": 267000,
+       "language": "fr",
+       "postDate": "2026-09-13",
+       "contentFormat": "Image post",
+       "postText": "Je suis favorable au passage du Père Noël dans les écoles pour les enfants 🎅🎄 et vous ?",
+       "translationEn": "I'm in favour of Santa visiting schools for the children 🎅🎄 what about you?",
+       "engagement": {
+        "likes": 7412,
+        "comments": 1609,
+        "shares": 428,
+        "views": null,
+        "total": 1609
+       },
+       "url": "https://www.facebook.com/251020282205289_1390516816588557",
+       "whyItMatters": "La publication festive Facebook la plus visible ; les sondages pour susciter les réactions et le Père Noël dominent la portée sur Facebook.",
+       "translationLocal": null
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "Des formats peu coûteux et très partagés qu'ALDI peut s'approprier pour rester en tête des fils d'actualité avant la saison, sans grosse production.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Facebook",
+        "Instagram"
+       ],
+       "creativeConcept": "Un compte à rebours ALDI hebdomadaire associant « J-X avant Noël » à une astuce de préparation petit budget ou au produit de la semaine (p. ex. « J-X : cette semaine, on prévoit le calendrier de l'Avent »).",
+       "keyPillars": [
+        "Gamme festive",
+        "Meilleur prix",
+        "Aide à la préparation"
+       ]
+      }
+     },
+     "shortLabel": "Comptes\nà rebours"
+    },
+    {
+     "themeId": "theme_4",
+     "themeName": "Ambiance cocooning et déco festive DIY / fait main (portée par la Flandre)",
+     "dataSources": [
+      "Instagram",
+      "Facebook",
+      "TikTok"
+     ],
+     "platformFocus": "Instagram",
+     "isCrossPlatform": true,
+     "dataConfidence": "Medium",
+     "confidenceNote": "Fort groupe de hashtags NL (#kerstdecoratie 382, #kerstsfeer 243, #handgemaakt 129, #cozyvibes 696 au total) ; porté par l'artisanat et l'ambiance.",
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Progresse régulièrement en septembre à mesure que les contenus déco et inspiration montent vers le pic d'octobre ; se mêle aux hashtags d'automne (herfst)."
+     },
+     "summary": {
+      "description": "Un ensemble chaleureux et esthétique autour de l'ambiance festive, de la décoration de la maison et des cadeaux faits main : plus fort et plus pratique dans les contenus néerlandophones que francophones. La 'gezelligheid' (convivialité chaleureuse) est ici une valeur flamande déterminante.",
+      "languageBreakdown": {
+       "dutchFlanders": "Mène ce thème : #kerstsfeer (243), #gezelligheid (111), #kerstdecoratie (382), #handgemaakt (129), #kerstdiner, humour sur la réception de la 'schoonmoeder' (belle-mère, 249).",
+       "frenchWallonia": "Présent via #cozyvibes, #faitmain (675) et #artisanat (436), contenus d'artisanat et de marchés, mais secondaire par rapport aux cadeaux et concours."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "chantaljanzen.official",
+       "authorName": "Chantal Janzen",
+       "authorType": "Creator",
+       "authorFollowers": 1736674,
+       "language": "nl",
+       "postDate": "2026-09-06",
+       "contentFormat": "Image post",
+       "postText": "Viennetta met kerst, op zomervakantie naar Scheveningen... (nostalgische opsomming van jeugdherinneringen). Let's go👇",
+       "translationEn": "Viennetta at Christmas, summer holidays to Scheveningen... (a nostalgic list of childhood memories). Let's go👇",
+       "engagement": {
+        "likes": 3004,
+        "comments": 809,
+        "shares": null,
+        "views": null,
+        "total": 809
+       },
+       "url": "https://www.instagram.com/p/Dc8F32goq9s/",
+       "whyItMatters": "La nostalgie en néerlandais relie explicitement un souvenir gourmand de fête (la Viennetta 'met kerst') à un sentiment d'appartenance chaleureux : le registre émotionnel des contenus festifs flamands.",
+       "translationLocal": "Une Viennetta à Noël, les vacances d'été à Scheveningen... (une liste nostalgique de souvenirs d'enfance). C'est parti👇"
+      },
+      {
+       "platform": "TikTok",
+       "authorHandle": "@lollenmetems",
+       "authorName": "LollenmetEms",
+       "authorType": "Creator",
+       "authorFollowers": 7413,
+       "language": "nl",
+       "postDate": "2026-10-08",
+       "contentFormat": "Video",
+       "postText": "Wie kent deze topper nog?🙈😂🤡🫎 #rendierhoedje #supernanny #vtm #kerstmarkt #zagenstaatvrij",
+       "translationEn": "Who still remembers this classic?🙈😂🤡🫎 #reindeerhat #supernanny #vtm #christmasmarket #moaningisallowed",
+       "engagement": {
+        "likes": 597,
+        "comments": 841,
+        "shares": 828,
+        "views": 31717,
+        "total": 841
+       },
+       "url": "https://www.tiktok.com/@lollenmetems/video/7694401551321795842",
+       "whyItMatters": "Un créateur flamand mêle nostalgie des marchés de Noël (#kerstmarkt) et références locales à VTM : le ton humour et cocooning pour le public néerlandophone.",
+       "translationLocal": "Qui se souvient encore de ce classique ?🙈😂🤡🫎 #bonnetderenne #supernanny #vtm #marchédenoël #onaledroitderâler"
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "ALDI peut répondre à l'état d'esprit flamand de 'gezelligheid' et de déco DIY avec des gammes déco et réception abordables, en faisant du prix bas ce qui rend possible une maison chaleureuse, et non un compromis.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram Reels",
+        "Pinterest",
+        "TikTok"
+       ],
+       "creativeConcept": "« Gezellige kerst, slimme prijs » : un Reel en néerlandais de mise en scène d'intérieur cocooning avec la déco ALDI abordable et la préparation d'une table de fête, avec une touche DIY / fait main.",
+       "keyPillars": [
+        "Gamme festive",
+        "Qualité",
+        "Rapport qualité-prix"
+       ]
+      }
+     },
+     "shortLabel": "Cocooning\net déco DIY"
+    },
+    {
+     "themeId": "theme_5",
+     "themeName": "Préparation des cadeaux : « idées cadeaux » / cadeautips",
+     "dataSources": [
+      "Facebook",
+      "Instagram"
+     ],
+     "platformFocus": "Instagram",
+     "isCrossPlatform": true,
+     "dataConfidence": "High",
+     "confidenceNote": "Groupes de sujets « cadeau » 1 710 + « cadeaux » 1 373 + « idées cadeaux » 1 078 ; #ideecadeau 986. Signal fort.",
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Les contenus d'idées cadeaux montent dès mi-septembre et s'accumulent jusqu'au pic d'octobre, les consommateurs commençant leurs listes bien avant décembre."
+     },
+     "summary": {
+      "description": "Consommateurs et créateurs partagent déjà activement des idées et astuces cadeaux, des semaines à l'avance : un comportement de recherche avant achat qu'ALDI peut capter avec des guides cadeaux sélectionnés et ancrés sur le prix.",
+      "languageBreakdown": {
+       "dutchFlanders": "Registre pratique avec 'cadeautip' (116) et '#kerstcadeau' (346).",
+       "frenchWallonia": "« idées cadeaux » / '#ideecadeau' (986) dominent, souvent associés à des concours."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@adoptparfums",
+       "authorName": "adopt parfums",
+       "authorType": "Brand",
+       "authorFollowers": 416106,
+       "language": "fr",
+       "postDate": "2026-10-12",
+       "contentFormat": "Reel",
+       "postText": "CONCOURS🎄 Le plus beau cadeau avant Noël ? Recevoir cette invitation. 💌 ...Dis-nous en commentaire quel est ton produit Adopt préféré pour les fêtes",
+       "translationEn": "GIVEAWAY🎄 The nicest gift before Christmas? Receiving this invitation. 💌 ...Tell us in the comments your favourite Adopt product for the holidays",
+       "engagement": {
+        "likes": 2807,
+        "comments": 957,
+        "shares": null,
+        "views": null,
+        "total": 957
+       },
+       "url": "https://www.instagram.com/reel/DeZlwUMo0Zo/",
+       "whyItMatters": "Montre des marques qui présentent « le cadeau avant Noël » pour capter l'intention d'achat de cadeaux avant la saison (post concours).",
+       "translationLocal": null
+      },
+      {
+       "platform": "Facebook",
+       "authorHandle": null,
+       "authorName": "Liquidation Paradise by Ornella",
+       "authorType": "Brand",
+       "authorFollowers": 1900,
+       "language": "fr",
+       "postDate": "2026-10-13",
+       "contentFormat": "Image post",
+       "postText": "1 ACHETÉ = 1 OFFERT 🔥 ...Après… la liquidation total, on ouvre officiellement la saison de Noël 👀",
+       "translationEn": "BUY 1 = GET 1 FREE 🔥 ...After… the total clearance, we officially open the Christmas season 👀",
+       "engagement": {
+        "likes": 19,
+        "comments": 1371,
+        "shares": 320,
+        "views": null,
+        "total": 1371
+       },
+       "url": "https://www.facebook.com/571921132679196_2265027864288037",
+       "whyItMatters": "Un petit commerce local qui déclare explicitement « l'ouverture de la saison de Noël » avec des offres à prix réduit : le signal de terrain du cadeau à bon prix, terrain sur lequel ALDI joue.",
+       "translationLocal": null
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "La recherche précoce de cadeaux est le moment d'installer ALDI comme référence du cadeau à bon prix, avant que les acheteurs ne s'ancrent sur des marques plus chères.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram",
+        "Facebook",
+        "Pinterest"
+       ],
+       "creativeConcept": "Carrousels et Reels « Idées cadeaux à petit prix » / « moins de X € », classés par destinataire et renouvelés chaque semaine.",
+       "keyPillars": [
+        "Meilleur prix",
+        "Gamme festive",
+        "Cadeaux"
+       ]
+      }
+     },
+     "shortLabel": "Idées\ncadeaux"
+    },
+    {
+     "themeId": "theme_6",
+     "themeName": "Nostalgie et « Noël comme avant »",
+     "dataSources": [
+      "Facebook",
+      "Instagram",
+      "TikTok"
+     ],
+     "platformFocus": "Facebook",
+     "isCrossPlatform": true,
+     "dataConfidence": "Medium",
+     "confidenceNote": "Mots-clés nostalgiques récurrents (souvenirs, années 70, #nostalgie) et pages rétro à forte audience ; c'est aussi le cadre du débat sur la publicité Intermarché.",
+     "momentum": {
+      "status": "Stable",
+      "timelineDetails": "Un fond émotionnel constant sur toute la période plutôt qu'un pic ; amplifié début octobre par le débat sur la publicité Intermarché « années 70 »."
+     },
+     "summary": {
+      "description": "Un cadre nostalgique fort (« les Noëls de notre enfance », références rétro, êtres chers disparus) façonne une grande partie des contenus émotionnels et engageants, et c'est à travers lui que s'est jouée la polémique autour de la publicité Intermarché.",
+      "languageBreakdown": {
+       "dutchFlanders": "Nostalgie des souvenirs d'enfance (p. ex. la Viennetta 'met kerst', clins d'œil à VTM et Supernanny).",
+       "frenchWallonia": "« années 70 », « souvenirs », « réveillons d'avant » : contenus de pages rétro et débat sur la publicité Intermarché."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "Facebook",
+       "authorHandle": null,
+       "authorName": "RetroVision",
+       "authorType": "Community page",
+       "authorFollowers": 1600,
+       "language": "fr",
+       "postDate": "2026-09-09",
+       "contentFormat": "Image post",
+       "postText": "Si tu as connu ces réveillons-là, tu sais que c'était bien plus que des cadeaux : c'était une ambiance, une insouciance et des absents qui nous manquent aujourd'hui. Tu avais quel âge en 1978 ? #noel",
+       "translationEn": "If you knew those Christmas Eves, you know it was much more than gifts: it was an atmosphere, a carefreeness, and absent loved ones we miss today. How old were you in 1978? #christmas",
+       "engagement": {
+        "likes": 1475,
+        "comments": 820,
+        "shares": 496,
+        "views": null,
+        "total": 820
+       },
+       "url": "https://www.facebook.com/1102118896328478_122119331727372086",
+       "whyItMatters": "De la nostalgie pure qui récolte 496 partages : le registre émotionnel qui surperforme sur Facebook.",
+       "translationLocal": null
+      },
+      {
+       "platform": "Facebook",
+       "authorHandle": "padup.media",
+       "authorName": "Padup",
+       "authorType": "Media",
+       "authorFollowers": 40000,
+       "language": "fr",
+       "postDate": "2026-10-13",
+       "contentFormat": "Text post",
+       "postText": "Une famille qui se dispute la cuisson du rôti, quelque part dans les années 70. ...Intermarché se retrouve accusé de vendre une France fantasmée. ...LA NOSTALGIE N'EST PAS UN DÉLIT",
+       "translationEn": "A family arguing over how to cook the roast, somewhere in the 1970s. ...Intermarché finds itself accused of selling a fantasised France. ...NOSTALGIA IS NOT A CRIME",
+       "engagement": {
+        "likes": 968,
+        "comments": 877,
+        "shares": 214,
+        "views": null,
+        "total": 877
+       },
+       "url": "https://www.facebook.com/786960494503266_122162487807014746",
+       "whyItMatters": "Montre que la nostalgie est à double tranchant : la publicité de Noël nostalgique d'un concurrent a provoqué une polémique sur la diversité ; un point de vigilance pour les créations d'ALDI.",
+       "translationLocal": null
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "La nostalgie est le registre le plus émouvant et le plus partagé, mais la polémique Intermarché montre qu'elle peut se retourner contre la marque si elle paraît excluante. ALDI peut jouer la chaleur et les souvenirs partagés tout en gardant un casting et un cadrage visiblement inclusifs.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Facebook",
+        "Instagram"
+       ],
+       "creativeConcept": "« Hier comme aujourd'hui, la même joie, un prix plus malin » : une création nostalgique et chaleureuse qui relie des moments de fête de l'enfance à une table ALDI moderne et abordable, avec un casting inclusif.",
+       "keyPillars": [
+        "Chaleur de marque",
+        "Rapport qualité-prix",
+        "Inclusivité"
+       ]
+      }
+     },
+     "shortLabel": "Nostalgie"
+    }
+   ],
+   "actionPlan": {
+    "optimalTiming": {
+     "earlyTeasers": "Lancer dès maintenant les teasers calendriers de l'Avent et guides cadeaux, dans la fenêtre S40–S42 (fin septembre à mi-octobre) où les concurrents (adopt parfums, Weleda, partenariats Cora, Famiflora) sont déjà actifs et où le volume augmente chaque semaine. Utiliser le registre « Noëliste » pour désamorcer les « c'est trop tôt ».",
+     "sinterklaasPause": "Respecter le moment de Sinterklaas/Saint-Nicolas (pic autour du 6 décembre) : orienter les messages vers les cadeaux et douceurs pour enfants pendant cette période, sans le fondre dans un Noël générique, surtout en Flandre où Sinterklaas est une fête majeure et distincte. Reprendre la pleine campagne de Noël juste après le 6 décembre.",
+     "peakCampaign": "Déployer la campagne festive complète (table, cadeaux, réceptions) à partir de mi-novembre, en l'intensifiant pendant les deux premières semaines de décembre après Sinterklaas, jusqu'au 24."
+    },
+    "keyContentPillars": [
+     "Meilleur prix sur les produits de préparation précoce que les consommateurs recherchent déjà (calendriers de l'Avent, cadeaux, table de fête).",
+     "Crédibilité de la gamme festive : montrer l'étendue et la qualité de l'offre pour que le bon prix ne soit jamais perçu comme « moins ».",
+     "Ton régional : 'gezelligheid' cocooning et DIY pour la Flandre, cadeaux à bon prix et « magie de Noël » pour la Wallonie et Bruxelles.",
+     "Une nostalgie chaleureuse et inclusive : profiter de sa force émotionnelle sans le risque d'exclusion vu chez Intermarché.",
+     "Un clin d'œil culturel léger (formats « Noëliste » et comptes à rebours) pour rester naturel et partageable sur les réseaux sociaux."
+    ],
+    "regionalStrategy": {
+     "flanders": "Miser en néerlandais sur la maison cocooning, la déco DIY et les réceptions (« gezellige kerst, slimme prijs ») ; s'appuyer sur #kerstsfeer/#gezelligheid ; traiter Sinterklaas comme un moment clé et distinct de cadeaux pour enfants.",
+     "walloniaBrussels": "Miser en français sur les cadeaux à bon prix, les calendriers de l'Avent et la « magie de Noël » ; contrer les concours des marques premium avec des guides cadeaux axés sur le prix ; utiliser le clin d'œil « Noëliste » pour la chaleur sur les réseaux sociaux."
+    }
+   },
+   "headlineStats": [
+    {
+     "value": "52 401",
+     "label": "Publications, du 1er septembre au 15 octobre"
+    },
+    {
+     "value": "6,1 k → 11 k",
+     "label": "Publications par semaine, en hausse chaque semaine"
+    },
+    {
+     "value": "+42 %",
+     "label": "Sentiment net"
+    },
+    {
+     "value": "3,5 : 1",
+     "label": "Publications en français pour une en néerlandais"
+    }
+   ]
+  },
+  "nl": {
+   "meta": {
+    "reportTitle": "Vroege kerstsignalen – België",
+    "targetBrand": "ALDI Belgium",
+    "analysisDate": "2026-10-15",
+    "timeframe": "1 september – 15 oktober 2026"
+   },
+   "executiveSummary": {
+    "overview": "Van 1 september tot 15 oktober 2026 leverde de zoekopdracht Early Christmas (ID: 228494) 52.401 posts op, met elke week een stijging van ongeveer 6.100 tot ongeveer 11.000, voordat de periode midweek afsloot. Facebook (58,7%) en Instagram (40,7%) dragen bijna al het volume; TikTok is klein (0,7%, 343 posts) maar zet de toon voor trendtaal. Het gesprek is al commercieel actief, met adventskalenders, cadeauplanning, nostalgie en gezellige feestsfeer als drijvende krachten.",
+    "dominantMood": "Overwegend positief en aspirationeel (netto sentiment ongeveer +42%): verwachting, gezelligheid en nostalgie. Er is een negatieve staart, maar die is cultureel of politiek (de ophef rond de reclame van Intermarché, het debat over de kerststal op school) en geen kritiek op de categorie.",
+    "culturalNuances": "Franstalige content is ongeveer 3,5 keer zo groot als Nederlandstalige en is emotioneler, nostalgischer en meer gedreven door winacties van merken; Nederlandstalige/Vlaamse content is praktischer en draait meer rond ambacht en sfeer ('kerstsfeer', 'gezelligheid', 'handgemaakt', 'kerstdiner'). Sinterklaas/Saint-Nicolas (6 december) valt tussen nu en kerst en moet gerespecteerd worden als een apart cadeaumoment voor kinderen, niet samengevoegd met kerstboodschappen.",
+    "commercialOpportunity": "Wees de novemberdrukte voor: claim begin tot half oktober het gesprek over adventskalenders en voordelige cadeaus met teasers vanuit de prijs, creatie die per regio verschilt (DIY en ontvangen voor Vlaanderen, voordelige cadeaus en kerstmagie voor Wallonië en Brussel) en een lichte TikTok-aanpak rond de 'Noëliste'-identiteit van vroege kerstfans."
+   },
+   "platformCoverage": [
+    {
+     "platform": "Facebook",
+     "postCount": 30719,
+     "shareOfPosts": "58.7%",
+     "dataConfidence": "High",
+     "contentCharacter": "Communitypagina's, nostalgie- en retroaccounts en 'Père Noël'-personagepagina's die aftellen, polls posten om reacties uit te lokken ('sapin à l'école?') en uitverkoop- of winactieposts van winkels delen; het engagement komt vooral uit reacties.",
+     "themeIds": [
+      "theme_1",
+      "theme_3",
+      "theme_5"
+     ]
+    },
+    {
+     "platform": "Instagram",
+     "postCount": 21339,
+     "shareOfPosts": "40.7%",
+     "dataConfidence": "High",
+     "contentCharacter": "Reels en carrousels van merken en creators, sterk gericht op winacties met adventskalenders en het in de kijker zetten van feestproducten; veel volgers en wedstrijdmechanieken (liken/volgen/taggen).",
+     "themeIds": [
+      "theme_1",
+      "theme_2",
+      "theme_4"
+     ]
+    },
+    {
+     "platform": "TikTok",
+     "postCount": 343,
+     "shareOfPosts": "0.7%",
+     "dataConfidence": "Low",
+     "contentCharacter": "Klein maar creatief: humoristische creatorformats die een vroege-kerstidentiteit bedenken ('Noëliste', 'Noëlopathie'), sketches van winkels (Famiflora/Grinch), nostalgische edits; enkel richtinggevend.",
+     "themeIds": [
+      "theme_2",
+      "theme_4",
+      "theme_6"
+     ]
+    },
+    {
+     "platform": "X",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "Geen relevante posts in deze zoekopdracht of periode.",
+     "themeIds": []
+    },
+    {
+     "platform": "YouTube",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "Geen relevante posts in deze zoekopdracht of periode.",
+     "themeIds": []
+    },
+    {
+     "platform": "Reddit",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "Geen relevante posts in deze zoekopdracht of periode.",
+     "themeIds": []
+    },
+    {
+     "platform": "News",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "Geen relevante posts in deze zoekopdracht of periode.",
+     "themeIds": []
+    },
+    {
+     "platform": "Blogs",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "Geen relevante posts in deze zoekopdracht of periode.",
+     "themeIds": []
+    },
+    {
+     "platform": "Forums",
+     "postCount": 0,
+     "shareOfPosts": "0%",
+     "dataConfidence": "Low",
+     "contentCharacter": "Geen relevante posts in deze zoekopdracht of periode.",
+     "themeIds": []
+    }
+   ],
+   "themes": [
+    {
+     "themeId": "theme_1",
+     "themeName": "Adventskalenders als instapproduct van de vroege kerst",
+     "dataSources": [
+      "Instagram",
+      "Facebook",
+      "TikTok"
+     ],
+     "platformFocus": "Instagram",
+     "isCrossPlatform": true,
+     "dataConfidence": "High",
+     "confidenceNote": "Onderwerp 'calendrier de l'avent' 1.459 + 'adventskalender/#adventskalender' in het NL; dominant in de populairste Instagram-content. Sterk signaal.",
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Zichtbaar vanaf begin september, versnelt eind september tot de piek van 6 tot 12 oktober, wanneer merken hun winacties lanceren vóór het eerste deurtje op 1 december."
+     },
+     "summary": {
+      "description": "Adventskalenders zijn het duidelijkste koopintentiegedrag. Merken (beauty, parfum, natuurlijke verzorging) houden winacties met liken/volgen/taggen voor kalenders van 24 dagen; consumenten vragen zich af welke geuren of producten ze erin willen. Het is het natuurlijke instapproduct voor een vroege kerstboodschap rond waarde.",
+      "languageBreakdown": {
+       "dutchFlanders": "'#adventskalender' (119) en 'cadeautip'-framing; rustiger, meer gericht op product en cadeautips.",
+       "frenchWallonia": "Dominant en gedreven door winacties: 'calendrier de l'avent', beauty- en parfumkalenders, samenwerkingen met retailers (Cora)."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@adoptparfums",
+       "authorName": "adopt parfums",
+       "authorType": "Brand",
+       "authorFollowers": 416106,
+       "language": "fr",
+       "postDate": "2026-10-04",
+       "contentFormat": "Image post",
+       "postText": "CONCOURS ✨🎄 On te gâte avec LE calendrier 100 % bougies qui va parfumer toute ta maison en décembre : 24 jours, 24 bougies 🎁🕯️ Pour tenter de le remporter : 💖 Like ce post 🔔 Abonne-toi...",
+       "translationEn": "GIVEAWAY ✨🎄 We're spoiling you with THE 100% candle calendar that will perfume your whole home in December: 24 days, 24 candles 🎁🕯️ To win: Like this post, follow our account...",
+       "engagement": {
+        "likes": 4571,
+        "comments": 2770,
+        "shares": null,
+        "views": null,
+        "total": 2770
+       },
+       "url": "https://www.instagram.com/p/DeEJ-uylyDZ/",
+       "whyItMatters": "Feestelijke merkpost met het meeste engagement in de periode; een winactiepost die bewijst dat adventskalenders de belangrijkste Q4-haak zijn (wedstrijdmechaniek).",
+       "translationLocal": "WINACTIE ✨🎄 We verwennen je met DE kalender met 100% kaarsen die in december je hele huis laat geuren: 24 dagen, 24 kaarsen 🎁🕯️ Om kans te maken: 💖 Like deze post 🔔 Volg ons..."
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@melina_santangelo",
+       "authorName": "Melina Santangelo - Content creator & UGC",
+       "authorType": "Creator",
+       "authorFollowers": 31163,
+       "language": "fr",
+       "postDate": "2026-10-04",
+       "contentFormat": "Image post",
+       "postText": "🎁 CONCOURS - CALENDRIER DE L'AVENT 🎉 Pour fêter l'arrivée @adoptparfums.be chez Cora, une de vous remportera un calendrier de l'Avent de 94,95€ (valeur 214,75€ de produits)...",
+       "translationEn": "🎁 GIVEAWAY - ADVENT CALENDAR 🎉 To celebrate @adoptparfums.be arriving at Cora, one of you will win an advent calendar worth €94.95 (€214.75 of products)...",
+       "engagement": {
+        "likes": 854,
+        "comments": 3363,
+        "shares": null,
+        "views": null,
+        "total": 3363
+       },
+       "url": "https://www.instagram.com/p/DeEHSxPjIq5/",
+       "whyItMatters": "Winactie van een creator met een supermarkt (Cora): precies het concurrentiële draaiboek waar ALDI op waarde tegenin kan gaan (betaalde/affiliatepost).",
+       "translationLocal": "🎁 WINACTIE - ADVENTSKALENDER 🎉 Om te vieren dat @adoptparfums.be bij Cora te koop is, wint een van jullie een adventskalender van €94,95 (€214,75 aan producten)..."
+      },
+      {
+       "platform": "Instagram",
+       "authorHandle": "@weledafr",
+       "authorName": "Weleda France 🌻",
+       "authorType": "Brand",
+       "authorFollowers": 126860,
+       "language": "fr",
+       "postDate": "2026-09-17",
+       "contentFormat": "Image post",
+       "postText": "🎄 Jeu concours Calendrier de l'Avent 🎄 Oui, c'est septembre. Mais certaines surprises n'attendent pas 🤭 ...24 surprises naturelles, dont de grands formats, pour patienter jusqu'à Noël 🎁",
+       "translationEn": "🎄 Advent Calendar giveaway 🎄 Yes, it's September. But some surprises can't wait 🤭 ...24 natural surprises, including full sizes, to tide you over until Christmas 🎁",
+       "engagement": {
+        "likes": 1617,
+        "comments": 1548,
+        "shares": null,
+        "views": null,
+        "total": 1548
+       },
+       "url": "https://www.instagram.com/p/DdYmIApk8k1/",
+       "whyItMatters": "Een merk dat expliciet zegt 'het is september, maar we wachten niet': dat bevestigt een vroege adventsactivatie (winactiepost).",
+       "translationLocal": "🎄 Winactie adventskalender 🎄 Ja, het is september. Maar sommige verrassingen kunnen niet wachten 🤭 ...24 natuurlijke verrassingen, waaronder grote formaten, om de tijd tot kerst te overbruggen 🎁"
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "Adventskalenders zijn een goedkoop, zeer zichtbaar instapproduct waarmee ALDI kan winnen op prijs per deurtje tegenover premium beautykalenders, en vroege kijkers kan omzetten in klanten voor het feestassortiment.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram Reels",
+        "Facebook",
+        "Pinterest"
+       ],
+       "creativeConcept": "'24 dagen, slimme prijs': een adventskalender-onthulling als budget-unboxing die het ALDI-assortiment naast duurdere concurrenten zet, met een chocoladeoptie voor kinderen.",
+       "keyPillars": [
+        "Prijsleiderschap",
+        "Feestassortiment",
+        "Gezin"
+       ]
+      }
+     },
+     "shortLabel": "Advents-\nkalenders"
+    },
+    {
+     "themeId": "theme_2",
+     "themeName": "'Noëliste / Noëlopathie': de identiteitstrend van de vroege kerst",
+     "dataSources": [
+      "TikTok",
+      "Instagram",
+      "Facebook"
+     ],
+     "platformFocus": "TikTok",
+     "isCrossPlatform": true,
+     "dataConfidence": "Low",
+     "confidenceNote": "Gebaseerd op een kleine TikTok-set (343 posts in totaal voor het platform); termen bedacht door creators, enkel richtinggevend.",
+     "momentum": {
+      "status": "Emerging",
+      "timelineDetails": "@lilosquare post 'Noëlopathie' (19 sept.) en daarna 'Noëlistes' (22 sept.); het concept duikt in oktober op in Instagram- en Facebookcaptions als zelfspottend label voor wie vroeg begint."
+     },
+     "summary": {
+      "description": "Creators bedenken speelse 'aandoeningen' ('Noëliste', 'Noëlopathie') om van kerst houden in september te verantwoorden, ondanks 'het is te vroeg'. Het is een kant-en-klare tone of voice en een vrijbrief voor merken die vroeg starten.",
+      "languageBreakdown": {
+       "dutchFlanders": "Komt eerder tot uiting als speelse verdediging tegen 'te vroeg?' en uitkijken naar het gezellige seizoen dan als een bedacht label.",
+       "frenchWallonia": "Expliciete neologismen 'Noëliste' en 'Noëlopathie' die de Franstalige identiteitshumor dragen."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "TikTok",
+       "authorHandle": "@lilosquare",
+       "authorName": "Lilosquare",
+       "authorType": "Creator",
+       "authorFollowers": 44073,
+       "language": "fr",
+       "postDate": "2026-09-22",
+       "contentFormat": "Video",
+       "postText": "Si vous ne savez pas quoi manger ce soir mais que vous avez déjà prévu votre dîner de Noël… c'est normal : vous faites partie des Noëlistes. 😂🎄 ...la magie de Noël commence bien avant le 24 décembre.",
+       "translationEn": "If you don't know what to eat tonight but you've already planned your Christmas dinner… it's normal: you're one of the Noëlistes. 😂🎄 ...the magic of Christmas starts well before 24 December.",
+       "engagement": {
+        "likes": 1806,
+        "comments": 1604,
+        "shares": 1585,
+        "views": 32098,
+        "total": 1604
+       },
+       "url": "https://www.tiktok.com/@lilosquare/video/7688386144198839585",
+       "whyItMatters": "Bedenkt de 'Noëliste'-identiteit: een kant-en-klare, warme haak voor een vroege kersttoon bij ALDI.",
+       "translationLocal": "Als je niet weet wat je vanavond eet, maar je kerstdiner al gepland hebt… dan is dat normaal: je bent een Noëliste. 😂🎄 ...de kerstmagie begint al lang voor 24 december."
+      },
+      {
+       "platform": "TikTok",
+       "authorHandle": "@lilosquare",
+       "authorName": "Lilosquare",
+       "authorType": "Creator",
+       "authorFollowers": 43977,
+       "language": "fr",
+       "postDate": "2026-09-19",
+       "contentFormat": "Video",
+       "postText": "Vous souffrez peut-être de Noëlopathie… et la bonne nouvelle, c'est qu'on n'a absolument pas l'intention de vous soigner. 😂❤️ ...même quand tout le monde nous répète qu'il est « beaucoup trop tôt ».",
+       "translationEn": "You might be suffering from Noëlopathy… and the good news is we have absolutely no intention of curing you. 😂❤️ ...even when everyone keeps telling us it's 'way too early'.",
+       "engagement": {
+        "likes": 319,
+        "comments": 497,
+        "shares": 494,
+        "views": 12059,
+        "total": 497
+       },
+       "url": "https://www.tiktok.com/@lilosquare/video/7687217737642331425",
+       "whyItMatters": "Beantwoordt rechtstreeks het 'te vroeg'-bezwaar dat ALDI zal krijgen bij een activatie in oktober.",
+       "translationLocal": "Misschien lijd je aan Noëlopathie… en het goede nieuws is dat we absoluut niet van plan zijn je te genezen. 😂❤️ ...ook al zegt iedereen ons dat het 'veel te vroeg' is."
+      },
+      {
+       "platform": "TikTok",
+       "authorHandle": "@famiflora.be_fr",
+       "authorName": "famiflora.be_fr",
+       "authorType": "Brand",
+       "authorFollowers": 17055,
+       "language": "fr",
+       "postDate": "2026-10-06",
+       "contentFormat": "Video",
+       "postText": "Attention : le grinch s'est caché chez Famiflora et il n'est pas près d'arrêter ses petites bêtises 😅👀 #grinchmas #christmas #noël #grinch #famiflora",
+       "translationEn": "Warning: the Grinch has hidden at Famiflora and he's not about to stop his little pranks 😅👀 #grinchmas #christmas #noël #grinch #famiflora",
+       "engagement": {
+        "likes": 1770,
+        "comments": 1568,
+        "shares": 1559,
+        "views": 42126,
+        "total": 1568
+       },
+       "url": "https://www.tiktok.com/@famiflora.be_fr/video/7693566968296656161",
+       "whyItMatters": "Een Belgische retailer doet al feestelijke TikTok-sketches met een personage: het bewijs dat ALDI zijn eigen luchtige winkelhumor kan inzetten.",
+       "translationLocal": "Let op: de Grinch heeft zich verstopt bij Famiflora en hij is nog lang niet gestopt met zijn kattenkwaad 😅👀 #grinchmas #christmas #noël #grinch #famiflora"
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "Geeft ALDI een cultureel natuurlijke, zelfbewuste manier om vroeg te starten zonder opdringerig over te komen: het merk kiest de kant van enthousiaste vroege vierders in plaats van hen de les te lezen.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "TikTok",
+        "Instagram Reels"
+       ],
+       "creativeConcept": "Een ALDI-sketch 'trots Noëliste': een shopper smokkelt feestelijke ALDI-producten in een oktoberkar terwijl een stem zegt 'het is te vroeg'; budget-haul met een knipoog.",
+       "keyPillars": [
+        "Feestassortiment",
+        "Merkwarmte",
+        "Waarde"
+       ]
+      }
+     },
+     "shortLabel": "Noëliste-\nidentiteit"
+    },
+    {
+     "themeId": "theme_3",
+     "themeName": "Aftellen en '100 dagen tot kerst'-mechanieken",
+     "dataSources": [
+      "Facebook",
+      "Instagram"
+     ],
+     "platformFocus": "Facebook",
+     "isCrossPlatform": true,
+     "dataConfidence": "Medium",
+     "confidenceNote": "Gedreven door personagepagina's met groot bereik (bv. @magie2noel, 267K); aftelposts worden veel gedeeld. Exact volume is richtinggevend.",
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "'103 jours avant Noël' verschijnt op 13 september; het aftellen komt wekelijks terug naarmate de datum nadert en voedt de gestage stijging van het weekvolume."
+     },
+     "summary": {
+      "description": "Eenvoudige aftelformats ('nog X dagen') zijn betrouwbare engagementdrijvers op Facebook, vaak van Père Noël-personagepagina's en nostalgiepagina's, met veel shares en verwachting.",
+      "languageBreakdown": {
+       "dutchFlanders": "Aanwezig via 'aftellen' en gezellige verwachting, en de seizoenshashtag '#kerst2026' (360).",
+       "frenchWallonia": "Expliciete aftelposts van grote Père Noël-pagina's die bereik en shares opleveren."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "Facebook",
+       "authorHandle": "magie2noel",
+       "authorName": "Père Noël",
+       "authorType": "Community page",
+       "authorFollowers": 267000,
+       "language": "fr",
+       "postDate": "2026-09-13",
+       "contentFormat": "Image post",
+       "postText": "Il reste seulement 103 jours avant Noël 🎄🎅",
+       "translationEn": "Only 103 days left until Christmas 🎄🎅",
+       "engagement": {
+        "likes": 1823,
+        "comments": 1049,
+        "shares": 933,
+        "views": null,
+        "total": 1049
+       },
+       "url": "https://www.facebook.com/251020282205289_1390513406588898",
+       "whyItMatters": "933 shares voor een aftelpost van één regel: verwachtingscontent verspreidt zich goedkoop op Facebook.",
+       "translationLocal": "Nog maar 103 dagen tot kerst 🎄🎅"
+      },
+      {
+       "platform": "Facebook",
+       "authorHandle": "magie2noel",
+       "authorName": "Père Noël",
+       "authorType": "Community page",
+       "authorFollowers": 267000,
+       "language": "fr",
+       "postDate": "2026-09-13",
+       "contentFormat": "Image post",
+       "postText": "Je suis favorable au passage du Père Noël dans les écoles pour les enfants 🎅🎄 et vous ?",
+       "translationEn": "I'm in favour of Santa visiting schools for the children 🎅🎄 what about you?",
+       "engagement": {
+        "likes": 7412,
+        "comments": 1609,
+        "shares": 428,
+        "views": null,
+        "total": 1609
+       },
+       "url": "https://www.facebook.com/251020282205289_1390516816588557",
+       "whyItMatters": "De meest zichtbare feestelijke Facebookpost; polls die reacties uitlokken en de kerstman domineren het bereik op Facebook.",
+       "translationLocal": "Ik ben voor een bezoek van de kerstman aan scholen voor de kinderen 🎅🎄 en jij?"
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "Goedkope formats die veel gedeeld worden en die ALDI kan claimen om bovenaan de feed te blijven in het voorseizoen, zonder zware productie.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Facebook",
+        "Instagram"
+       ],
+       "creativeConcept": "Een wekelijkse ALDI-aftelling die 'nog X dagen tot kerst' koppelt aan één budgettip of product van de week (bv. 'nog X dagen: deze week de adventskalender in huis halen').",
+       "keyPillars": [
+        "Feestassortiment",
+        "Prijsleiderschap",
+        "Hulp bij plannen"
+       ]
+      }
+     },
+     "shortLabel": "Aftellen"
+    },
+    {
+     "themeId": "theme_4",
+     "themeName": "Gezellige sfeer en zelfgemaakte kerstdecoratie (Vlaanderen voorop)",
+     "dataSources": [
+      "Instagram",
+      "Facebook",
+      "TikTok"
+     ],
+     "platformFocus": "Instagram",
+     "isCrossPlatform": true,
+     "dataConfidence": "Medium",
+     "confidenceNote": "Sterke cluster van NL-hashtags (#kerstdecoratie 382, #kerstsfeer 243, #handgemaakt 129, #cozyvibes 696 in totaal); gedreven door ambacht en sfeer.",
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Groeit gestaag door september heen naarmate decoratie- en inspiratiecontent toewerkt naar de piek in oktober; overlapt met herfsttags."
+     },
+     "summary": {
+      "description": "Een warme, esthetische cluster rond feestsfeer, woondecoratie en handgemaakte cadeaus: sterker en praktischer in Nederlandstalige/Vlaamse content dan in Franstalige. Gezelligheid is hier een bepalende Vlaamse waarde.",
+      "languageBreakdown": {
+       "dutchFlanders": "Trekt dit thema: #kerstsfeer (243), #gezelligheid (111), #kerstdecoratie (382), #handgemaakt (129), #kerstdiner, humor over ontvangen met de 'schoonmoeder' (249).",
+       "frenchWallonia": "Aanwezig via #cozyvibes, #faitmain (675) en #artisanat (436), content over ambacht en markten, maar ondergeschikt aan cadeaus en winacties."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "chantaljanzen.official",
+       "authorName": "Chantal Janzen",
+       "authorType": "Creator",
+       "authorFollowers": 1736674,
+       "language": "nl",
+       "postDate": "2026-09-06",
+       "contentFormat": "Image post",
+       "postText": "Viennetta met kerst, op zomervakantie naar Scheveningen... (nostalgische opsomming van jeugdherinneringen). Let's go👇",
+       "translationEn": "Viennetta at Christmas, summer holidays to Scheveningen... (a nostalgic list of childhood memories). Let's go👇",
+       "engagement": {
+        "likes": 3004,
+        "comments": 809,
+        "shares": null,
+        "views": null,
+        "total": 809
+       },
+       "url": "https://www.instagram.com/p/Dc8F32goq9s/",
+       "whyItMatters": "Nederlandstalige nostalgie koppelt een feestelijke etensherinnering (Viennetta 'met kerst') expliciet aan gezellige verbondenheid: het emotionele register van Vlaamse feestcontent.",
+       "translationLocal": null
+      },
+      {
+       "platform": "TikTok",
+       "authorHandle": "@lollenmetems",
+       "authorName": "LollenmetEms",
+       "authorType": "Creator",
+       "authorFollowers": 7413,
+       "language": "nl",
+       "postDate": "2026-10-08",
+       "contentFormat": "Video",
+       "postText": "Wie kent deze topper nog?🙈😂🤡🫎 #rendierhoedje #supernanny #vtm #kerstmarkt #zagenstaatvrij",
+       "translationEn": "Who still remembers this classic?🙈😂🤡🫎 #reindeerhat #supernanny #vtm #christmasmarket #moaningisallowed",
+       "engagement": {
+        "likes": 597,
+        "comments": 841,
+        "shares": 828,
+        "views": 31717,
+        "total": 841
+       },
+       "url": "https://www.tiktok.com/@lollenmetems/video/7694401551321795842",
+       "whyItMatters": "Een Vlaamse creator mengt kerstmarktnostalgie (#kerstmarkt) met lokale VTM-referenties: de gezellige humortoon voor Nederlandstalig publiek.",
+       "translationLocal": null
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "ALDI kan inspelen op de Vlaamse gezelligheid en de DIY-decomindset met betaalbare decoratie- en ontvangstassortimenten, waarbij een lage prijs een gezellig huis mogelijk maakt in plaats van een compromis te zijn.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram Reels",
+        "Pinterest",
+        "TikTok"
+       ],
+       "creativeConcept": "'Gezellige kerst, slimme prijs': een Nederlandstalige Reel over gezellige interieurstyling met betaalbare ALDI-decoratie en een feesttafel, met een handgemaakte DIY-twist.",
+       "keyPillars": [
+        "Feestassortiment",
+        "Kwaliteit",
+        "Waarde"
+       ]
+      }
+     },
+     "shortLabel": "Gezelligheid\nen DIY-deco"
+    },
+    {
+     "themeId": "theme_5",
+     "themeName": "Cadeauplanning: 'idées cadeaux' en cadeautips",
+     "dataSources": [
+      "Facebook",
+      "Instagram"
+     ],
+     "platformFocus": "Instagram",
+     "isCrossPlatform": true,
+     "dataConfidence": "High",
+     "confidenceNote": "Onderwerpclusters 'cadeau' 1.710 + 'cadeaux' 1.373 + 'idées cadeaux' 1.078; #ideecadeau 986. Sterk signaal.",
+     "momentum": {
+      "status": "Growing",
+      "timelineDetails": "Content met cadeau-ideeën stijgt vanaf half september en bouwt op tot de piek in oktober, nu consumenten ruim voor december aan hun lijstjes beginnen."
+     },
+     "summary": {
+      "description": "Consumenten en creators delen weken op voorhand al actief cadeau-ideeën en tips: zoekgedrag vóór de aankoop dat ALDI kan opvangen met samengestelde cadeaugidsen die vertrekken vanuit de prijs.",
+      "languageBreakdown": {
+       "dutchFlanders": "Praktische cadeautip-framing met 'cadeautip' (116) en '#kerstcadeau' (346).",
+       "frenchWallonia": "'idées cadeaux' / '#ideecadeau' (986) domineren, vaak gekoppeld aan winacties."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "Instagram",
+       "authorHandle": "@adoptparfums",
+       "authorName": "adopt parfums",
+       "authorType": "Brand",
+       "authorFollowers": 416106,
+       "language": "fr",
+       "postDate": "2026-10-12",
+       "contentFormat": "Reel",
+       "postText": "CONCOURS🎄 Le plus beau cadeau avant Noël ? Recevoir cette invitation. 💌 ...Dis-nous en commentaire quel est ton produit Adopt préféré pour les fêtes",
+       "translationEn": "GIVEAWAY🎄 The nicest gift before Christmas? Receiving this invitation. 💌 ...Tell us in the comments your favourite Adopt product for the holidays",
+       "engagement": {
+        "likes": 2807,
+        "comments": 957,
+        "shares": null,
+        "views": null,
+        "total": 957
+       },
+       "url": "https://www.instagram.com/reel/DeZlwUMo0Zo/",
+       "whyItMatters": "Toont merken die 'le cadeau avant Noël' inzetten om cadeau-intentie vóór het seizoen op te vangen (winactiepost).",
+       "translationLocal": "WINACTIE🎄 Het mooiste cadeau vóór kerst? Deze uitnodiging krijgen. 💌 ...Vertel ons in de reacties wat jouw favoriete Adopt-product voor de feestdagen is"
+      },
+      {
+       "platform": "Facebook",
+       "authorHandle": null,
+       "authorName": "Liquidation Paradise by Ornella",
+       "authorType": "Brand",
+       "authorFollowers": 1900,
+       "language": "fr",
+       "postDate": "2026-10-13",
+       "contentFormat": "Image post",
+       "postText": "1 ACHETÉ = 1 OFFERT 🔥 ...Après… la liquidation total, on ouvre officiellement la saison de Noël 👀",
+       "translationEn": "BUY 1 = GET 1 FREE 🔥 ...After… the total clearance, we officially open the Christmas season 👀",
+       "engagement": {
+        "likes": 19,
+        "comments": 1371,
+        "shares": 320,
+        "views": null,
+        "total": 1371
+       },
+       "url": "https://www.facebook.com/571921132679196_2265027864288037",
+       "whyItMatters": "Een kleine lokale winkel die met voordeelacties expliciet 'de opening van het kerstseizoen' aankondigt: het signaal van onderuit rond voordelige cadeaus, het terrein waarop ALDI concurreert.",
+       "translationLocal": "1 GEKOCHT = 1 GRATIS 🔥 ...Na… de totale uitverkoop openen we officieel het kerstseizoen 👀"
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "Vroeg zoeken naar cadeaus is het moment om ALDI te vestigen als dé plek voor voordelige cadeaus, voordat shoppers zich vastzetten op duurdere merken.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Instagram",
+        "Facebook",
+        "Pinterest"
+       ],
+       "creativeConcept": "Carrousels en Reels 'Cadeau-ideeën onder €X', ingedeeld per ontvanger en wekelijks vernieuwd.",
+       "keyPillars": [
+        "Prijsleiderschap",
+        "Feestassortiment",
+        "Cadeaus"
+       ]
+      }
+     },
+     "shortLabel": "Cadeau-\nplanning"
+    },
+    {
+     "themeId": "theme_6",
+     "themeName": "Nostalgie en 'kerst zoals vroeger'",
+     "dataSources": [
+      "Facebook",
+      "Instagram",
+      "TikTok"
+     ],
+     "platformFocus": "Facebook",
+     "isCrossPlatform": true,
+     "dataConfidence": "Medium",
+     "confidenceNote": "Terugkerende nostalgische trefwoorden (souvenirs, années 70, #nostalgie) en retropagina's met groot bereik; ook het kader van het debat over de Intermarché-reclame.",
+     "momentum": {
+      "status": "Stable",
+      "timelineDetails": "Een constante emotionele onderstroom over de hele periode eerder dan een piek; begin oktober versterkt door de discussie over de 'années 70'-reclame van Intermarché."
+     },
+     "summary": {
+      "description": "Een sterk nostalgisch kader ('de kerstfeesten uit onze kindertijd', retroverwijzingen, dierbaren die er niet meer zijn) bepaalt veel van de emotionele content met veel engagement, en is de lens waardoor de ophef rond de Intermarché-reclame werd bekeken.",
+      "languageBreakdown": {
+       "dutchFlanders": "Nostalgie naar jeugdherinneringen (bv. Viennetta 'met kerst', throwbacks naar VTM en Supernanny).",
+       "frenchWallonia": "'années 70', 'souvenirs', 'réveillons d'avant': content van retropagina's en het debat over de Intermarché-reclame."
+      }
+     },
+     "exampleContent": [
+      {
+       "platform": "Facebook",
+       "authorHandle": null,
+       "authorName": "RetroVision",
+       "authorType": "Community page",
+       "authorFollowers": 1600,
+       "language": "fr",
+       "postDate": "2026-09-09",
+       "contentFormat": "Image post",
+       "postText": "Si tu as connu ces réveillons-là, tu sais que c'était bien plus que des cadeaux : c'était une ambiance, une insouciance et des absents qui nous manquent aujourd'hui. Tu avais quel âge en 1978 ? #noel",
+       "translationEn": "If you knew those Christmas Eves, you know it was much more than gifts: it was an atmosphere, a carefreeness, and absent loved ones we miss today. How old were you in 1978? #christmas",
+       "engagement": {
+        "likes": 1475,
+        "comments": 820,
+        "shares": 496,
+        "views": null,
+        "total": 820
+       },
+       "url": "https://www.facebook.com/1102118896328478_122119331727372086",
+       "whyItMatters": "Pure nostalgie die 496 shares oplevert: het emotionele register dat het best scoort op Facebook.",
+       "translationLocal": "Als je die kerstavonden nog gekend hebt, weet je dat het om veel meer ging dan cadeaus: het was een sfeer, een zorgeloosheid, en dierbaren die we vandaag missen. Hoe oud was jij in 1978? #noel"
+      },
+      {
+       "platform": "Facebook",
+       "authorHandle": "padup.media",
+       "authorName": "Padup",
+       "authorType": "Media",
+       "authorFollowers": 40000,
+       "language": "fr",
+       "postDate": "2026-10-13",
+       "contentFormat": "Text post",
+       "postText": "Une famille qui se dispute la cuisson du rôti, quelque part dans les années 70. ...Intermarché se retrouve accusé de vendre une France fantasmée. ...LA NOSTALGIE N'EST PAS UN DÉLIT",
+       "translationEn": "A family arguing over how to cook the roast, somewhere in the 1970s. ...Intermarché finds itself accused of selling a fantasised France. ...NOSTALGIA IS NOT A CRIME",
+       "engagement": {
+        "likes": 968,
+        "comments": 877,
+        "shares": 214,
+        "views": null,
+        "total": 877
+       },
+       "url": "https://www.facebook.com/786960494503266_122162487807014746",
+       "whyItMatters": "Toont dat nostalgie een tweesnijdend zwaard is: de nostalgische kerstreclame van een concurrent lokte kritiek uit over diversiteit; een waarschuwing voor de creatie van ALDI.",
+       "translationLocal": "Een familie die ruziet over hoe het gebraad gebakken moet worden, ergens in de jaren 70. ...Intermarché wordt ervan beschuldigd een gefantaseerd Frankrijk te verkopen. ...NOSTALGIE IS GEEN MISDAAD"
+      }
+     ],
+     "aldiImplications": {
+      "strategicValue": "Nostalgie is het meest emotionele en deelbare register, maar de ophef rond Intermarché toont dat het averechts kan werken als het uitsluitend overkomt. ALDI kan inzetten op warmte en gedeelde herinneringen, met een zichtbaar inclusieve casting en invalshoek.",
+      "contentActivation": {
+       "recommendedChannels": [
+        "Facebook",
+        "Instagram"
+       ],
+       "creativeConcept": "'Toen en nu, dezelfde vreugde, een slimmere prijs': een warme nostalgische creatie die feestmomenten uit de kindertijd verbindt met een moderne, betaalbare ALDI-tafel, met inclusieve casting.",
+       "keyPillars": [
+        "Merkwarmte",
+        "Waarde",
+        "Inclusiviteit"
+       ]
+      }
+     },
+     "shortLabel": "Nostalgie"
+    }
+   ],
+   "actionPlan": {
+    "optimalTiming": {
+     "earlyTeasers": "Lanceer nu teasers voor adventskalenders en cadeaugidsen, in de periode W40–W42 (eind september tot half oktober), waarin concurrenten (adopt parfums, Weleda, Cora-samenwerkingen, Famiflora) al actief zijn en het volume elke week stijgt. Gebruik het 'Noëliste'-kader om het bezwaar 'te vroeg' te ontkrachten.",
+     "sinterklaasPause": "Respecteer het moment van Sinterklaas/Saint-Nicolas (piek rond 6 december): stuur de boodschap in die periode richting cadeaus en snoepgoed voor kinderen en laat het niet opgaan in een algemene kerst, zeker in Vlaanderen, waar Sinterklaas een groot, apart feest is. Hervat de volledige kerstcampagne meteen na 6 december.",
+     "peakCampaign": "Rol de volledige feestcampagne (feesttafel, cadeaus, ontvangen) uit vanaf half november en voer ze op in de eerste twee weken van december, na Sinterklaas, tot de 24ste."
+    },
+    "keyContentPillars": [
+     "Prijsleiderschap op precies de producten die consumenten nu al opzoeken voor hun vroege planning (adventskalenders, cadeaus, feesttafel).",
+     "Geloofwaardigheid van het feestassortiment: toon breedte en kwaliteit, zodat een lage prijs nooit als 'minder' overkomt.",
+     "Regionale toon: gezelligheid en DIY voor Vlaanderen, voordelige cadeaus en 'magie de Noël' voor Wallonië en Brussel.",
+     "Warme, inclusieve nostalgie: gebruik de emotionele kracht zonder het risico op uitsluiting zoals bij Intermarché.",
+     "Luchtige culturele knipoog ('Noëliste'- en aftelformats) om natuurlijk en deelbaar te blijven op sociale media."
+    ],
+    "regionalStrategy": {
+     "flanders": "Zet in het Nederlands in op gezellig wonen, DIY-decoratie en ontvangen ('gezellige kerst, slimme prijs'); speel in op #kerstsfeer/#gezelligheid; behandel Sinterklaas als een belangrijk, apart cadeaumoment voor kinderen.",
+     "walloniaBrussels": "Zet in het Frans in op voordelige cadeaus, adventskalenders en 'magie de Noël'; ga met prijsgerichte cadeaugidsen in tegen de winacties van premiummerken; gebruik de 'Noëliste'-knipoog voor warmte op sociale media."
+    }
+   },
+   "headlineStats": [
+    {
+     "value": "52.401",
+     "label": "Posts, 1 september tot 15 oktober"
+    },
+    {
+     "value": "6,1K → 11K",
+     "label": "Posts per week, elke week meer"
+    },
+    {
+     "value": "+42%",
+     "label": "Netto sentiment"
+    },
+    {
+     "value": "3,5 : 1",
+     "label": "Franstalige tegenover Nederlandstalige posts"
+    }
+   ]
+  }
+ }
+}

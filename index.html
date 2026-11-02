@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ALDI Belgium: Early Christmas Signals</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+<style>
+/* ==========================================================================
+   SURT FONT: paste the two "@font-face { font-family: "Surt Normal" ... }"
+   blocks from the Vanish template here. Until then the page falls back to
+   Space Grotesk, which is close enough for review.
+   ========================================================================== */
+
+/* ===================== Pulsar Cosmos tokens ===================== */
+:root{
+  --font-display:"Surt Normal","Space Grotesk",ui-sans-serif,system-ui,sans-serif;
+  --font-body:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --pulsar-blue:#0068FD; --pulsar-blue-tint:#94C0FF; --pulsar-orange:#EE7241;
+  --pulsar-purple:#BC98E5; --pulsar-green:#6CE59D; --pulsar-lilac:#A5B3F5;
+  --space:#182141; --space-ink:#232E59; --star:#FFFFFF; --star-cool:#94C0FF;
+  --link-line:rgba(148,192,255,.42); --link-line-hot:rgba(238,114,65,.9);
+  --on-space:#FFFFFF; --on-space-2:rgba(255,255,255,.68);
+  --ease-out:cubic-bezier(0,0,.2,1); --pulse-period:3.6s; --draw-duration:1.4s;
+
+  --bg:#F7F7F7; --card:#FFFFFF; --line:#E4E5EA; --body:#3A3A3A; --heading:#182141; --grey:#6E6E73;
+  --track:#ECECEF; --tint:#F2F6FF; --tint-line:#D5E4FF; --tag-bg:#EAF1FF; --tag-fg:#0058D6;
+  --ok-bg:#F1FAF4; --ok-line:#CDEFD9; --ok-fg:#1E7A46;
+  --warn-bg:#FFF4DC; --warn-line:#F2B544; --warn-fg:#8A5E00;
+  --hot-bg:#FDEEE7; --hot-line:#F3B79E; --hot-fg:#B8441A;
+  --shadow:0 1px 2px rgba(24,33,65,.05),0 8px 24px rgba(24,33,65,.06); --radius:16px; --fab:#0068FD;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141B36; --card:#182141; --line:rgba(255,255,255,.12); --body:rgba(255,255,255,.82); --heading:#FFFFFF; --grey:rgba(255,255,255,.6);
+  --track:rgba(255,255,255,.12); --tint:#202A52; --tint-line:#2F3C70; --tag-bg:#22305E; --tag-fg:#94C0FF;
+  --ok-bg:#16353A; --ok-line:#22594A; --ok-fg:#7FE8AE; --warn-bg:#3A3220; --warn-line:#8A6A1E; --warn-fg:#F6CB6E;
+  --hot-bg:#3B2530; --hot-line:#7A3E2E; --hot-fg:#FFA27B; --shadow:none; --fab:#94C0FF;
+}}
+:root[data-theme="dark"]{
+  --bg:#141B36; --card:#182141; --line:rgba(255,255,255,.12); --body:rgba(255,255,255,.82); --heading:#FFFFFF; --grey:rgba(255,255,255,.6);
+  --track:rgba(255,255,255,.12); --tint:#202A52; --tint-line:#2F3C70; --tag-bg:#22305E; --tag-fg:#94C0FF;
+  --ok-bg:#16353A; --ok-line:#22594A; --ok-fg:#7FE8AE; --warn-bg:#3A3220; --warn-line:#8A6A1E; --warn-fg:#F6CB6E;
+  --hot-bg:#3B2530; --hot-line:#7A3E2E; --hot-fg:#FFA27B; --shadow:none; --fab:#94C0FF;
+}
+
+/* ===================== Cosmos components ===================== */
+.cosmos-sky{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none;}
+.pulsar{position:relative;display:inline-grid;place-items:center;width:var(--pulsar-size,96px);aspect-ratio:1;}
+.pulsar .ring{position:absolute;inset:22%;border:1.5px solid var(--pulsar-orange);border-radius:50%;opacity:0;animation:pulsar-beat var(--pulse-period) var(--ease-out) infinite;}
+.pulsar .ring:nth-child(2){animation-delay:calc(var(--pulse-period)/3);}
+.pulsar .ring:nth-child(3){animation-delay:calc(var(--pulse-period)/1.5);}
+@keyframes pulsar-beat{0%{transform:scale(.7);opacity:.7;}100%{transform:scale(2.6);opacity:0;}}
+.constellation{width:100%;height:auto;overflow:visible;display:block;}
+.constellation .link{fill:none;stroke:var(--link-line);stroke-width:1.2;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset var(--draw-duration) var(--ease-out),stroke 240ms,opacity 240ms;}
+.constellation.is-lit .link{stroke-dashoffset:0;}
+.constellation .node circle.core{fill:var(--star);}
+.constellation .node circle.halo{fill:none;stroke:rgba(148,192,255,.35);stroke-width:1;}
+.constellation .node text{font-family:var(--font-body);font-weight:500;fill:var(--on-space-2);transition:fill 240ms;}
+.constellation .node text.value{font-family:var(--font-display);fill:var(--star-cool);}
+.constellation .node{opacity:0;transition:opacity 600ms var(--ease-out);outline:none;}
+.constellation.is-lit .node{opacity:1;}
+.constellation.is-lit .node.is-dim{opacity:.7;}
+.constellation[data-interactive] .node{cursor:pointer;}
+.constellation .node:focus-visible circle.halo{stroke:var(--pulsar-orange);stroke-width:2;}
+.constellation.has-focus .link{opacity:.18;}
+.constellation.has-focus .link.is-hot{opacity:1;stroke:var(--link-line-hot);stroke-width:1.8;}
+.constellation.has-focus .node{opacity:.35;}
+.constellation.has-focus .node.is-hot{opacity:1;}
+.constellation.has-focus .node.is-hot text{fill:var(--on-space);}
+button:focus-visible,a:focus-visible{outline:2px solid var(--pulsar-orange);outline-offset:3px;}
+
+/* ===================== Base ===================== */
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);}
+html{scroll-padding-top:calc(90px + env(safe-area-inset-top,0px));}
+*,*::before,*::after{box-sizing:inherit;}
+html,body{margin:0;padding:0;}
+body{background:var(--bg);color:var(--body);font-family:var(--font-body);line-height:1.55;-webkit-font-smoothing:antialiased;}
+h1,h2,h3,h4{font-family:var(--font-display);color:var(--heading);letter-spacing:-.01em;}
+a{color:var(--fab);}
+.wrap{width:min(1180px,100% - 48px);margin:0 auto;}
+.muted{color:var(--grey);}
+
+/* ===================== Hero ===================== */
+.space{position:relative;background:var(--space);color:var(--on-space);overflow:hidden;isolation:isolate;}
+.space>.cosmos-sky{z-index:-1;}
+.hero{padding:calc(36px + env(safe-area-inset-top,0px)) 0 56px;}
+.hero-top{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:48px;}
+.logo{height:20px;}
+.logo img{height:20px;filter:invert(1);}
+.logo .wordmark{font-family:var(--font-display);font-weight:600;font-size:1.25rem;color:#fff;letter-spacing:-.01em;}
+.hero-top .run{font-size:.85rem;color:var(--on-space-2);}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:48px;align-items:center;}
+.hero h1{color:#fff;font-weight:600;font-size:clamp(40px,5.4vw,68px);line-height:1.02;letter-spacing:-.02em;margin:0;}
+.hero .sub{font-family:var(--font-display);font-size:clamp(18px,1.8vw,22px);color:var(--star-cool);margin:14px 0 28px;}
+.lead-line{font-size:clamp(17px,1.5vw,20px);line-height:1.5;color:#fff;max-width:52ch;margin:0 0 14px;font-weight:500;}
+.verdict{font-size:clamp(15px,1.25vw,17px);line-height:1.6;color:rgba(255,255,255,.74);max-width:56ch;margin:0;}
+.meta{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px 28px;margin-top:32px;padding-top:24px;border-top:1px solid rgba(255,255,255,.14);font-size:.82rem;color:var(--on-space-2);}
+.meta span strong{display:block;color:#fff;font-weight:500;font-size:.95rem;}
+.sky-chart{position:relative;}
+.sky-plot{position:relative;}
+.sky-chart .pulsar{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);--pulsar-size:clamp(90px,10vw,130px);pointer-events:none;z-index:0;}
+.sky-chart #themeSky{position:relative;z-index:1;}
+.sky-legend{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:.78rem;color:var(--on-space-2);margin-top:6px;}
+.sky-legend i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle;}
+.sky-detail{min-height:68px;margin-top:14px;padding:14px 16px;border-radius:12px;border:1px solid rgba(148,192,255,.25);font-size:.88rem;color:var(--on-space-2);}
+.sky-detail strong{color:#fff;font-family:var(--font-display);font-weight:600;font-size:1rem;display:block;margin-bottom:2px;}
+.sky-detail .go{color:var(--pulsar-orange);font-weight:500;}
+.sky-empty{padding:60px 20px;text-align:center;color:var(--on-space-2);border:1px dashed rgba(148,192,255,.3);border-radius:16px;}
+
+/* ===================== Controls ===================== */
+.controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:14px 0;border-bottom:1px solid var(--line);}
+.controls-row{display:flex;align-items:center;gap:12px 14px;flex-wrap:wrap;}
+.controls-row+.controls-row{margin-top:10px;}
+.seg{display:inline-flex;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px;}
+.seg button{border:none;background:transparent;cursor:pointer;font-family:var(--font-body);font-size:.88rem;font-weight:500;color:var(--grey);padding:7px 16px;border-radius:999px;}
+.seg button.active{background:var(--space);color:#fff;}
+.chips{display:flex;gap:8px;flex-wrap:wrap;}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--heading);font-family:var(--font-body);font-weight:500;font-size:.84rem;padding:7px 13px;border-radius:999px;cursor:pointer;display:flex;align-items:center;gap:7px;}
+.chip .dot{width:8px;height:8px;border-radius:50%;background:var(--grey);}
+.chip.active{border-color:var(--pulsar-blue);background:var(--tag-bg);}
+.chip[disabled]{opacity:.4;cursor:not-allowed;}
+.ctl-label{font-size:.78rem;color:var(--grey);font-weight:500;}
+.filters{margin-left:auto;display:flex;gap:8px 14px;flex-wrap:wrap;align-items:center;}
+
+/* ===================== Period tabs ===================== */
+.period-row{flex-wrap:nowrap;}
+.ptabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin;padding:2px;min-width:0;}
+.ptab{flex:none;border:1px solid var(--line);background:var(--card);color:var(--heading);font-family:var(--font-body);font-size:.84rem;font-weight:500;padding:7px 14px;border-radius:999px;cursor:pointer;display:flex;align-items:center;gap:8px;white-space:nowrap;}
+.ptab[aria-selected="true"]{background:var(--space);border-color:var(--space);color:#fff;}
+.ptab .badge{font-size:.68rem;font-weight:600;padding:2px 7px;border-radius:999px;background:var(--tag-bg);color:var(--heading);}
+.ptab[aria-selected="true"] .badge{background:rgba(255,255,255,.18);color:#fff;}
+.loading{margin:28px 0;color:var(--grey);}
+.loading:empty{display:none;}
+body.is-loading #main>*:not(.loading){visibility:hidden;}
+.hero .period-line{margin:6px 0 18px;font-size:.95rem;opacity:.85;}
+
+/* ===================== Where Aldi stands ===================== */
+.standing{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:28px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px 26px;margin-top:28px;box-shadow:var(--shadow);}
+.standing h2{font-size:1.2rem;font-weight:600;margin:0 0 8px;}
+.standing .big{font-family:var(--font-display);font-weight:600;font-size:2.6rem;line-height:1;color:var(--heading);}
+.standing .big small{font-size:1rem;color:var(--grey);font-weight:500;margin-left:6px;}
+.standing p{margin:10px 0 0;font-size:.9rem;}
+.landscape-label{font-family:var(--font-display);font-size:.85rem;font-weight:600;color:var(--grey);margin-bottom:10px;}
+.landscape{display:flex;flex-wrap:wrap;gap:8px;}
+.lbrand{display:inline-flex;align-items:center;gap:8px;font-size:.84rem;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--heading);font-weight:500;}
+.lbrand small{color:var(--grey);font-weight:400;}
+.lbrand.is-aldi{background:var(--ok-bg);border-color:var(--ok-line);color:var(--ok-fg);}
+
+/* ===================== Theme cards ===================== */
+.grid{display:grid;grid-template-columns:1fr;gap:20px;padding:28px 0 12px;}
+.group-title{display:flex;align-items:baseline;gap:12px;margin:12px 0 -4px;flex-wrap:wrap;}
+.group-title h2{margin:0;font-size:1.35rem;font-weight:600;}
+.group-title span{font-size:.86rem;color:var(--grey);}
+.empty{color:var(--grey);padding:40px 0;text-align:center;}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px 26px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:20px;transition:border-color .16s ease,box-shadow .16s ease;}
+.card.emerging{border-style:dashed;border-color:var(--warn-line);}
+.card.is-flash{border-color:var(--pulsar-orange);box-shadow:0 0 0 3px rgba(238,114,65,.25);}
+.card-head{display:flex;flex-direction:column;gap:10px;padding-bottom:18px;border-bottom:1px solid var(--line);}
+.card h3{font-size:1.45rem;font-weight:600;margin:0;}
+.card .summary{margin:0;font-size:.95rem;max-width:80ch;}
+.card-body{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:16px;align-items:start;}
+.col{display:flex;flex-direction:column;gap:14px;min-width:0;}
+.pills{display:flex;flex-wrap:wrap;gap:6px;}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:.75rem;font-weight:600;padding:5px 10px;border-radius:999px;white-space:nowrap;border:1px solid var(--line);color:var(--heading);background:var(--card);}
+.pill .dot{width:7px;height:7px;border-radius:50%;}
+.pill.vol-high{background:var(--hot-bg);border-color:var(--hot-line);color:var(--hot-fg);}
+.pill.vol-medium{background:var(--tint);border-color:var(--tint-line);color:var(--heading);}
+.pill.vol-low{background:var(--warn-bg);border:1px dashed var(--warn-line);color:var(--warn-fg);}
+.pill.sig-opportunity{background:var(--ok-bg);border-color:var(--ok-line);color:var(--ok-fg);}
+.pill.sig-risk{background:var(--hot-bg);border-color:var(--hot-line);color:var(--hot-fg);}
+.pill.sig-watch{background:var(--warn-bg);border-color:var(--warn-line);color:var(--warn-fg);}
+.pill.sig-informational{background:var(--track);color:var(--grey);}
+.box{border-radius:12px;padding:14px 16px;font-size:.88rem;border:1px solid var(--line);background:var(--card);}
+.box-label{font-family:var(--font-display);font-size:.82rem;font-weight:600;color:var(--grey);margin-bottom:8px;}
+.box p{margin:0;}
+.why{background:var(--tint);border-color:var(--tint-line);}
+.why .box-label{color:var(--fab);}
+.why p{font-size:.95rem;color:var(--heading);}
+.quote{margin:0;padding:10px 14px;border-left:3px solid var(--pulsar-blue-tint);background:var(--bg);border-radius:0 10px 10px 0;color:var(--heading);font-size:.9rem;}
+.quote+.quote{margin-top:8px;}
+.quote .en{display:block;color:var(--grey);font-size:.82rem;margin-top:4px;}
+.tags{display:flex;flex-wrap:wrap;gap:6px;}
+.tag{font-size:.76rem;background:var(--tag-bg);border:1px solid var(--tint-line);padding:4px 10px;border-radius:999px;color:var(--tag-fg);font-weight:500;}
+.tag-empty{font-size:.78rem;color:var(--grey);font-style:italic;}
+.brand-row{display:grid;grid-template-columns:minmax(90px,30%) 1fr;gap:12px;padding:9px 0;border-top:1px solid var(--line);font-size:.85rem;}
+.brand-row:first-of-type{border-top:none;padding-top:0;}
+.brand-row strong{color:var(--heading);font-family:var(--font-display);font-weight:600;}
+.aldi-flag{display:inline-block;margin-top:4px;font-size:.7rem;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--ok-bg);color:var(--ok-fg);}
+.no-aldi{font-size:.8rem;color:var(--hot-fg);font-weight:500;margin-top:8px;}
+
+/* ===================== Method + footer ===================== */
+.method{border:1px solid var(--line);border-radius:var(--radius);background:var(--card);overflow:hidden;margin:40px 0;}
+.method summary{cursor:pointer;list-style:none;padding:16px 22px;font-family:var(--font-display);font-weight:600;font-size:1rem;color:var(--heading);display:flex;justify-content:space-between;gap:12px;}
+.method summary::-webkit-details-marker{display:none;}
+.method summary::after{content:"+";font-size:1.3rem;color:var(--fab);}
+.method[open] summary::after{content:"\2212";}
+.method .body{padding:0 22px 22px;color:var(--grey);font-size:.9rem;max-width:84ch;}
+.method .body h4{font-size:.95rem;font-weight:600;margin:22px 0 6px;}
+.method .body p{margin:8px 0;}
+.method .body strong{color:var(--heading);font-weight:600;}
+.datanote{margin-top:14px;padding:12px 14px;border-radius:10px;background:var(--tint);border:1px solid var(--tint-line);}
+footer.space{padding:40px 0 calc(40px + env(safe-area-inset-bottom,0px));font-size:.84rem;}
+footer .row{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;color:var(--on-space-2);}
+
+@media (max-width:980px){.hero-grid{grid-template-columns:1fr;}.sky-chart{max-width:620px;}}
+@media (max-width:900px){.card-body,.standing{grid-template-columns:1fr;}.filters{margin-left:0;}}
+@media (max-width:640px){.controls-row{flex-direction:column;align-items:flex-start;}.brand-row{grid-template-columns:1fr;gap:2px;}.card{padding:20px;}}
+@media (prefers-reduced-motion: reduce){.pulsar .ring{animation:none!important;}.pulsar .ring:first-child{opacity:.4;transform:scale(1.6);}.constellation .link,.constellation .node{transition:none!important;}}
+/* ===================== Early Christmas additions ===================== */
+.controls{top:env(safe-area-inset-top,0px);}
+.section-title{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:52px 0 0;}
+.section-title h2{margin:0;font-size:1.6rem;font-weight:600;}
+.section-title span{font-size:.9rem;color:var(--grey);}
+.standing .stack{display:flex;flex-direction:column;gap:14px;min-width:0;}
+.standing .stack p{margin:0;}
+.sentbar{display:flex;height:10px;border-radius:999px;overflow:hidden;background:var(--track);margin-top:16px;}
+.sentbar .pos{background:#6CE59D;}
+.sentbar .neg{background:#F2B544;}
+.sentkey{display:flex;justify-content:space-between;gap:10px;font-size:.78rem;color:var(--grey);margin-top:6px;}
+.mood-text{margin-top:14px!important;font-size:.9rem;}
+.pill.mom-growing{background:var(--ok-bg);border-color:var(--ok-line);color:var(--ok-fg);}
+.pill.mom-emerging{background:var(--warn-bg);border:1px dashed var(--warn-line);color:var(--warn-fg);}
+.pill.mom-stable{background:var(--tint);border-color:var(--tint-line);color:var(--heading);}
+.pill.mom-declining{background:var(--hot-bg);border-color:var(--hot-line);color:var(--hot-fg);}
+.idea{background:var(--ok-bg);border-color:var(--ok-line);}
+.idea .box-label{color:var(--ok-fg);}
+.idea p{font-size:.95rem;color:var(--heading);}
+.tagset{margin-top:14px;}
+.tagset .ctl-label{display:block;margin-bottom:6px;}
+.tag.pillar{background:var(--card);color:var(--heading);border-color:var(--line);}
+.lang-code{display:inline-block;font-family:var(--font-body);font-size:.7rem;font-weight:600;padding:1px 7px;border-radius:999px;background:var(--tag-bg);color:var(--tag-fg);margin-left:6px;vertical-align:1px;}
+body[data-lang="nl"] .lang-fr,body[data-lang="fr"] .lang-nl{display:none;}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px 26px;box-shadow:var(--shadow);margin-top:20px;}
+.panel>h3{font-size:1.2rem;font-weight:600;margin:0 0 4px;}
+.panel>.note{margin:0 0 18px;font-size:.88rem;color:var(--grey);}
+.track-wrap{position:relative;padding-top:30px;}
+.track{position:relative;height:46px;background:var(--track);border-radius:12px;}
+.ph{position:absolute;top:3px;bottom:3px;border-radius:9px;display:flex;align-items:center;padding:0 10px;font-size:.78rem;font-weight:600;overflow:hidden;white-space:nowrap;}
+.ph-early{background:var(--tag-bg);color:var(--tag-fg);border:1px solid var(--tint-line);}
+.ph-pause{background:var(--warn-bg);color:var(--warn-fg);border:1px dashed var(--warn-line);}
+.ph-peak{background:var(--hot-bg);color:var(--hot-fg);border:1px solid var(--hot-line);}
+.lanes{position:relative;}
+.track-2{margin-top:6px;height:34px;}
+.mark{position:absolute;top:-6px;bottom:-6px;width:0;border-left:2px solid var(--pulsar-orange);z-index:1;}
+.mark span{position:absolute;bottom:calc(100% + 4px);left:0;transform:translateX(-50%);font-size:.75rem;font-weight:500;color:var(--heading);white-space:nowrap;}
+.months{position:relative;height:22px;margin-top:8px;font-size:.78rem;color:var(--grey);}
+.months span{position:absolute;top:0;padding-left:6px;border-left:1px solid var(--line);}
+.phases{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:22px;}
+.phase{border-top:3px solid var(--line);padding-top:12px;font-size:.9rem;}
+.phase.ph-early-b{border-color:var(--pulsar-blue);}
+.phase.ph-pause-b{border-color:var(--warn-line);}
+.phase.ph-peak-b{border-color:var(--pulsar-orange);}
+.phase h4{font-size:1.02rem;font-weight:600;margin:0;}
+.phase .when{font-size:.8rem;color:var(--grey);margin:2px 0 8px;}
+.phase p{margin:0;}
+.pillars{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+.pillars .box strong{display:block;font-family:var(--font-display);font-weight:600;color:var(--heading);font-size:1.02rem;margin-bottom:4px;}
+.pillars .box p{font-size:.9rem;}
+.regions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+body[data-lang="nl"] .regions,body[data-lang="fr"] .regions{grid-template-columns:1fr;}
+.regions .box p{font-size:.95rem;color:var(--heading);}
+@media (max-width:900px){.phases,.pillars,.regions{grid-template-columns:1fr;}}
+@media (max-width:640px){.ph{font-size:0;padding:0;}.mark span{font-size:.68rem;}.panel{padding:20px;}}
+
+/* ===================== v2: platforms, confidence, example posts ===================== */
+.platbar{display:flex;height:14px;border-radius:999px;overflow:hidden;background:var(--track);gap:2px;}
+.platbar span{display:block;height:100%;min-width:4px;}
+.platgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:18px;}
+.plat{border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:10px;font-size:.88rem;}
+.plat-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.plat-head strong{font-family:var(--font-display);font-weight:600;color:var(--heading);font-size:1.05rem;}
+.plat .dotp{width:10px;height:10px;border-radius:50%;flex:none;}
+.plat-num{font-family:var(--font-display);font-size:1.6rem;font-weight:600;color:var(--heading);line-height:1;}
+.plat-num small{font-family:var(--font-body);font-size:.82rem;font-weight:500;color:var(--grey);margin-left:6px;}
+.plat p{margin:0;}
+.plat .tchips{display:flex;flex-wrap:wrap;gap:6px;}
+.tchip{border:1px solid var(--line);background:var(--card);color:var(--heading);font-family:var(--font-body);font-size:.76rem;font-weight:500;padding:4px 10px;border-radius:999px;cursor:pointer;}
+.tchip.lead{background:var(--tag-bg);border-color:var(--tint-line);color:var(--tag-fg);}
+.zero{margin:14px 0 0;font-size:.84rem;color:var(--grey);}
+.pill.conf-high{background:var(--ok-bg);border-color:var(--ok-line);color:var(--ok-fg);}
+.pill.conf-medium{background:var(--tint);border-color:var(--tint-line);color:var(--heading);}
+.pill.conf-low{background:var(--warn-bg);border:1px dashed var(--warn-line);color:var(--warn-fg);}
+.pill.focus{background:var(--space);border-color:var(--space);color:#fff;}
+.conf-note{margin:0;font-size:.84rem;color:var(--grey);max-width:80ch;}
+.examples{border-top:1px solid var(--line);padding-top:18px;}
+.examples>.box-label{margin-bottom:12px;}
+.posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;}
+.post{border:1px solid var(--line);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:10px;font-size:.86rem;background:var(--card);}
+.post-top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;font-size:.76rem;color:var(--grey);}
+.post-plat{display:inline-flex;align-items:center;gap:6px;font-weight:600;color:var(--heading);}
+.post-plat i{width:8px;height:8px;border-radius:50%;display:inline-block;}
+.author strong{display:block;color:var(--heading);font-family:var(--font-display);font-weight:600;font-size:.95rem;overflow-wrap:anywhere;}
+.author span{font-size:.78rem;color:var(--grey);}
+.post blockquote{margin:0;padding:10px 12px;border-left:3px solid var(--pulsar-blue-tint);background:var(--bg);border-radius:0 10px 10px 0;color:var(--heading);overflow-wrap:anywhere;}
+.post .trans{display:block;margin-top:6px;color:var(--grey);font-size:.8rem;}
+.eng{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.78rem;color:var(--grey);}
+.eng b{color:var(--heading);font-weight:600;}
+.post .pwhy{margin:0;font-size:.82rem;}
+.post a.open{font-size:.8rem;font-weight:500;margin-top:auto;}
+.flag{font-size:.7rem;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--warn-bg);color:var(--warn-fg);border:1px solid var(--warn-line);}
+@media (max-width:900px){.platgrid{grid-template-columns:1fr;}}
+@media (max-width:640px){.posts{grid-template-columns:1fr;}}
+.seg button[lang]{padding:7px 13px;}
+@media (max-width:640px){.controls{position:static;}}
+</style>
+</head>
+<body data-lang="both">
+
+<header class="space hero">
+  <canvas class="cosmos-sky" id="heroSky" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="hero-top"><span class="logo" id="logoTop"></span><span class="run" id="runDate"></span></div>
+    <div class="hero-grid">
+      <div>
+        <h1 id="heroTitle"></h1>
+        <p class="sub" id="heroSub"></p>
+        <p class="period-line" id="periodLine"></p>
+        <p class="lead-line" id="leadLine"></p>
+        <p class="verdict" id="verdict"></p>
+        <div class="meta" id="meta"></div>
+      </div>
+      <div class="sky-chart">
+        <div class="sky-plot">
+          <div class="pulsar" aria-hidden="true"><span class="ring"></span><span class="ring"></span><span class="ring"></span></div>
+          <div id="themeSky"></div>
+        </div>
+        <div class="sky-legend" id="skyLegend"></div>
+        <div class="sky-detail" id="skyDetail" aria-live="polite"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="controls"><div class="wrap">
+  <div class="controls-row period-row">
+    <span class="ctl-label" id="periodLbl"></span>
+    <div class="ptabs" id="periodTabs" role="tablist"></div>
+  </div>
+  <div class="controls-row">
+    <div class="seg" id="uiSeg" role="group" aria-label="Report language"><button data-ui="en" lang="en">English</button><button data-ui="fr" lang="fr">Français</button><button data-ui="nl" lang="nl">Nederlands</button></div>
+    <div class="seg" id="langSeg" aria-label="Region">
+      <button data-lang="both" class="active" data-i18n="regBoth"></button><button data-lang="nl" data-i18n="regNl"></button><button data-lang="fr" data-i18n="regFr"></button>
+    </div>
+    <div class="filters">
+      <span class="ctl-label" data-i18n="momentum"></span>
+      <div class="chips" id="momChips"></div>
+      <span class="ctl-label" data-i18n="platformLbl"></span>
+      <div class="chips" id="platChips"></div>
+    </div>
+  </div>
+</div></div>
+
+<main class="wrap" id="main">
+  <p class="loading" id="loading" role="status"></p>
+  <section class="standing" id="standing" aria-labelledby="standingTitle"></section>
+  <section class="panel" id="platPanel" aria-labelledby="platTitle">
+    <h3 id="platTitle" data-i18n="platH"></h3>
+    <p class="note" data-i18n="platNote"></p>
+    <div class="platbar" id="platBar"></div>
+    <div class="platgrid" id="platGrid"></div>
+    <p class="zero" id="platZero"></p>
+  </section>
+
+  <div class="section-title"><h2 data-i18n="themesH"></h2><span data-i18n="themesSub"></span></div>
+  <div class="grid" id="grid"></div>
+
+  <div class="section-title" id="plan"><h2 data-i18n="planH"></h2><span data-i18n="planSub"></span></div>
+  <section class="panel" aria-labelledby="timingTitle">
+    <h3 id="timingTitle" data-i18n="timingH"></h3>
+    <p class="note" data-i18n="timingNote"></p>
+    <div class="track-wrap"><div class="lanes" id="lanes"><div class="track" id="track"></div><div class="track track-2" id="track2"></div></div><div class="months" id="months"></div></div>
+    <div class="phases" id="phases"></div>
+  </section>
+  <section class="panel" aria-labelledby="pillarTitle">
+    <h3 id="pillarTitle" data-i18n="pillarsH"></h3>
+    <p class="note" data-i18n="pillarsNote"></p>
+    <div class="pillars" id="pillars"></div>
+  </section>
+  <section class="panel" aria-labelledby="regionTitle">
+    <h3 id="regionTitle" data-i18n="regionsH"></h3>
+    <p class="note" data-i18n="regionsNote"></p>
+    <div class="regions" id="regions"></div>
+  </section>
+</main>
+
+<div class="wrap"><details class="method"><summary data-i18n="methodH"></summary><div class="body" id="methodBody"></div></details></div>
+
+<footer class="space">
+  <canvas class="cosmos-sky" id="footSky" aria-hidden="true"></canvas>
+  <div class="wrap row"><span class="logo" id="logoFoot"></span><span id="footNote"></span></div>
+</footer>
+
+<script>
+/* ===================== Pulsar Cosmos behaviour ===================== */
+(function(){
+  const reduceMotion=window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function sky(canvas,opts={}){
+    const o=Object.assign({density:0.00022,speed:0.06,colors:["#FFFFFF","#FFFFFF","#94C0FF","#A5B3F5"]},opts);
+    const ctx=canvas.getContext("2d");let w=0,h=0,stars=[],running=true,last=performance.now();
+    function seed(){const n=Math.round(w*h*o.density);stars=Array.from({length:n},()=>({x:Math.random()*w,y:Math.random()*h,z:.25+Math.random()*.75,tw:Math.random()*Math.PI*2,c:o.colors[(Math.random()*o.colors.length)|0]}));}
+    function resize(){const r=canvas.getBoundingClientRect();const dpr=Math.min(window.devicePixelRatio||1,2);w=Math.max(1,r.width);h=Math.max(1,r.height);canvas.width=w*dpr;canvas.height=h*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);seed();draw(0);}
+    function draw(dt){ctx.clearRect(0,0,w,h);for(const s of stars){if(!reduceMotion){s.x-=o.speed*s.z*dt*.06;s.tw+=dt*.0015*s.z;if(s.x<-4)s.x=w+4;}
+      const r=.35+s.z*1.15;const a=reduceMotion?.55+s.z*.4:.35+.65*(.5+.5*Math.sin(s.tw))*s.z;ctx.globalAlpha=a;ctx.fillStyle=s.c;ctx.beginPath();ctx.arc(s.x,s.y,r,0,Math.PI*2);ctx.fill();}ctx.globalAlpha=1;}
+    function loop(t){const dt=Math.min(64,t-last);last=t;if(running)draw(dt);requestAnimationFrame(loop);}
+    new ResizeObserver(resize).observe(canvas);
+    document.addEventListener("visibilitychange",()=>{running=!document.hidden;last=performance.now();});
+    if("IntersectionObserver" in window){new IntersectionObserver(([e])=>{running=e.isIntersecting&&!document.hidden;}).observe(canvas);}
+    resize();if(!reduceMotion)requestAnimationFrame(loop);
+  }
+  function constellation(host,data,opts={}){
+    const NS="http://www.w3.org/2000/svg";const svg=document.createElementNS(NS,"svg");
+    svg.setAttribute("viewBox",`0 0 ${data.width} ${data.height}`);svg.setAttribute("class","constellation");svg.setAttribute("role","img");
+    svg.setAttribute("aria-label",opts.label||"Constellation chart");if(opts.interactive)svg.setAttribute("data-interactive","");
+    const byId=Object.fromEntries(data.nodes.map(n=>[n.id,n]));const maxW=Math.max(1,...data.links.map(l=>l[2]||1));
+    const linkEls=data.links.map(([a,b,wgt],i)=>{const A=byId[a],B=byId[b];const p=document.createElementNS(NS,"path");
+      const mx=(A.x+B.x)/2,my=(A.y+B.y)/2-Math.abs(A.x-B.x)*.08;p.setAttribute("d",`M${A.x},${A.y} Q${mx},${my} ${B.x},${B.y}`);
+      p.setAttribute("pathLength","1");p.setAttribute("class","link");if(wgt)p.style.strokeWidth=(.8+2.2*(wgt/maxW)).toFixed(2);
+      p.style.transitionDelay=`${i*90}ms`;p.dataset.a=a;p.dataset.b=b;svg.appendChild(p);return p;});
+    const nodeEls=data.nodes.map((n,i)=>{const g=document.createElementNS(NS,"g");g.setAttribute("class","node");g.setAttribute("transform",`translate(${n.x},${n.y})`);
+      g.style.transitionDelay=`${i*70}ms`;g.dataset.id=n.id;const r=n.size||4;
+      if(n.lead&&opts.starHref){const img=document.createElementNS(NS,"image");img.setAttribute("href",opts.starHref);const s=r*4.2;img.setAttribute("x",-s/2);img.setAttribute("y",-s/2);img.setAttribute("width",s);img.setAttribute("height",s);g.appendChild(img);}
+      else{const halo=document.createElementNS(NS,"circle");halo.setAttribute("class","halo");halo.setAttribute("r",r+6);const core=document.createElementNS(NS,"circle");core.setAttribute("class","core");core.setAttribute("r",r);
+        if(n.color){core.style.fill=n.color;halo.style.stroke=n.color;halo.style.strokeOpacity=.45;}if(n.dim)g.classList.add("is-dim");g.append(halo,core);}
+      if(n.label){const below=n.labelPos!=="above";const fs=opts.textSize||13,gap=r+10;const t=document.createElementNS(NS,"text");t.setAttribute("text-anchor","middle");t.setAttribute("font-size",fs);
+        const lines=String(n.label).split("\n");const extra=(lines.length-1)*fs*1.15;t.setAttribute("y",below?gap+fs:-(gap+extra+(n.value?fs*1.25:0)));
+        lines.forEach((ln,li)=>{const ts=document.createElementNS(NS,"tspan");ts.setAttribute("x",0);if(li)ts.setAttribute("dy",fs*1.15);ts.textContent=ln;t.appendChild(ts);});g.appendChild(t);
+        if(n.value){const v=document.createElementNS(NS,"text");v.setAttribute("class","value");v.setAttribute("text-anchor","middle");v.setAttribute("font-size",fs*.92);v.setAttribute("y",below?gap+fs*2.25+extra:-gap);v.textContent=n.value;g.appendChild(v);}}
+      if(opts.interactive){const hit=document.createElementNS(NS,"circle");hit.setAttribute("r",Math.max(22,r+16));hit.setAttribute("fill","transparent");g.insertBefore(hit,g.firstChild);
+        g.setAttribute("tabindex","0");g.setAttribute("role","button");g.setAttribute("aria-label",`${String(n.label).replace(/\n/g," ")}${n.value?", "+n.value:""}`);}
+      svg.appendChild(g);return g;});
+    function focus(id){if(!id){svg.classList.remove("has-focus");linkEls.concat(nodeEls).forEach(el=>el.classList.remove("is-hot"));opts.onFocus&&opts.onFocus(null);return;}
+      svg.classList.add("has-focus");const hot=new Set([id]);
+      linkEls.forEach(l=>{const on=l.dataset.a===id||l.dataset.b===id;l.classList.toggle("is-hot",on);if(on){hot.add(l.dataset.a);hot.add(l.dataset.b);}});
+      nodeEls.forEach(g=>g.classList.toggle("is-hot",hot.has(g.dataset.id)));opts.onFocus&&opts.onFocus(byId[id],[...hot].filter(x=>x!==id).map(x=>byId[x]));}
+    if(opts.interactive){nodeEls.forEach(g=>{g.addEventListener("mouseenter",()=>focus(g.dataset.id));g.addEventListener("focus",()=>focus(g.dataset.id));
+      g.addEventListener("click",()=>{focus(g.dataset.id);opts.onSelect&&opts.onSelect(byId[g.dataset.id]);});
+      g.addEventListener("keydown",e=>{if((e.key==="Enter"||e.key===" ")&&opts.onSelect){e.preventDefault();opts.onSelect(byId[g.dataset.id]);}});});
+      svg.addEventListener("mouseleave",()=>{if(!svg.contains(document.activeElement))focus(null);});
+      svg.addEventListener("focusout",e=>{if(!svg.contains(e.relatedTarget))focus(null);});}
+    host.appendChild(svg);
+    return {light(){requestAnimationFrame(()=>svg.classList.add("is-lit"));},focus};
+  }
+  function orbitLayout(nodes,{width,height,centerId=null,padX=.16,padY=.2,startAngle=-Math.PI/2}){
+    const cx=width/2,cy=height/2,rx=width*(.5-padX),ry=height*(.5-padY);const ring=nodes.filter(n=>n.id!==centerId);
+    ring.forEach((n,i)=>{const a=startAngle+(i/Math.max(1,ring.length))*Math.PI*2;n.x=Math.round(cx+Math.cos(a)*rx);n.y=Math.round(cy+Math.sin(a)*ry);n.labelPos=Math.sin(a)<-.2?"above":"below";});
+    const c=nodes.find(n=>n.id===centerId);if(c){c.x=cx;c.y=cy;}return nodes;
+  }
+  window.Cosmos={sky,constellation,orbitLayout};
+})();
+</script>
+<script>
+/* ==========================================================================
+   SETTINGS
+   ========================================================================== */
+const CONFIG={
+  client:"ALDI Belgium",
+  logoSrc:"",  /* optional: paste the Pulsar logo data URI; leave empty for a text wordmark */
+  defaultLang:"en",
+  platformColors:{Facebook:"#0068FD",Instagram:"#BC98E5",TikTok:"#EE7241",X:"#6E6E73",YouTube:"#F2B544",Reddit:"#6CE59D",News:"#A5B3F5",Blogs:"#94C0FF",Forums:"#94C0FF"},
+  window:{start:"2026-09-01",end:"2026-12-31"},
+  /* lane 1 = main campaign, lane 2 = Sinterklaas window */
+  phases:[
+    {key:"earlyTeasers",start:"2026-09-28",end:"2026-11-14",cls:"ph-early",lane:1},
+    {key:"peakCampaign",start:"2026-11-15",end:"2026-12-24",cls:"ph-peak",lane:1},
+    {key:"sinterklaasPause",start:"2026-11-24",end:"2026-12-06",cls:"ph-pause",lane:2}
+  ],
+  markers:[{key:"data",date:null /* end of the selected period */},{key:"sint",date:"2026-12-06"}]
+};
+
+/* ==========================================================================
+   PERIODS: each 4-week period lives in data/periods/<end-date>.json and is
+   listed in data/periods.json (newest first). Nothing period-specific is
+   hardcoded below: add a period by adding a data file.
+   ========================================================================== */
+let PERIODS=[];          /* from data/periods.json */
+let PERIOD=null;         /* the selected period file */
+let REPORTS={en:{themes:[]}};
+const CACHE={};
+
+/* ==========================================================================
+   INTERFACE TEXT
+   ========================================================================== */
+const UI={
+en:{locale:"en-GB",heroTitle:"Early Christmas Signals",periodLbl:"Period",latest:"Latest",launch:"Launch report",loading:"Loading the latest insights…",loadErr:"The insights could not be loaded. Refresh the page to try again.",periodNote:(a,b)=>a+" to "+b,heroSub:b=>b+", Dutch and French posts",analysed:d=>"Analysed "+d,
+  themesSurfaced:"Themes surfaced",
+  regBoth:"Both regions",regNl:"Flanders (NL)",regFr:"Wallonia and Brussels (FR)",reportLang:"Report language",momentum:"Momentum",platformLbl:"Platform",all:"All",
+  mood:"Mood",netWord:"net sentiment",pos:p=>"About "+p+"% positive",neg:n=>"About "+n+"% negative",sentAria:(p,n)=>"About "+p+"% positive, "+n+"% negative",
+  opp:"The opportunity for ALDI",nuance:"Flanders, Wallonia and the Sinterklaas overlap",
+  platH:"Where the conversation is",platNote:"Share of posts by platform. Every platform with relevant posts leads at least one theme, however small.",
+  posts:"posts",ofPosts:"of posts",themesOn:"Themes here",leadsHint:"Highlighted themes are strongest on this platform.",zero:l=>"No relevant posts: "+l+".",
+  conf:{high:"High confidence",medium:"Medium confidence",low:"Low confidence"},strongest:p=>"Strongest on "+p,
+  themesH:"Themes",themesSub:"What Belgians are posting about Christmas before the season starts",
+  cross:"Cross-platform",single:"Single platform",why:"Why it matters for ALDI",idea:"Content idea",channels:"Channels",pillarsLbl:"Pillars",
+  flanders:"Flanders",wallonia:"Wallonia and Brussels",developed:"How it developed",noneGiven:"None given",noNl:"No Dutch-language detail for this theme.",noFr:"No French-language detail for this theme.",
+  examples:"Example posts",followers:"followers",noFollowers:"Follower count not in the data",open:p=>"Open post on "+p,giveaway:"Giveaway or paid",translation:"Translation",
+  eng:{likes:"likes",comments:"comments",shares:"shares",views:"views"},
+  authorType:{"Creator":"Creator","Brand":"Brand","Consumer":"Consumer","Media":"Media","Community page":"Community page"},
+  format:{"Reel":"Reel","Video":"Video","Carousel":"Carousel","Image post":"Image post","Text post":"Text post","Story":"Story","Comment":"Comment"},
+  noMatch:"No themes match these filters. Set Momentum and Platform back to All to see every theme.",
+  mom:{growing:["Growing","Building now","Themes gaining volume across the period"],stable:["Stable","Holding steady","Constant themes without a clear rise or fall"],emerging:["Emerging","Emerging signals","Newer, smaller themes; treat as directional"],declining:["Declining","Fading","Themes losing volume"]},
+  skyAria:"Theme map. Each star is a theme. Use Tab to move between themes and Enter to jump to it.",skyEmpty:"No themes in this report yet.",
+  skySize:"Size: momentum",skyLines:"Lines: shared channels or pillars",skyHint:"Hover or tab to a star to see the theme. Click it to jump to the full theme.",
+  skyDetail:(m,c,p,k)=>m+". "+c+". Strongest on "+p+". Linked to "+k+" other theme"+(k===1?"":"s")+". ",jump:"Click to jump to the theme",
+  planH:"Action plan for ALDI",planSub:"When to post, what to say, and how to split it by region",
+  timingH:"Timing",timingNote:"From now to Christmas. The Sinterklaas window sits inside the start of the peak campaign. Phase boundaries are approximate.",
+  pillarsH:"Content pillars",pillarsNote:"The messages to carry across every theme.",
+  regionsH:"Regional strategy",regionsNote:"Dutch and French content should not be translations of each other.",
+  phases:{earlyTeasers:["Early teasers","Teasers","Late September to mid-November"],sinterklaasPause:["Sinterklaas and Saint-Nicolas window","Sint","Around late November to 6 December"],peakCampaign:["Peak campaign","Peak campaign","Mid-November to 24 December, strongest after 6 December"]},
+  markers:{data:d=>d+" data ends",sint:"6 Dec Saint-Nicolas"},
+  footer:(b,d)=>b+" Early Christmas Signals, analysed "+d,
+  methodH:"How this report is built",
+  method:`<p>One social listening search collects Dutch and French posts with a confirmed location in Belgium, across the dates of the selected period. The search terms come from the keyword list agreed with the client: core Christmas words in both languages, early atmosphere terms (decor, Advent calendars, cosy and winter tags), Christmas markets, home rituals and food, gifts and shopping, and the songs that carry Christmas content on TikTok.</p>
+<h4>What the search leaves out</h4><p>Posts about <strong>Sinterklaas, Saint-Nicolas and New Year</strong> are excluded so they do not swamp the early Christmas signal. That means the Sinterklaas guidance on this page draws on cultural context, not on posts in this dataset.</p>
+<h4>Platforms and confidence</h4><p>Every platform with relevant posts leads at least one theme, even when its volume is small. <strong>Confidence</strong> (High, Medium, Low) reflects how many posts sit behind a theme. TikTok themes rest on a few hundred posts, so read them as direction rather than scale.</p>
+<h4>Example posts</h4><p>Author names, follower counts, dates and engagement figures are copied from the data. A missing value means the data did not include it; nothing is estimated. Follower counts are a snapshot at collection time. Giveaway and paid posts are flagged because their engagement is inflated by contest mechanics.</p>
+<h4>Themes and momentum</h4><p>The internal LLM reads every post and groups them into themes that emerge from the data. <strong>Momentum</strong> (Growing, Emerging, Stable, Declining) is its judgement of how each theme moved across the window. The French and Dutch split is directional: language detection on short posts is imperfect.</p>
+<h4>The theme map</h4><p>Each star is a theme. Star size and colour follow momentum. A line joins two themes that share a recommended channel or content pillar beyond the ones every theme has in common. The orange star at the centre is the leading growing theme.</p>
+<h4>Periods</h4><p>Each tab is one run of the analysis. Weekly runs cover the previous four weeks, so neighbouring periods overlap by three weeks: compare them to see what is gaining or fading, rather than adding them up. The launch report covers a longer window. Theme names and numbering are set fresh in each run.</p><h4>Translation</h4><p>The report was written in English and translated into French and Dutch. Post excerpts and hashtags stay in their original language, with a translation underneath when the post is in another language.</p>`},
+fr:{locale:"fr-BE",heroTitle:"Signaux précoces de Noël",periodLbl:"Période",latest:"Dernière",launch:"Rapport de lancement",loading:"Chargement des dernières analyses…",loadErr:"Impossible de charger les analyses. Actualisez la page pour réessayer.",periodNote:(a,b)=>"Du "+a+" au "+b,heroSub:b=>b+", publications en néerlandais et en français",analysed:d=>"Analysé le "+d,
+  themesSurfaced:"Thèmes identifiés",
+  regBoth:"Les deux régions",regNl:"Flandre (NL)",regFr:"Wallonie et Bruxelles (FR)",reportLang:"Langue du rapport",momentum:"Dynamique",platformLbl:"Plateforme",all:"Tout",
+  mood:"Humeur",netWord:"sentiment net",pos:p=>"Environ "+p+"\u202f% positives",neg:n=>"Environ "+n+"\u202f% négatives",sentAria:(p,n)=>"Environ "+p+" % positives, "+n+" % négatives",
+  opp:"L'opportunité pour ALDI",nuance:"Flandre, Wallonie et le chevauchement avec Saint-Nicolas",
+  platH:"Où se tient la conversation",platNote:"Part des publications par plateforme. Chaque plateforme avec des publications pertinentes porte au moins un thème, même avec un petit volume.",
+  posts:"publications",ofPosts:"des publications",themesOn:"Thèmes présents",leadsHint:"Les thèmes mis en avant sont les plus forts sur cette plateforme.",zero:l=>"Aucune publication pertinente : "+l+".",
+  conf:{high:"Fiabilité élevée",medium:"Fiabilité moyenne",low:"Fiabilité faible"},strongest:p=>"Plus fort sur "+p,
+  themesH:"Thèmes",themesSub:"Ce que les Belges publient sur Noël avant le début de la saison",
+  cross:"Multiplateforme",single:"Une seule plateforme",why:"Pourquoi c'est important pour ALDI",idea:"Idée de contenu",channels:"Canaux",pillarsLbl:"Piliers",
+  flanders:"Flandre",wallonia:"Wallonie et Bruxelles",developed:"Évolution",noneGiven:"Non précisé",noNl:"Pas de détail en néerlandais pour ce thème.",noFr:"Pas de détail en français pour ce thème.",
+  examples:"Exemples de publications",followers:"abonnés",noFollowers:"Nombre d'abonnés absent des données",open:p=>"Voir la publication sur "+p,giveaway:"Concours ou rémunéré",translation:"Traduction",
+  eng:{likes:"j'aime",comments:"commentaires",shares:"partages",views:"vues"},
+  authorType:{"Creator":"Créateur","Brand":"Marque","Consumer":"Consommateur","Media":"Média","Community page":"Page communautaire"},
+  format:{"Reel":"Reel","Video":"Vidéo","Carousel":"Carrousel","Image post":"Post image","Text post":"Post texte","Story":"Story","Comment":"Commentaire"},
+  noMatch:"Aucun thème ne correspond à ces filtres. Remettez Dynamique et Plateforme sur Tout pour voir tous les thèmes.",
+  mom:{growing:["En hausse","En pleine croissance","Thèmes dont le volume augmente sur la période"],stable:["Stable","Stables","Thèmes constants, sans hausse ni baisse nette"],emerging:["Émergent","Signaux émergents","Thèmes plus récents et plus petits ; à lire comme des tendances"],declining:["En baisse","En recul","Thèmes dont le volume diminue"]},
+  skyAria:"Carte des thèmes. Chaque étoile est un thème. Utilisez Tab pour passer d'un thème à l'autre et Entrée pour l'ouvrir.",skyEmpty:"Aucun thème dans ce rapport pour l'instant.",
+  skySize:"Taille : dynamique",skyLines:"Traits : canaux ou piliers communs",skyHint:"Survolez une étoile ou atteignez-la avec Tab pour voir le thème. Cliquez pour accéder au thème complet.",
+  skyDetail:(m,c,p,k)=>m+". "+c+". Plus fort sur "+p+". Relié à "+k+" autre"+(k>1?"s":"")+" thème"+(k>1?"s":"")+". ",jump:"Cliquez pour accéder au thème",
+  planH:"Plan d'action pour ALDI",planSub:"Quand publier, quoi dire et comment répartir par région",
+  timingH:"Calendrier",timingNote:"D'ici à Noël. La période de Sinterklaas se situe au début de la campagne principale. Les limites entre phases sont approximatives.",
+  pillarsH:"Piliers de contenu",pillarsNote:"Les messages à porter dans chaque thème.",
+  regionsH:"Stratégie régionale",regionsNote:"Les contenus en néerlandais et en français ne doivent pas être de simples traductions l'un de l'autre.",
+  phases:{earlyTeasers:["Teasers précoces","Teasers","De fin septembre à mi-novembre"],sinterklaasPause:["Période de Sinterklaas et de la Saint-Nicolas","Saint-Nicolas","De fin novembre environ au 6 décembre"],peakCampaign:["Campagne principale","Campagne principale","De mi-novembre au 24 décembre, au plus fort après le 6 décembre"]},
+  markers:{data:d=>d+" fin des données",sint:"6 déc. Saint-Nicolas"},
+  footer:(b,d)=>b+", signaux précoces de Noël, analysé le "+d,
+  methodH:"Comment ce rapport est construit",
+  method:`<p>Une seule recherche de social listening collecte les publications en néerlandais et en français dont la localisation en Belgique est confirmée, sur les dates de la période sélectionnée. Les termes de recherche proviennent de la liste de mots-clés validée avec le client : mots de Noël de base dans les deux langues, termes d'ambiance précoce (déco, calendriers de l'Avent, hashtags cocooning et hiver), marchés de Noël, rituels à la maison et repas, cadeaux et shopping, ainsi que les chansons qui portent les contenus de Noël sur TikTok.</p>
+<h4>Ce que la recherche exclut</h4><p>Les publications sur <strong>Sinterklaas, la Saint-Nicolas et le Nouvel An</strong> sont exclues pour ne pas noyer les signaux précoces de Noël. Les recommandations liées à Saint-Nicolas présentées ici s'appuient donc sur le contexte culturel, et non sur des publications de ce jeu de données.</p>
+<h4>Plateformes et fiabilité</h4><p>Chaque plateforme avec des publications pertinentes porte au moins un thème, même avec un petit volume. La <strong>fiabilité</strong> (élevée, moyenne, faible) reflète le nombre de publications derrière un thème. Les thèmes TikTok reposent sur quelques centaines de publications : ils indiquent une direction, pas une ampleur.</p>
+<h4>Exemples de publications</h4><p>Les noms d'auteurs, nombres d'abonnés, dates et chiffres d'engagement sont repris tels quels des données. Une valeur absente signifie que les données ne la contenaient pas ; rien n'est estimé. Les nombres d'abonnés correspondent au moment de la collecte. Les concours et posts rémunérés sont signalés, car leur engagement est gonflé par la mécanique de concours.</p>
+<h4>Thèmes et dynamique</h4><p>Le LLM interne lit chaque publication et les regroupe en thèmes qui émergent des données. La <strong>dynamique</strong> (En hausse, Émergent, Stable, En baisse) est son appréciation de l'évolution de chaque thème sur la période. La répartition entre français et néerlandais est indicative : la détection de langue sur des publications courtes reste imparfaite.</p>
+<h4>La carte des thèmes</h4><p>Chaque étoile est un thème. Sa taille et sa couleur suivent la dynamique. Un trait relie deux thèmes qui partagent un canal recommandé ou un pilier de contenu, au-delà de ceux communs à tous les thèmes. L'étoile orange au centre est le principal thème en hausse.</p>
+<h4>Périodes</h4><p>Chaque onglet correspond à une exécution de l'analyse. Les analyses hebdomadaires couvrent les quatre semaines précédentes : deux périodes voisines se chevauchent donc sur trois semaines. Comparez-les pour voir ce qui progresse ou recule, sans les additionner. Le rapport de lancement couvre une période plus longue. Les noms et numéros des thèmes sont redéfinis à chaque analyse.</p><h4>Traduction</h4><p>Le rapport a été rédigé en anglais puis traduit en français et en néerlandais. Les extraits de publications et les hashtags restent dans leur langue d'origine, avec une traduction en dessous lorsque la publication est dans une autre langue.</p>`},
+nl:{locale:"nl-BE",heroTitle:"Vroege kerstsignalen",periodLbl:"Periode",latest:"Nieuwste",launch:"Lanceringsrapport",loading:"De nieuwste inzichten worden geladen…",loadErr:"De inzichten konden niet worden geladen. Vernieuw de pagina om het opnieuw te proberen.",periodNote:(a,b)=>a+" tot "+b,heroSub:b=>b+", Nederlandstalige en Franstalige posts",analysed:d=>"Geanalyseerd op "+d,
+  themesSurfaced:"Thema's gevonden",
+  regBoth:"Beide regio's",regNl:"Vlaanderen (NL)",regFr:"Wallonië en Brussel (FR)",reportLang:"Taal van het rapport",momentum:"Momentum",platformLbl:"Platform",all:"Alles",
+  mood:"Sfeer",netWord:"netto sentiment",pos:p=>"Ongeveer "+p+"% positief",neg:n=>"Ongeveer "+n+"% negatief",sentAria:(p,n)=>"Ongeveer "+p+"% positief, "+n+"% negatief",
+  opp:"De kans voor ALDI",nuance:"Vlaanderen, Wallonië en de overlap met Sinterklaas",
+  platH:"Waar het gesprek plaatsvindt",platNote:"Aandeel van de posts per platform. Elk platform met relevante posts trekt minstens één thema, hoe klein het ook is.",
+  posts:"posts",ofPosts:"van de posts",themesOn:"Thema's hier",leadsHint:"Gemarkeerde thema's zijn het sterkst op dit platform.",zero:l=>"Geen relevante posts: "+l+".",
+  conf:{high:"Hoge betrouwbaarheid",medium:"Gemiddelde betrouwbaarheid",low:"Lage betrouwbaarheid"},strongest:p=>"Sterkst op "+p,
+  themesH:"Thema's",themesSub:"Wat Belgen over kerst posten voordat het seizoen begint",
+  cross:"Meerdere platformen",single:"Eén platform",why:"Waarom dit belangrijk is voor ALDI",idea:"Contentidee",channels:"Kanalen",pillarsLbl:"Pijlers",
+  flanders:"Vlaanderen",wallonia:"Wallonië en Brussel",developed:"Hoe het zich ontwikkelde",noneGiven:"Niet opgegeven",noNl:"Geen Nederlandstalige details voor dit thema.",noFr:"Geen Franstalige details voor dit thema.",
+  examples:"Voorbeeldposts",followers:"volgers",noFollowers:"Aantal volgers niet in de data",open:p=>"Post bekijken op "+p,giveaway:"Winactie of betaald",translation:"Vertaling",
+  eng:{likes:"likes",comments:"reacties",shares:"shares",views:"weergaven"},
+  authorType:{"Creator":"Creator","Brand":"Merk","Consumer":"Consument","Media":"Media","Community page":"Communitypagina"},
+  format:{"Reel":"Reel","Video":"Video","Carousel":"Carrousel","Image post":"Afbeeldingspost","Text post":"Tekstpost","Story":"Story","Comment":"Reactie"},
+  noMatch:"Geen thema's voor deze filters. Zet Momentum en Platform terug op Alles om alle thema's te zien.",
+  mom:{growing:["Groeiend","Groeit nu","Thema's waarvan het volume in de periode toeneemt"],stable:["Stabiel","Stabiel","Constante thema's zonder duidelijke stijging of daling"],emerging:["Opkomend","Opkomende signalen","Nieuwere, kleinere thema's; lees ze als richtinggevend"],declining:["Dalend","Neemt af","Thema's die aan volume verliezen"]},
+  skyAria:"Themakaart. Elke ster is een thema. Gebruik Tab om tussen thema's te gaan en Enter om naar het thema te springen.",skyEmpty:"Nog geen thema's in dit rapport.",
+  skySize:"Grootte: momentum",skyLines:"Lijnen: gedeelde kanalen of pijlers",skyHint:"Beweeg over een ster of ga er met Tab naartoe om het thema te zien. Klik om naar het volledige thema te gaan.",
+  skyDetail:(m,c,p,k)=>m+". "+c+". Sterkst op "+p+". Verbonden met "+k+" ander"+(k===1?"":"e")+" thema"+(k===1?"":"'s")+". ",jump:"Klik om naar het thema te gaan",
+  planH:"Actieplan voor ALDI",planSub:"Wanneer posten, wat zeggen en hoe verdelen per regio",
+  timingH:"Timing",timingNote:"Van nu tot kerst. De Sinterklaasperiode valt in het begin van de piekcampagne. De grenzen tussen de fases zijn bij benadering.",
+  pillarsH:"Contentpijlers",pillarsNote:"De boodschappen die in elk thema terugkomen.",
+  regionsH:"Regionale strategie",regionsNote:"Nederlandstalige en Franstalige content mogen geen vertalingen van elkaar zijn.",
+  phases:{earlyTeasers:["Vroege teasers","Teasers","Eind september tot half november"],sinterklaasPause:["Sinterklaas- en Saint-Nicolasperiode","Sint","Ongeveer eind november tot 6 december"],peakCampaign:["Piekcampagne","Piekcampagne","Half november tot 24 december, het sterkst na 6 december"]},
+  markers:{data:d=>d+" einde data",sint:"6 dec. Sinterklaas"},
+  footer:(b,d)=>b+", vroege kerstsignalen, geanalyseerd op "+d,
+  methodH:"Hoe dit rapport is opgebouwd",
+  method:`<p>Eén social listening-zoekopdracht verzamelt Nederlandstalige en Franstalige posts met een bevestigde locatie in België, binnen de data van de geselecteerde periode. De zoektermen komen uit de trefwoordenlijst die met de klant is afgesproken: basiswoorden rond kerst in beide talen, termen voor de vroege sfeer (decoratie, adventskalenders, gezellige en winterse tags), kerstmarkten, rituelen thuis en eten, cadeaus en shoppen, en de liedjes die kerstcontent op TikTok dragen.</p>
+<h4>Wat de zoekopdracht uitsluit</h4><p>Posts over <strong>Sinterklaas, Saint-Nicolas en Nieuwjaar</strong> zijn uitgesloten, zodat ze het vroege kerstsignaal niet overstemmen. De aanbevelingen rond Sinterklaas op deze pagina steunen dus op culturele context, niet op posts in deze dataset.</p>
+<h4>Platformen en betrouwbaarheid</h4><p>Elk platform met relevante posts trekt minstens één thema, ook als het volume klein is. <strong>Betrouwbaarheid</strong> (hoog, gemiddeld, laag) weerspiegelt hoeveel posts achter een thema zitten. TikTok-thema's steunen op enkele honderden posts: ze geven een richting aan, geen omvang.</p>
+<h4>Voorbeeldposts</h4><p>Namen van auteurs, aantallen volgers, datums en engagementcijfers komen rechtstreeks uit de data. Een ontbrekende waarde betekent dat de data ze niet bevatte; er wordt niets geschat. Aantallen volgers zijn een momentopname bij het verzamelen. Winacties en betaalde posts zijn gemarkeerd, omdat hun engagement door de wedstrijdmechaniek opgeblazen is.</p>
+<h4>Thema's en momentum</h4><p>De interne LLM leest elke post en groepeert ze in thema's die uit de data naar voren komen. <strong>Momentum</strong> (Groeiend, Opkomend, Stabiel, Dalend) is haar oordeel over hoe elk thema zich in de periode ontwikkelde. De verdeling tussen Frans en Nederlands is indicatief: taalherkenning op korte posts is niet perfect.</p>
+<h4>De themakaart</h4><p>Elke ster is een thema. Grootte en kleur volgen het momentum. Een lijn verbindt twee thema's die een aanbevolen kanaal of contentpijler delen, naast de pijlers en kanalen die alle thema's gemeen hebben. De oranje ster in het midden is het belangrijkste groeiende thema.</p>
+<h4>Periodes</h4><p>Elk tabblad is één run van de analyse. Wekelijkse runs beslaan de vier voorgaande weken, dus naburige periodes overlappen drie weken: vergelijk ze om te zien wat groeit of afneemt, maar tel ze niet op. Het lanceringsrapport beslaat een langere periode. Themanamen en -nummers worden bij elke run opnieuw bepaald.</p><h4>Vertaling</h4><p>Het rapport is in het Engels geschreven en vertaald naar het Frans en het Nederlands. Fragmenten uit posts en hashtags blijven in hun oorspronkelijke taal, met een vertaling eronder als de post in een andere taal is.</p>`}
+};
+
+/* ===================== helpers ===================== */
+const $=id=>document.getElementById(id);
+const arr=x=>Array.isArray(x)?x:[];
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const STAR_SRC="data:image/svg+xml,"+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M50 2C54 38 62 46 98 50C62 54 54 62 50 98C46 62 38 54 2 50C38 46 46 38 50 2Z" fill="#EE7241"/></svg>');
+const MOM={growing:{rank:0,size:12,color:"#6CE59D"},stable:{rank:1,size:9,color:"#A5B3F5"},emerging:{rank:2,size:7,color:"#F2B544"},declining:{rank:3,size:6,color:"#BC98E5"}};
+const CONF_RANK={high:0,medium:1,low:2};
+const state={mom:"all",plat:"all",region:"both",ui:CONFIG.defaultLang};
+const L=()=>UI[state.ui]||UI.en;
+const R=()=>REPORTS[state.ui]||REPORTS.en;
+const themes=()=>arr(R().themes);
+const enTheme=id=>arr(REPORTS.en.themes).find(t=>t.themeId===id)||{};
+const fmtDate=d=>{if(!d)return "";const x=new Date(d+"T12:00:00");return isNaN(x)?d:x.toLocaleDateString(L().locale,{day:"numeric",month:"long",year:"numeric"});};
+const fmtShort=d=>{if(!d)return "";const x=new Date(d+"T12:00:00");return isNaN(x)?d:x.toLocaleDateString(L().locale,{day:"numeric",month:"short",year:"numeric"});};
+const fmtNum=n=>Number(n).toLocaleString(L().locale);
+const fmtCompact=n=>Number(n).toLocaleString(L().locale,{notation:"compact",maximumFractionDigits:1});
+const isNum=v=>typeof v==="number"&&isFinite(v);
+const MOM_ALIAS={steady:"stable",rising:"growing",new:"emerging",fading:"declining"};
+const momKey=t=>{let k=String((t.momentum&&t.momentum.status)||"").toLowerCase().trim();k=MOM_ALIAS[k]||k;return MOM[k]?k:"stable";};
+const confKey=t=>{const k=String(t.dataConfidence||"").toLowerCase().trim();return CONF_RANK[k]!=null?k:null;};
+const momLabel=k=>L().mom[k][0];
+const confRank=t=>{const k=confKey(t);return k?CONF_RANK[k]:1;};
+const sortThemes=th=>[...th].sort((a,b)=>MOM[momKey(a)].rank-MOM[momKey(b)].rank||confRank(a)-confRank(b));
+const shortName=t=>t.shortLabel||t.themeName;
+const domId=t=>"t-"+String(t.themeId).replace(/[^a-z0-9]+/gi,"-").toLowerCase();
+const platColor=p=>CONFIG.platformColors[p]||"#6E6E73";
+const coverage=()=>arr(R().platformCoverage);
+const activePlatforms=()=>coverage().filter(p=>p.postCount>0).sort((a,b)=>b.postCount-a.postCount);
+/* platforms for the filter chips: from coverage when the run has it, otherwise from the themes' data sources */
+const filterPlatforms=()=>{if(activePlatforms().length)return activePlatforms().map(p=>p.platform);const n={};themes().forEach(t=>arr(t.dataSources).forEach(p=>n[p]=(n[p]||0)+1));return Object.keys(n).sort((a,b)=>n[b]-n[a]);};
+function logoHtml(){return CONFIG.logoSrc?'<img src="'+esc(CONFIG.logoSrc)+'" alt="Pulsar">':'<span class="wordmark">Pulsar</span>';}
+
+/* ===================== static text ===================== */
+function renderStatic(){
+  const l=L();document.documentElement.lang=state.ui;
+  document.querySelectorAll("[data-i18n]").forEach(el=>{const v=l[el.dataset.i18n];if(typeof v==="string")el.textContent=v;});
+  $("methodBody").innerHTML=l.method;
+  $("uiSeg").setAttribute("aria-label",l.reportLang);
+  $("uiSeg").querySelectorAll("button").forEach(b=>{const on=b.dataset.ui===state.ui;b.classList.toggle("active",on);b.setAttribute("aria-pressed",on?"true":"false");});
+  const m=R().meta||{};$("footNote").textContent=l.footer(m.targetBrand||CONFIG.client,fmtDate(m.analysisDate));
+}
+
+/* ===================== hero ===================== */
+function renderHero(){
+  const l=L(),m=R().meta||{},ex=R().executiveSummary||{};
+  document.title=(m.targetBrand||CONFIG.client)+": "+l.heroTitle;
+  $("heroTitle").textContent=l.heroTitle;
+  $("heroSub").textContent=l.heroSub(m.targetBrand||CONFIG.client);
+  $("runDate").textContent=m.analysisDate?l.analysed(fmtDate(m.analysisDate)):"";
+  const ov=String(ex.overview||"");const cut=ov.search(/\.\s+(?=[A-ZÀ-Ý])/);
+  $("leadLine").textContent=cut>0?ov.slice(0,cut+1):ov;
+  $("verdict").textContent=cut>0?ov.slice(cut+1).trim():"";
+  const meta=arr(R().headlineStats).map(s=>[s.value,s.label]).concat([[String(themes().length),l.themesSurfaced]]);
+  $("periodLine").textContent=PERIOD?l.periodNote(fmtDate(PERIOD.start),fmtDate(PERIOD.end)):"";
+  $("meta").innerHTML=meta.map(s=>'<span><strong>'+esc(s[0])+'</strong>'+esc(s[1])+'</span>').join("");
+}
+
+/* ===================== theme map ===================== */
+function themeSet(t){const ca=(t.aldiImplications&&t.aldiImplications.contentActivation)||{};return new Set(arr(ca.recommendedChannels).concat(arr(ca.keyPillars)).map(x=>String(x).toLowerCase()));}
+function computeLinks(){ /* always from the English source so links stay identical across languages */
+  const th=arr(REPORTS.en.themes);if(!th.length)return [];const sets=th.map(themeSet);
+  const common=new Set([...sets[0]].filter(x=>sets.every(s=>s.has(x))));const links=[];
+  for(let i=0;i<th.length;i++)for(let j=i+1;j<th.length;j++){const w=[...sets[i]].filter(x=>!common.has(x)&&sets[j].has(x)).length;if(w>0)links.push([domId(th[i]),domId(th[j]),w]);}
+  return links;
+}
+function renderSky(){
+  const l=L(),th=themes(),host=$("themeSky");host.innerHTML="";
+  if(!th.length){host.innerHTML='<div class="sky-empty">'+esc(l.skyEmpty)+'</div>';return;}
+  const lead=sortThemes(th)[0],W=640,H=470;
+  const nodes=th.map(t=>({id:domId(t),label:shortName(t),value:momLabel(momKey(t)),size:MOM[momKey(t)].size,color:MOM[momKey(t)].color,dim:momKey(t)==="emerging"||confKey(t)==="low",lead:t===lead}));
+  Cosmos.orbitLayout(nodes,{width:W,height:H,centerId:domId(lead),padX:.13,padY:.16,startAngle:-Math.PI/2});
+  const chart=Cosmos.constellation(host,{width:W,height:H,nodes,links:computeLinks()},{starHref:STAR_SRC,textSize:13,interactive:true,
+    label:l.skyAria,onFocus:(n,linked)=>skyDetail(n,linked),onSelect:n=>jumpTo(n.id)});
+  const used=new Set(th.map(momKey));
+  $("skyLegend").innerHTML=Object.keys(MOM).filter(k=>used.has(k)).map(k=>'<span><i style="background:'+MOM[k].color+'"></i>'+esc(momLabel(k))+'</span>').join("")+'<span>'+esc(l.skySize)+'</span><span>'+esc(l.skyLines)+'</span>';
+  skyDetail(null);setTimeout(()=>chart.light(),250);
+}
+function skyText(l,t,linked){ /* drop the confidence and platform parts when the run does not provide them */
+  const k=linked?linked.length:0;let txt=l.skyDetail(momLabel(momKey(t)),"#C#",t.platformFocus||"#P#",k);
+  txt=confKey(t)?txt.replace("#C#",l.conf[confKey(t)]):txt.replace(/\s*#C#\.?/,"");
+  if(!t.platformFocus)txt=txt.replace(/[^.]*#P#\.?\s*/," ");
+  return " "+txt.replace(/\s+/g," ").trim()+" ";
+}
+function skyDetail(n,linked){
+  const l=L(),d=$("skyDetail");if(!n){d.textContent=l.skyHint;return;}
+  const t=themes().find(x=>domId(x)===n.id);if(!t)return;
+  d.innerHTML='<strong>'+esc(t.themeName)+'</strong>'+esc(skyText(l,t,linked))+'<span class="go">'+esc(l.jump)+'</span>';
+}
+function jumpTo(id){
+  if(state.mom!=="all"||state.plat!=="all"){state.mom="all";state.plat="all";syncChips();renderGrid();}
+  const el=document.getElementById(id);if(!el)return;
+  el.scrollIntoView({behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"});
+  el.classList.add("is-flash");setTimeout(()=>el.classList.remove("is-flash"),1800);
+}
+
+/* ===================== mood and opportunity ===================== */
+function renderStanding(){
+  const l=L(),ex=R().executiveSummary||{},net=PERIOD&&isNum(PERIOD.netSentiment)?Math.round(PERIOD.netSentiment):null,pct=state.ui==="fr"?"\u202f%":"%";
+  let sent="";
+  if(net!=null){const pp=Math.round((100+net)/2),nn=100-pp,sign=net>=0?"+":"";
+    sent='<div class="big">'+sign+net+pct+'<small>'+esc(l.netWord)+'</small></div>'
+    +'<div class="sentbar" role="img" aria-label="'+esc(l.sentAria(pp,nn))+'"><span class="pos" style="width:'+pp+'%"></span><span class="neg" style="width:'+nn+'%"></span></div>'
+    +'<div class="sentkey"><span>'+esc(l.pos(pp))+'</span><span>'+esc(l.neg(nn))+'</span></div>';}
+  $("standing").innerHTML='<div><h2 id="standingTitle">'+esc(l.mood)+'</h2>'+sent
+    +'<p class="mood-text">'+esc(ex.dominantMood)+'</p></div>'
+    +'<div class="stack"><div class="box why"><div class="box-label">'+esc(l.opp)+'</div><p>'+esc(ex.commercialOpportunity)+'</p></div>'
+    +'<div class="box"><div class="box-label">'+esc(l.nuance)+'</div><p>'+esc(ex.culturalNuances)+'</p></div></div>';
+}
+
+/* ===================== platforms ===================== */
+function renderPlatforms(){
+  $("platPanel").hidden=!activePlatforms().length;if(!activePlatforms().length)return;
+  const l=L(),act=activePlatforms(),zero=coverage().filter(p=>!(p.postCount>0)),tot=act.reduce((s,p)=>s+p.postCount,0)||1,th=themes();
+  $("platBar").innerHTML=act.map(p=>'<span style="width:'+(p.postCount/tot*100).toFixed(2)+'%;background:'+platColor(p.platform)+'" title="'+esc(p.platform+" "+p.shareOfPosts)+'"></span>').join("");
+  $("platGrid").innerHTML=act.map(p=>{
+    const ck=String(p.dataConfidence||"").toLowerCase();const here=sortThemes(th.filter(t=>arr(t.dataSources).includes(p.platform)));
+    return '<div class="plat"><div class="plat-head"><span class="dotp" style="background:'+platColor(p.platform)+'"></span><strong>'+esc(p.platform)+'</strong>'+(l.conf[ck]?'<span class="pill conf-'+ck+'">'+esc(l.conf[ck])+'</span>':'')+'</div>'
+      +'<div class="plat-num">'+fmtNum(p.postCount)+'<small>'+esc(l.posts)+', '+esc(String(p.shareOfPosts).replace(".",state.ui==="en"?".":","))+' '+esc(l.ofPosts)+'</small></div>'
+      +'<p>'+esc(p.contentCharacter)+'</p>'
+      +(here.length?'<div><span class="ctl-label">'+esc(l.themesOn)+'</span><div class="tchips" style="margin-top:6px">'+here.map(t=>'<button class="tchip'+(t.platformFocus===p.platform?" lead":"")+'" data-jump="'+domId(t)+'"'+(t.platformFocus===p.platform?' title="'+esc(l.strongest(p.platform))+'"':'')+'>'+esc(shortName(t).replace(/-?\n/g,m=>m.startsWith("-")?"":" "))+'</button>').join("")+'</div></div>':'')
+      +'</div>';}).join("");
+  $("platZero").textContent=zero.length?l.zero(zero.map(p=>p.platform).join(", "))+" "+l.leadsHint:l.leadsHint;
+}
+
+/* ===================== theme cards ===================== */
+function postCard(ex,enEx){
+  const l=L(),p=ex.platform||"",fol=isNum(ex.authorFollowers)?fmtCompact(ex.authorFollowers)+" "+l.followers:l.noFollowers;
+  const giveaway=/giveaway|paid|affiliate/i.test((enEx&&enEx.whyItMatters)||"");
+  const trans=state.ui==="en"?ex.translationEn:ex.translationLocal;const showTrans=trans&&ex.language!==state.ui;
+  const e=ex.engagement||{};const eng=["likes","comments","shares","views"].filter(k=>isNum(e[k])).map(k=>'<span><b>'+fmtNum(e[k])+'</b> '+esc(l.eng[k])+'</span>').join("");
+  const meta=[l.authorType[ex.authorType]||ex.authorType,fol].filter(Boolean).join(", ");
+  return '<article class="post">'
+    +'<div class="post-top"><span class="post-plat"><i style="background:'+platColor(p)+'"></i>'+esc(p)+'</span><span>'+esc([l.format[ex.contentFormat]||ex.contentFormat,fmtShort(ex.postDate)].filter(Boolean).join(", "))+'</span></div>'
+    +'<div class="author"><strong>'+esc(ex.authorName||ex.authorHandle||"-")+'</strong>'+(ex.authorHandle&&ex.authorHandle!==ex.authorName?'<span>'+esc(ex.authorHandle)+'</span><br>':'')+'<span>'+esc(meta)+'</span></div>'
+    +(giveaway?'<div><span class="flag">'+esc(l.giveaway)+'</span></div>':'')
+    +'<blockquote lang="'+esc(ex.language||"")+'">'+esc(ex.postText)+(showTrans?'<span class="trans" lang="'+state.ui+'">'+esc(l.translation)+': '+esc(trans)+'</span>':'')+'</blockquote>'
+    +(eng?'<div class="eng">'+eng+'</div>':'')
+    +(ex.whyItMatters?'<p class="pwhy">'+esc(ex.whyItMatters)+'</p>':'')
+    +(ex.url&&/^https?:\/\//.test(ex.url)?'<a class="open" href="'+esc(ex.url)+'" target="_blank" rel="noopener noreferrer">'+esc(l.open(p))+'</a>':'')
+    +'</article>';
+}
+function card(t){
+  const l=L(),mk=momKey(t),ck=confKey(t),s=t.summary||{},lb=s.languageBreakdown||{},ai=t.aldiImplications||{},ca=ai.contentActivation||{},enT=enTheme(t.themeId);
+  const others=arr(t.dataSources).filter(p=>p!==t.platformFocus);
+  const pills='<span class="pill mom-'+mk+'">'+esc(momLabel(mk))+'</span>'+(ck?'<span class="pill conf-'+ck+'">'+esc(l.conf[ck])+'</span>':'')
+    +(t.platformFocus?'<span class="pill focus">'+esc(l.strongest(t.platformFocus))+'</span>':'')
+    +others.map(p=>'<span class="pill"><span class="dot" style="background:'+platColor(p)+'"></span>'+esc(p)+'</span>').join("");
+  const tags=(list,cls)=>arr(list).length?arr(list).map(x=>'<span class="tag'+(cls?" "+cls:"")+'">'+esc(x)+'</span>').join(""):'<span class="tag-empty">'+esc(l.noneGiven)+'</span>';
+  const exs=arr(t.exampleContent),enExs=arr(enT.exampleContent);
+  return '<article class="card'+(mk==="emerging"||ck==="low"?" emerging":"")+'" id="'+domId(t)+'">'
+   +'<div class="card-head"><div class="pills">'+pills+'</div><h3>'+esc(t.themeName)+'</h3><p class="summary">'+esc(s.description)+'</p>'+(t.confidenceNote?'<p class="conf-note">'+esc(t.confidenceNote)+'</p>':'')+'</div>'
+   +'<div class="card-body"><div class="col">'
+     +(ai.strategicValue?'<div class="box why"><div class="box-label">'+esc(l.why)+'</div><p>'+esc(ai.strategicValue)+'</p></div>':'')
+     +(ca.creativeConcept?'<div class="box idea"><div class="box-label">'+esc(l.idea)+'</div><p>'+esc(ca.creativeConcept)+'</p>'
+       +'<div class="tagset"><span class="ctl-label">'+esc(l.channels)+'</span><div class="tags">'+tags(ca.recommendedChannels)+'</div></div>'
+       +'<div class="tagset"><span class="ctl-label">'+esc(l.pillarsLbl)+'</span><div class="tags">'+tags(ca.keyPillars,"pillar")+'</div></div></div>':'')
+   +'</div><div class="col">'
+     +'<div class="box lang-nl"><div class="box-label">'+esc(l.flanders)+'<span class="lang-code">NL</span></div><p>'+esc(lb.dutchFlanders||l.noNl)+'</p></div>'
+     +'<div class="box lang-fr"><div class="box-label">'+esc(l.wallonia)+'<span class="lang-code">FR</span></div><p>'+esc(lb.frenchWallonia||l.noFr)+'</p></div>'
+     +(t.momentum&&t.momentum.timelineDetails?'<div class="box"><div class="box-label">'+esc(l.developed)+'</div><p>'+esc(t.momentum.timelineDetails)+'</p></div>':'')
+   +'</div></div>'
+   +(exs.length?'<div class="examples"><div class="box-label">'+esc(l.examples)+'</div><div class="posts">'+exs.map((ex,i)=>postCard(ex,enExs[i])).join("")+'</div></div>':'')
+   +'</article>';
+}
+function renderChips(){
+  const l=L(),used=Object.keys(MOM).filter(k=>themes().some(t=>momKey(t)===k));
+  $("momChips").innerHTML='<button class="chip" data-mom="all">'+esc(l.all)+'</button>'+used.map(k=>'<button class="chip" data-mom="'+k+'"><span class="dot" style="background:'+MOM[k].color+'"></span>'+esc(momLabel(k))+'</button>').join("");
+  $("platChips").innerHTML='<button class="chip" data-plat="all">'+esc(l.all)+'</button>'+filterPlatforms().map(p=>'<button class="chip" data-plat="'+esc(p)+'"><span class="dot" style="background:'+platColor(p)+'"></span>'+esc(p)+'</button>').join("");
+  syncChips();
+}
+function syncChips(){
+  $("momChips").querySelectorAll(".chip").forEach(c=>c.classList.toggle("active",c.dataset.mom===state.mom));
+  $("platChips").querySelectorAll(".chip").forEach(c=>c.classList.toggle("active",c.dataset.plat===state.plat));
+}
+function renderGrid(){
+  const l=L(),g=$("grid"),list=themes().filter(t=>(state.mom==="all"||momKey(t)===state.mom)&&(state.plat==="all"||arr(t.dataSources).includes(state.plat)));
+  if(!list.length){g.innerHTML='<div class="empty">'+esc(l.noMatch)+'</div>';return;}
+  let html="";Object.keys(MOM).forEach(k=>{const grp=sortThemes(list).filter(t=>momKey(t)===k);if(!grp.length)return;
+    html+='<div class="group-title"><h2>'+esc(l.mom[k][1])+'</h2><span>'+esc(l.mom[k][2])+'</span></div>'+grp.map(card).join("");});
+  g.innerHTML=html;
+}
+
+/* ===================== action plan ===================== */
+function renderPlan(){
+  const l=L(),ap=R().actionPlan||{},ot=ap.optimalTiming||{};
+  const d0=new Date(CONFIG.window.start+"T00:00:00"),d1=new Date(CONFIG.window.end+"T23:59:59"),span=d1-d0;
+  const pct=d=>Math.max(0,Math.min(100,(new Date(d+"T12:00:00")-d0)/span*100));
+  const seg=p=>{const a=pct(p.start),b=pct(p.end),t=l.phases[p.key];return '<div class="ph '+p.cls+'" style="left:'+a.toFixed(2)+'%;width:'+(b-a).toFixed(2)+'%" title="'+esc(t[0])+'">'+esc(t[1])+'</div>';};
+  $("track").innerHTML=CONFIG.phases.filter(p=>p.lane!==2).map(seg).join("");
+  $("track2").innerHTML=CONFIG.phases.filter(p=>p.lane===2).map(seg).join("");
+  $("lanes").querySelectorAll(".mark").forEach(m=>m.remove());
+  $("lanes").insertAdjacentHTML("beforeend",CONFIG.markers.map(m=>{const d=m.date||(PERIOD&&PERIOD.end);if(!d)return "";const lab=typeof l.markers[m.key]==="function"?l.markers[m.key](new Date(d+"T12:00:00").toLocaleDateString(l.locale,{day:"numeric",month:"short"})):l.markers[m.key];return '<div class="mark" style="left:'+pct(d).toFixed(2)+'%"><span>'+esc(lab)+'</span></div>';}).join(""));
+  $("months").innerHTML=["2026-09-01","2026-10-01","2026-11-01","2026-12-01"].map(d=>{const s=new Date(d+"T12:00:00").toLocaleDateString(l.locale,{month:"long"});return '<span style="left:'+pct(d).toFixed(2)+'%">'+esc(s.charAt(0).toUpperCase()+s.slice(1))+'</span>';}).join("");
+  const order=["earlyTeasers","sinterklaasPause","peakCampaign"];
+  $("phases").innerHTML=order.map(k=>{const p=CONFIG.phases.find(x=>x.key===k),t=l.phases[k];return '<div class="phase '+p.cls+'-b"><h4>'+esc(t[0])+'</h4><div class="when">'+esc(t[2])+'</div><p>'+esc(ot[k]||"")+'</p></div>';}).join("");
+  $("pillars").innerHTML=arr(ap.keyContentPillars).map(x=>{const i=String(x).indexOf(" — ");const name=i>0&&i<40?x.slice(0,i):"";let body=name?x.slice(i+3):x;
+    body=body.replace(/^([\s'"«]*)([a-zà-ÿ])/,(m,a,b)=>a+b.toUpperCase());
+    return '<div class="box">'+(name?'<strong>'+esc(name)+'</strong>':'')+'<p>'+esc(body)+'</p></div>';}).join("");
+  const rs=ap.regionalStrategy||{};
+  $("regions").innerHTML='<div class="box lang-nl"><div class="box-label">'+esc(l.flanders)+'<span class="lang-code">NL</span></div><p>'+esc(rs.flanders)+'</p></div>'
+    +'<div class="box lang-fr"><div class="box-label">'+esc(l.wallonia)+'<span class="lang-code">FR</span></div><p>'+esc(rs.walloniaBrussels)+'</p></div>';
+}
+
+/* ===================== periods ===================== */
+function periodLabel(p){const o={day:"numeric",month:"short"},a=new Date(p.start+"T12:00:00"),b=new Date(p.end+"T12:00:00");
+  return a.toLocaleDateString(L().locale,o)+" – "+b.toLocaleDateString(L().locale,o);}
+function renderPeriodTabs(){
+  const l=L(),latest=PERIODS.find(p=>p.kind!=="launch");$("periodLbl").textContent=l.periodLbl;
+  $("periodTabs").setAttribute("aria-label",l.periodLbl);
+  $("periodTabs").innerHTML=PERIODS.map(p=>{const on=PERIOD&&p.id===PERIOD.id;const badge=p===latest?l.latest:p.kind==="launch"?l.launch:"";
+    return '<button class="ptab" role="tab" data-period="'+esc(p.id)+'" aria-selected="'+(on?"true":"false")+'" tabindex="'+(on?"0":"-1")+'">'+esc(periodLabel(p))+(badge?'<span class="badge">'+esc(badge)+'</span>':'')+'</button>';}).join("");
+}
+async function loadPeriod(id,push){
+  const p=PERIODS.find(x=>x.id===id)||PERIODS[0];if(!p)return;
+  if(!CACHE[p.id]){const r=await fetch(p.file,{cache:"no-cache"});if(!r.ok)throw new Error(p.file+" "+r.status);CACHE[p.id]=await r.json();}
+  PERIOD=CACHE[p.id];REPORTS=PERIOD.reports;state.mom="all";state.plat="all";
+  if(push)history.replaceState(null,"","#"+p.id);
+  renderAll();
+}
+
+/* ===================== events and start ===================== */
+function renderAll(){renderPeriodTabs();renderStatic();renderHero();renderSky();renderStanding();renderPlatforms();renderChips();renderGrid();renderPlan();}
+$("langSeg").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;state.region=b.dataset.lang;document.body.dataset.lang=state.region;
+  $("langSeg").querySelectorAll("button").forEach(x=>{x.classList.toggle("active",x===b);x.setAttribute("aria-pressed",x===b?"true":"false");});});
+$("uiSeg").addEventListener("click",e=>{const b=e.target.closest("button");if(!b||b.dataset.ui===state.ui)return;state.ui=b.dataset.ui;
+  try{localStorage.setItem("ecs-ui-lang",state.ui);}catch(err){}renderAll();});
+$("momChips").addEventListener("click",e=>{const c=e.target.closest(".chip");if(!c)return;state.mom=c.dataset.mom;syncChips();renderGrid();});
+$("platChips").addEventListener("click",e=>{const c=e.target.closest(".chip");if(!c)return;state.plat=c.dataset.plat;syncChips();renderGrid();});
+$("platGrid").addEventListener("click",e=>{const b=e.target.closest("[data-jump]");if(b)jumpTo(b.dataset.jump);});
+$("periodTabs").addEventListener("click",e=>{const b=e.target.closest("[data-period]");if(!b||(PERIOD&&b.dataset.period===PERIOD.id))return;
+  loadPeriod(b.dataset.period,true).catch(showErr);});
+$("periodTabs").addEventListener("keydown",e=>{if(e.key!=="ArrowLeft"&&e.key!=="ArrowRight")return;const tabs=[...$("periodTabs").querySelectorAll(".ptab")];
+  const i=tabs.indexOf(document.activeElement);if(i<0)return;const n=tabs[(i+(e.key==="ArrowRight"?1:-1)+tabs.length)%tabs.length];n.click();setTimeout(()=>{const t=$("periodTabs").querySelector('[data-period="'+n.dataset.period+'"]');t&&t.focus();},0);});
+window.addEventListener("hashchange",()=>{const id=location.hash.slice(1);if(PERIODS.some(p=>p.id===id)&&(!PERIOD||PERIOD.id!==id))loadPeriod(id,false).catch(showErr);});
+function showErr(err){console.error(err);document.body.classList.remove("is-loading");$("loading").textContent=L().loadErr;}
+(function init(){
+  try{const s=localStorage.getItem("ecs-ui-lang");if(s&&UI[s])state.ui=s;}catch(err){}
+  $("logoTop").innerHTML=logoHtml();$("logoFoot").innerHTML=logoHtml();
+  Cosmos.sky($("heroSky"));Cosmos.sky($("footSky"),{density:.0004});
+  document.body.classList.add("is-loading");$("loading").textContent=L().loading;
+  fetch("data/periods.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error("periods.json "+r.status);return r.json();})
+    .then(idx=>{PERIODS=arr(idx.periods);if(!PERIODS.length)throw new Error("no periods");
+      const want=location.hash.slice(1),first=PERIODS.find(p=>p.kind!=="launch")||PERIODS[0];
+      return loadPeriod(PERIODS.some(p=>p.id===want)?want:first.id,false);})
+    .then(()=>{document.body.classList.remove("is-loading");$("loading").textContent="";})
+    .catch(showErr);
+})();
+</script>
+</body>
+</html>
