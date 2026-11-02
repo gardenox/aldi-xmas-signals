@@ -124,6 +124,21 @@ a{color:var(--fab);}
 .ctl-label{font-size:.78rem;color:var(--grey);font-weight:500;}
 .filters{margin-left:auto;display:flex;gap:8px 14px;flex-wrap:wrap;align-items:center;}
 
+/* ===================== Password screen ===================== */
+body.locked>*:not(#gate){display:none!important;}
+#gate{display:none;}
+body.locked #gate{display:flex;min-height:100vh;align-items:center;justify-content:center;padding:24px;background:radial-gradient(1200px 600px at 70% -10%,#26326a 0,var(--space) 60%);color:#fff;font-family:var(--font-body);}
+#gate .gcard{width:100%;max-width:400px;background:rgba(255,255,255,.04);border:1px solid rgba(148,192,255,.28);border-radius:18px;padding:32px;}
+#gate .gmark{display:flex;align-items:center;gap:10px;font-weight:600;margin-bottom:28px;}
+#gate .gmark svg{width:18px;height:18px;}
+#gate h1{font-family:var(--font-display);font-size:1.6rem;line-height:1.2;margin:0 0 6px;font-weight:600;color:#fff;}
+#gate .gsub{margin:0 0 24px;color:var(--pulsar-blue-tint);font-size:.95rem;}
+#gate label{display:block;font-size:.8rem;color:rgba(255,255,255,.75);margin-bottom:8px;}
+#gate input{width:100%;box-sizing:border-box;padding:12px 14px;border-radius:10px;border:1px solid rgba(148,192,255,.28);background:rgba(255,255,255,.06);color:#fff;font:inherit;font-size:1rem;}
+#gate input:focus{outline:2px solid var(--pulsar-blue);outline-offset:1px;}
+#gate button{margin-top:16px;width:100%;padding:12px;border:0;border-radius:999px;background:var(--pulsar-blue);color:#fff;font:inherit;font-weight:600;font-size:1rem;cursor:pointer;}
+#gate .gerr{margin:14px 0 0;color:#FFB59A;font-size:.88rem;min-height:1.2em;}
+
 /* ===================== Period tabs ===================== */
 .period-row{flex-wrap:nowrap;}
 .ptabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin;padding:2px;min-width:0;}
@@ -306,7 +321,16 @@ body[data-lang="nl"] .regions,body[data-lang="fr"] .regions{grid-template-column
 @media (max-width:640px){.controls{position:static;}}
 </style>
 </head>
-<body data-lang="both">
+<body data-lang="both" class="locked">
+<div id="gate"><form class="gcard" id="gateForm" autocomplete="on">
+  <div class="gmark"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 2C54 38 62 46 98 50C62 54 54 62 50 98C46 62 38 54 2 50C38 46 46 38 50 2Z" fill="#EE7241"/></svg>Pulsar</div>
+  <h1>Early Christmas Signals</h1>
+  <p class="gsub">ALDI Belgium</p>
+  <label for="gatePw">Password · Mot de passe · Wachtwoord</label>
+  <input id="gatePw" type="password" autocomplete="current-password" required autofocus>
+  <button type="submit">Open the report</button>
+  <p class="gerr" id="gateErr" role="alert"></p>
+</form></div>
 
 <header class="space hero">
   <canvas class="cosmos-sky" id="heroSky" aria-hidden="true"></canvas>
@@ -456,6 +480,9 @@ body[data-lang="nl"] .regions,body[data-lang="fr"] .regions{grid-template-column
    ========================================================================== */
 const CONFIG={
   client:"ALDI Belgium",
+  /* Password screen. Stores a SHA-256 of "ecs-site:v1:" + password, not the password itself.
+     This keeps casual visitors out; it is not strong security (see README). */
+  passwordHash:"1d9609ec0a506da77a8b2b963b3d0bf0cef5365c8ea38446089f9dd4b20b2c48",
   logoSrc:"",  /* optional: paste the Pulsar logo data URI; leave empty for a text wordmark */
   defaultLang:"en",
   platformColors:{Facebook:"#0068FD",Instagram:"#BC98E5",TikTok:"#EE7241",X:"#6E6E73",YouTube:"#F2B544",Reddit:"#6CE59D",News:"#A5B3F5",Blogs:"#94C0FF",Forums:"#94C0FF"},
@@ -829,6 +856,18 @@ function showErr(err){console.error(err);document.body.classList.remove("is-load
   try{const s=localStorage.getItem("ecs-ui-lang");if(s&&UI[s])state.ui=s;}catch(err){}
   $("logoTop").innerHTML=logoHtml();$("logoFoot").innerHTML=logoHtml();
   Cosmos.sky($("heroSky"));Cosmos.sky($("footSky"),{density:.0004});
+  unlock(startApp);
+})();
+async function hashPw(pw){const b=await crypto.subtle.digest("SHA-256",new TextEncoder().encode("ecs-site:v1:"+pw));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");}
+function unlock(then){
+  let saved=null;try{saved=localStorage.getItem("ecs-auth");}catch(e){}
+  if(!CONFIG.passwordHash||saved===CONFIG.passwordHash){document.body.classList.remove("locked");then();return;}
+  $("gateForm").addEventListener("submit",async e=>{e.preventDefault();
+    const h=await hashPw($("gatePw").value);
+    if(h===CONFIG.passwordHash){try{localStorage.setItem("ecs-auth",h);}catch(err){}document.body.classList.remove("locked");then();}
+    else{$("gateErr").textContent="That password is not right. Please try again.";$("gatePw").select();}});
+}
+function startApp(){
   document.body.classList.add("is-loading");$("loading").textContent=L().loading;
   fetch("data/periods.json",{cache:"no-cache"}).then(r=>{if(!r.ok)throw new Error("periods.json "+r.status);return r.json();})
     .then(idx=>{PERIODS=arr(idx.periods);if(!PERIODS.length)throw new Error("no periods");
@@ -836,7 +875,7 @@ function showErr(err){console.error(err);document.body.classList.remove("is-load
       return loadPeriod(PERIODS.some(p=>p.id===want)?want:first.id,false);})
     .then(()=>{document.body.classList.remove("is-loading");$("loading").textContent="";})
     .catch(showErr);
-})();
+}
 </script>
 </body>
 </html>

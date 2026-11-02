@@ -27,12 +27,9 @@ Required (the site validates these): `meta.targetBrand`, `executiveSummary` (ove
 Optional, shown when present: `platformCoverage[]` (the "Where the conversation is" panel and per-platform counts), `themes[].exampleContent[]` (example posts), `themes[].dataConfidence` / `confidenceNote` / `platformFocus`.
 
 ## Password
-The whole site, including the data files, sits behind a password gate that runs on the host before anything is served (`auth/gate.js`, used by `netlify/edge-functions/gate.js` on Netlify and `middleware.js` on Vercel). It works on the free plans of both.
+The page shows a password screen before it loads any report data. It is set in `index.html` as `CONFIG.passwordHash`: a SHA-256 of `ecs-site:v1:` + the password, so the password itself is not written in the page.
 
-- Set the password as an environment variable called **`SITE_PASSWORD`** on the host, then redeploy.
-  - Netlify: Site configuration → Environment variables.
-  - Vercel: Project → Settings → Environment Variables (tick Production).
-- Until it is set, the site shows "Site password is not configured" instead of the report.
-- Visitors stay signed in for 30 days. Changing `SITE_PASSWORD` signs everyone out.
-- Sign out: visit `/__logout`.
-- The password is never stored in this repo.
+- Change the password: run `printf '%s' "ecs-site:v1:NEW-PASSWORD" | sha256sum`, paste the result into `passwordHash`, commit and push. Everyone has to enter the new password.
+- Once entered correctly, the browser remembers it (localStorage) until the password changes.
+- Remove the screen: set `passwordHash` to `""`.
+- This keeps casual visitors out. It is not strong protection: the data files under `/data/` can still be opened directly by anyone who knows or guesses their address. Keep the GitHub repo private.
