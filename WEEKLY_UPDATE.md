@@ -3,8 +3,8 @@
 These are the instructions the weekly scheduled task follows. They can also be run by hand.
 
 ## 1. Find the email
-- Inbox: the connected Gmail (ben.farrell@pulsarplatform.com).
-- Search: `from:noreply@pulsarplatform.com subject:"Early Christmas Signals" newer_than:3d`. Take the newest match. The subject carries the window, e.g. "Early Christmas Signals Analysis — Belgium (Last 4 Weeks, 5 Oct – 1 Nov 2026)".
+- Inbox: the connected Gmail (ben.farrell@pulsarplatform.com). The LLM's email must reach this inbox, directly or forwarded.
+- Search: `subject:"Early Christmas Signals" newer_than:3d`. Take the newest match. Subject: "ALDI Belgium — Early Christmas Signals (weekly)" (forwarded copies start "Fwd:" and still match).
 - Read it with get_thread in PLAIN_TEXT format and save `plaintextBody` exactly as returned to `email.txt` (scratch folder). Do not retype or tidy it.
 - Run `node scripts/extract-json.mjs email.txt raw.json`. The email arrives HTML-escaped with underscores turned into `<em>` tags; the script undoes this and checks the theme ids. If it fails, try the message's html body the same way before giving up.
 - If no email is found, stop and send the "nothing new" note (step 6).
