@@ -1,0 +1,415 @@
+{
+  "meta": {
+    "reportTitle": "Early Christmas Signals Analysis - Belgium (Last 4 Weeks, all platforms incl. TikTok)",
+    "targetBrand": "ALDI Belgium",
+    "analysisDate": "2026-11-02",
+    "timeframe": "5 October – 1 November 2026 (rolling 4 weeks)",
+    "searchId": 228494,
+    "searchName": "Early Xmas (ID: 228494)",
+    "totalMentions": 62299,
+    "platformMix": {
+      "instagram": 33035,
+      "facebook": 28911,
+      "tiktok": 353
+    },
+    "languageMix": {
+      "fr": 48326,
+      "nl": 13933
+    }
+  },
+  "executiveSummary": {
+    "overview": "Over the last four weeks, Christmas conversation in Belgium stepped up decisively, with daily volume nearly tripling within the window (from 1,272 on 5 Oct to a peak of 3,607 mentions/day on 31 October) — the season tipping from early build-up into full ramp, with the sharpest climb once Halloween cleared. The discourse is warm and increasingly celebratory ('magie de Noël'), centred on Advent calendars, gift ideas and festive experiences. It remains a Meta phenomenon (Instagram + Facebook ≈99%; TikTok 353 posts, <1%) and French-leaning (≈78% FR vs ≈22% NL, directionally) — but Instagram (33,035) has overtaken Facebook (28,911) as the lead platform.",
+    "dominantMood": "Overwhelmingly positive and celebratory (positive 48,072 vs negative 7,518, ~6.4:1; joy ≈85% of classified emotion, 46,196 of ~54,298) — the warmest of any window analysed. Negativity has collapsed as a share; the 'magie de Noël' framing is now explicit, with 'magie de noël' the #8 topic (1,898).",
+    "culturalNuances": "Clear FR/NL divergence persists: French (Wallonia/Brussels) leads on Advent calendars, gifting and festive travel/markets; Flemish (Flanders) sustains kerstcadeau/kerstmarkt/kerstsfeer and bridges Sinterklaas/5 december with early gift content. The Sinterklaas (Flanders) / Saint-Nicolas (Wallonia, 6 Dec) gifting moment still overlaps the window and should be respected rather than overwritten with commercial Christmas messaging. A new Christmas-travel/market-tourism vein has emerged across both languages.",
+    "commercialOpportunity": "The early-planning window has become the active ramp: ALDI should move from teasers to full festive-range and Advent activation now, Instagram-first, as the affordable enabler of a cosy, celebratory Christmas — adding a festive-hosting/experience angle — before the Sinterklaas/Saint-Nicolas pause and the December peak."
+  },
+  "themes": [
+    {
+      "themeId": "theme_1",
+      "themeName": "Advent Calendars Broaden to Premium Beauty",
+      "dataSources": [
+        "Instagram",
+        "Facebook",
+        "TikTok"
+      ],
+      "isCrossPlatform": true,
+      "momentum": {
+        "status": "Growing",
+        "timelineDetails": "Peaks across late October into November as premium beauty calendars launch, with dense late-Oct/early-Nov draw dates (29 Oct, 31 Oct, 3–5 Nov) cited across brands."
+      },
+      "summary": {
+        "description": "Advent calendars remain the dominant commercial hook and have broadened from early-mover beauty/kids brands into premium beauty (Rituals train calendar, Yves Rocher Premium, Blissim, Ava & May, OA Nails). Still heavy on 'concours'/giveaway mechanics. #calendrierdelavent (2,014) and #noel2026 (2,943) are top festive hashtags; 'calendrier de l'avent' is the #4 topic (2,335).",
+        "languageBreakdown": {
+          "dutchFlanders": "#kerstcadeau (792) and adventskalender content growing; lower volume than FR.",
+          "frenchWallonia": "Dominant: premium-beauty Advent-calendar giveaways drive the top of the visibility ranking (@une.bulle.de.chipie, @nailsby_lie, @marion_mkp, @odelemedia)."
+        }
+      },
+      "aldiImplications": {
+        "strategicValue": "Advent calendars are a natural ALDI price-leadership and festive-range showcase; with premium brands now dominating, ALDI's value-vs-premium benchmark is more cut-through than ever.",
+        "contentActivation": {
+          "recommendedChannels": [
+            "Instagram Reels",
+            "Instagram Stories",
+            "Facebook",
+            "TikTok"
+          ],
+          "creativeConcept": "'Advent calendar reveal + budget haul' positioning ALDI's festive Advent range against pricey premium calendars; shareable giveaway to ride concours behaviour.",
+          "keyPillars": [
+            "Price Leadership",
+            "Festive Range",
+            "Quality"
+          ]
+        }
+      },
+      "exampleContent": [
+        {
+          "platform": "Instagram",
+          "authorHandle": "@une.bulle.de.chipie",
+          "authorName": "Magalie 🎀 | Créatrice de contenu 📸🎥",
+          "authorType": "Creator",
+          "authorFollowers": 36510,
+          "language": "fr",
+          "postDate": "2026-10-18",
+          "contentFormat": "Image post",
+          "postText": "🎄✨ CONCOURS DE NOËL ✨🎁\n\nEt si on faisait entrer un peu de magie de Noël chez vous ? ❤️🎅🏻\n\nAujourd'hui, je vous propose de tenter votre chance pour remporter ce magnifique calendrier de l'Avent Rituals en forme de train de Noël 🚂🎄 De quoi patienter jusqu'au réveillon avec une jolie touche de féerie !\n\n🎁 POUR PARTICIPER :",
+          "translationEn": "CHRISTMAS GIVEAWAY. What if we brought a little Christmas magic into your home? Today I'm giving you the chance to win this magnificent Rituals Advent calendar shaped like a Christmas train. TO ENTER: follow my account, like this post, invite friends. Ends 5 November 23:59.",
+          "engagement": {
+            "likes": 1821,
+            "comments": 4299,
+            "shares": null,
+            "views": null,
+            "total": 4299
+          },
+          "url": "https://www.instagram.com/p/DepRISQgThk/",
+          "whyItMatters": "A premium-beauty (Rituals) Advent-calendar giveaway — the dominant mechanic driving this theme; this is a giveaway/concours post."
+        },
+        {
+          "platform": "Instagram",
+          "authorHandle": "@nailsby_lie",
+          "authorName": "Julie 🤍",
+          "authorType": "Creator",
+          "authorFollowers": 10919,
+          "language": "fr",
+          "postDate": "2026-10-28",
+          "contentFormat": "Reel",
+          "postText": "🎄✨ CONCOURS EXCEPTIONNEL – OA NAILS SYSTEM ✨🎄\n\nEt si la magie de Noël commençait un peu plus tôt cette année ? 🎁❤️\n\nEn collaboration avec @oanailsystem, j'ai le plaisir de vous offrir LE DERNIER CALENDRIER DE L'AVENT ! 😍\n\nUne occasion unique de patienter jusqu'à Noël avec de merveilleuses surprises ! ✨",
+          "translationEn": "EXCEPTIONAL GIVEAWAY – OA NAILS SYSTEM. What if Christmas magic started a little earlier this year? In collaboration with @oanailsystem, I'm delighted to offer you THE LATEST ADVENT CALENDAR! A unique chance to wait for Christmas with wonderful surprises!",
+          "engagement": {
+            "likes": 894,
+            "comments": 3906,
+            "shares": null,
+            "views": null,
+            "total": 3906
+          },
+          "url": "https://www.instagram.com/reel/DfDVCWAC3Ug/",
+          "whyItMatters": "An express beauty Advent-calendar giveaway with explicit 'magie de Noël commence plus tôt' framing; this is a giveaway/collaboration post."
+        },
+        {
+          "platform": "Instagram",
+          "authorHandle": "@marion_mkp",
+          "authorName": "Marion & Co ™",
+          "authorType": "Creator",
+          "authorFollowers": 85394,
+          "language": "fr",
+          "postDate": "2026-10-25",
+          "contentFormat": "Image post",
+          "postText": "🎄✨ CONCOURS calendrier de l'avent ✨🎁\nAujourd'hui on vous gâte en vous offrant le calendrier de l'Avent Premium Yves Rocher 💄 \n\n🎁 À GAGNER : Un calendrier de l'Avent Yves Rocher Premium d'une valeur de 89,99€ pour plus de 230€ de produits 😍\n\nDe quoi se faire plaisir et patienter jusqu'à Noël avec plein de jolies surprises beauté : maquill",
+          "translationEn": "ADVENT CALENDAR GIVEAWAY. Today we're spoiling you with the Yves Rocher Premium Advent calendar. TO WIN: a Yves Rocher Premium Advent calendar worth €89.99 with over €230 of products. Something to treat yourself and wait for Christmas with lovely beauty surprises.",
+          "engagement": {
+            "likes": 315,
+            "comments": 954,
+            "shares": null,
+            "views": null,
+            "total": 954
+          },
+          "url": "https://www.instagram.com/p/De7L-xVRH6C/",
+          "whyItMatters": "A premium Yves Rocher Advent-calendar giveaway stating explicit retail value — shows the value-vs-premium benchmark; this is a giveaway/concours post."
+        }
+      ]
+    },
+    {
+      "themeId": "theme_2",
+      "themeName": "Gift Planning at Full Tilt (Idée Cadeau)",
+      "dataSources": [
+        "Instagram",
+        "Facebook"
+      ],
+      "isCrossPlatform": true,
+      "momentum": {
+        "status": "Growing",
+        "timelineDetails": "Accelerating across the window; #ideecadeau (1,966), #cadeaudenoel (744), #cadeaupersonnalisé (393) all elevated, with kids' tech gifting prominent."
+      },
+      "summary": {
+        "description": "Gift sourcing is now in full swing, broadening into kids' tech/toys (VTech LeapMove, ZapLaser laser-game), personalised gifts and 'lettre au Père Noël' framing. 'idées cadeaux' is the #10 topic (1,458).",
+        "languageBreakdown": {
+          "dutchFlanders": "#kerstcadeau (792) and early gift/show-list content; 5-december-aware framing.",
+          "frenchWallonia": "#idéecadeau / #cadeaudenoel / #cadeaupersonnalisé dominant; strong kids', tech and beauty gifting."
+        }
+      },
+      "aldiImplications": {
+        "strategicValue": "Positions ALDI as the smart, affordable gifting destination at peak list-building time — especially kids' and food gifting where ALDI is credible.",
+        "contentActivation": {
+          "recommendedChannels": [
+            "Instagram Reels",
+            "Pinterest",
+            "Facebook"
+          ],
+          "creativeConcept": "'ALDI gift guide under €X' Reels segmented by recipient (kids, foodies, cosy-home), emphasising quality-for-price.",
+          "keyPillars": [
+            "Price Leadership",
+            "Quality",
+            "Festive Range"
+          ]
+        }
+      },
+      "exampleContent": [
+        {
+          "platform": "Instagram",
+          "authorHandle": "@zaplaser_",
+          "authorName": "ZapLaser",
+          "authorType": "Brand",
+          "authorFollowers": null,
+          "language": "fr",
+          "postDate": "2026-10-30",
+          "contentFormat": "Reel",
+          "postText": "Commente « ZAP » si tu veux le même ⚡😅\n\n#lasergame #jeuxenfants #ideecadeau #noel2026",
+          "translationEn": "Comment 'ZAP' if you want the same one ⚡😅 #lasergame #kidsgames #giftidea #christmas2026",
+          "engagement": {
+            "likes": 93636,
+            "comments": 1773,
+            "shares": null,
+            "views": null,
+            "total": 1773
+          },
+          "url": "https://www.instagram.com/reel/DfIUDtnRpdV/",
+          "whyItMatters": "Kids' laser-game explicitly tagged #ideecadeau #noel2026 — a clear kids'-gift example; a comment-to-action lead-gen post (93,636 likes)."
+        },
+        {
+          "platform": "Instagram",
+          "authorHandle": "@elise.bgn",
+          "authorName": "Elise l Vie de Maman &. De couple en Humour",
+          "authorType": "Creator",
+          "authorFollowers": 87392,
+          "language": "fr",
+          "postDate": "2026-10-22",
+          "contentFormat": "Reel",
+          "postText": "🎁 CONCOURS 🎁 \n\nVos enfants ont déjà fait leur liste au Père Noel ?\nLa lettre au père de Noel de Milo était plutôt claire cette année : une console sans manette, où il peut bouger sauter et danser, mais aussi apprendre en s'amusant !\nAvec LeapMOVE+, les enfants de 4 à 11 ans peuvent découvrir 25 jeux et aventures",
+          "translationEn": "GIVEAWAY. Have your kids already made their letter to Santa? Milo's letter to Santa was pretty clear this year: a controller-free console where he can move, jump and dance, and also learn while having fun! With LeapMOVE+, kids aged 4 to 11 can discover 25 games and adventures.",
+          "engagement": {
+            "likes": 3,
+            "comments": 1236,
+            "shares": null,
+            "views": null,
+            "total": 1236
+          },
+          "url": "https://www.instagram.com/reel/DeznleFtdZ5/",
+          "whyItMatters": "Kids' tech gift (VTech LeapMove) with 'lettre au Père Noël' framing — core gift-planning behaviour; this is a paid/advertised giveaway post."
+        }
+      ]
+    },
+    {
+      "themeId": "theme_3",
+      "themeName": "'Magie de Noël', Cosy Ritual & Festive Experiences",
+      "dataSources": [
+        "Instagram",
+        "Facebook",
+        "TikTok"
+      ],
+      "isCrossPlatform": true,
+      "momentum": {
+        "status": "Growing",
+        "timelineDetails": "Cosy framing sustained (#cozyvibes 607, #kerstsfeer 515) and newly joined by 'magie de Noël' (#magiedenoel 467, #magiedenoël 417; topic 1,898) and a Christmas-travel/market vein emerging late October."
+      },
+      "summary": {
+        "description": "The emotional core broadens from warmth-and-craft (#faitmain 1,191, #artisanat 672, festive recipes) into explicit 'magie de Noël' celebration AND festive experiences — Christmas-market city breaks (London, Amsterdam, Vienna, Prague), Interrail itineraries and a Brussels–Milan Christmas night train. 'marché de noël' is the #7 topic (1,931).",
+        "languageBreakdown": {
+          "dutchFlanders": "#kerstsfeer (515), #kerstdecoratie (676), #kerstmarkt (407); cosy home and market content.",
+          "frenchWallonia": "#magiedenoel, #faitmain, #marchédenoël (869), festive recipes and Christmas-travel guides."
+        }
+      },
+      "aldiImplications": {
+        "strategicValue": "Lets ALDI own the emotional, celebratory side of Christmas and extend into festive hosting/food — catching the new 'plan festive experiences' mood, not just gifting.",
+        "contentActivation": {
+          "recommendedChannels": [
+            "Instagram Reels",
+            "Pinterest",
+            "TikTok"
+          ],
+          "creativeConcept": "'Cosy, magical Christmas on an ALDI budget': home-styling, festive-food/hosting and DIY/decor Reels; tie to Christmas-market season and at-home hosting.",
+          "keyPillars": [
+            "Festive Range",
+            "Quality",
+            "Price Leadership"
+          ]
+        }
+      },
+      "exampleContent": [
+        {
+          "platform": "Instagram",
+          "authorHandle": "@tinadventures",
+          "authorName": "Eglantine Chavanne - Voyages et aventures 🌺",
+          "authorType": "Creator",
+          "authorFollowers": 129428,
+          "language": "fr",
+          "postDate": "2026-10-25",
+          "contentFormat": "Reel",
+          "postText": "le guide ultime pour visiter Londres à Noël 🤭🎄\n\n#christmaslondon #visitlondon #londonchristmasmarket #conseilvoyage",
+          "translationEn": "the ultimate guide to visiting London at Christmas 🤭🎄 #christmaslondon #visitlondon #londonchristmasmarket #traveltip",
+          "engagement": {
+            "likes": 1110,
+            "comments": 2774,
+            "shares": null,
+            "views": null,
+            "total": 2774
+          },
+          "url": "https://www.instagram.com/reel/De6cBG7O0Y9/",
+          "whyItMatters": "Highest-visibility post in the window (4,943) — a Christmas city-break guide (London); the new festive-experience/travel vein; organic creator content, not a giveaway."
+        },
+        {
+          "platform": "Instagram",
+          "authorHandle": "@mollowfr",
+          "authorName": "Mollow | Voyages en train",
+          "authorType": "Media",
+          "authorFollowers": 274173,
+          "language": "fr",
+          "postDate": "2026-10-30",
+          "contentFormat": "Reel",
+          "postText": "6 villes à absolument voir Noël en un seul voyage en train 🚆✨\n\n🇳🇱 Amsterdam : les canaux illuminés, la place du Dam et son immense sapin, la patinoire du village d'hiver... la magie de Noël à son maximum.\n\n🇩🇪 Berlin : la ville se transforme TOTALEMENT en hiver avec des marchés partout !",
+          "translationEn": "6 cities you absolutely must see at Christmas in a single train trip. Amsterdam: the illuminated canals, Dam square and its huge tree, the winter village ice rink... Christmas magic at its peak. Berlin: the city transforms TOTALLY in winter with markets everywhere!",
+          "engagement": {
+            "likes": 2012,
+            "comments": 974,
+            "shares": null,
+            "views": null,
+            "total": 974
+          },
+          "url": "https://www.instagram.com/reel/DfIEamtB6aU/",
+          "whyItMatters": "Interrail European Christmas-market itinerary — crystallises the 'plan festive experiences' shift; organic lead-gen content, not a giveaway."
+        },
+        {
+          "platform": "Instagram",
+          "authorHandle": "@kinettebeautyfood",
+          "authorName": "Kinette Beautyfood",
+          "authorType": "Creator",
+          "authorFollowers": 476525,
+          "language": "fr",
+          "postDate": "2026-10-18",
+          "contentFormat": "Reel",
+          "postText": "✨🎄Idée Recette Spécial fêtes 🎄✨🎄✨🎄✨🎄✨Ingrédients 👇\n* 2 pâtes feuilletées (une seule suffit, mais avec deux, l'effet sera plus feuilleté 😍)\n* des rondelles de carottes 🥕\n* 1 jaune d'œuf\n* Des graines de sésame\n* Du saumon fumé\n* Du Boursin\n* De l'aneth\n* Du citron",
+          "translationEn": "Special holiday recipe idea. Ingredients: 2 puff pastries, carrot slices, 1 egg yolk, sesame seeds, smoked salmon, Boursin, dill, lemon. Little puff-pastry spoons perfect for a festive aperitif. Ideal to delight your Christmas guests.",
+          "engagement": {
+            "likes": 112263,
+            "comments": 771,
+            "shares": null,
+            "views": null,
+            "total": 771
+          },
+          "url": "https://www.instagram.com/reel/DepNJ4hxoty/",
+          "whyItMatters": "Festive-hosting recipe content (112k likes) — the food/hosting angle ALDI can own; organic creator content, not a giveaway."
+        }
+      ]
+    },
+    {
+      "themeId": "theme_4",
+      "themeName": "'How Early Is Too Early?' Debate & TikTok 'Noëliste' Culture",
+      "dataSources": [
+        "Instagram",
+        "TikTok"
+      ],
+      "isCrossPlatform": true,
+      "momentum": {
+        "status": "Stable",
+        "timelineDetails": "Still present but less distinctive as the broader conversation has caught up with the 'early' crowd; dominant native theme on TikTok, though TikTok volume stays small (353 posts)."
+      },
+      "summary": {
+        "description": "The self-aware 'Noëliste / too early and proud' humour persists, but as the whole market ramps, 'too early' is becoming 'right on time'. On TikTok it remains the main native theme and the platform stays overwhelmingly positive and an uncontested retail white space.",
+        "languageBreakdown": {
+          "dutchFlanders": "Humour/couple content on 'wanneer mag de kerstboom staan'; TikTok FR/NL more balanced than Meta.",
+          "frenchWallonia": "'Noëliste' humour and 'magie de Noël commence plus tôt' framing throughout giveaways."
+        }
+      },
+      "aldiImplications": {
+        "strategicValue": "A low-cost reach lever and a chance to claim uncontested TikTok early-Christmas space — ALDI can be first grocery discounter there. Treat TikTok as a test, not a budget shift.",
+        "contentActivation": {
+          "recommendedChannels": [
+            "TikTok",
+            "Instagram Reels"
+          ],
+          "creativeConcept": "Playful 'proud Noëliste' / 'Te vroeg of niet?' creator content and duets, lightly teasing ALDI's festive range.",
+          "keyPillars": [
+            "Cultural Relevance",
+            "Festive Range"
+          ]
+        }
+      },
+      "exampleContent": [
+        {
+          "platform": "Instagram",
+          "authorHandle": "@luminoel.off",
+          "authorName": "LumiNoël",
+          "authorType": "Brand",
+          "authorFollowers": null,
+          "language": "fr",
+          "postDate": "2026-10-19",
+          "contentFormat": "Reel",
+          "postText": "Commente \"Noel\" si t'en veux un 🎅🎄✨️ #noel #christmas #noël",
+          "translationEn": "Comment 'Noel' if you want one 🎅🎄✨️ #christmas",
+          "engagement": {
+            "likes": 16051,
+            "comments": 1377,
+            "shares": null,
+            "views": null,
+            "total": 1377
+          },
+          "url": "https://www.instagram.com/reel/Derbc9iC33I/",
+          "whyItMatters": "Early-Christmas 'want one?' decor post riding the 'start Christmas early' mood; a comment-to-action lead-gen post."
+        },
+        {
+          "platform": "Instagram",
+          "authorHandle": "@une.bulle.de.chipie",
+          "authorName": "Magalie 🎀 | Créatrice de contenu 📸🎥",
+          "authorType": "Creator",
+          "authorFollowers": 36510,
+          "language": "fr",
+          "postDate": "2026-10-15",
+          "contentFormat": "Image post",
+          "postText": "🎁✨ CONCOURS ✨🎁\n\nLe calendrier de l'Avent Ava & May est à l'honneur ! 🎄💖\n\nEt si cette année, la magie de Noël commençait un peu plus tôt ? 🥰🎁 J'ai décidé de vous gâter en vous offrant la chance de remporter ce joli calendrier de l'Avent ! ✨",
+          "translationEn": "GIVEAWAY. The Ava & May Advent calendar takes centre stage! What if this year Christmas magic started a little earlier? I've decided to spoil you with the chance to win this lovely Advent calendar!",
+          "engagement": {
+            "likes": 871,
+            "comments": 2342,
+            "shares": null,
+            "views": null,
+            "total": 2342
+          },
+          "url": "https://www.instagram.com/p/DehQbEKgNR6/",
+          "whyItMatters": "Explicit 'magie de Noël commençait un peu plus tôt' framing — the 'start early and proud' sentiment; this is a giveaway/concours post."
+        }
+      ]
+    }
+  ],
+  "actionPlan": {
+    "optimalTiming": {
+      "earlyTeasers": "The teaser phase is OVER — move to full festive-range and Advent activation NOW (early November). Volume is at window highs (3,607 mentions/day on 31 Oct) and still climbing post-Halloween. Prioritise Instagram (now the lead platform at 33,035 vs Facebook 28,911) with Reels-first creative; run a small parallel TikTok test on 'Noëliste' humour.",
+      "sinterklaasPause": "From roughly mid/late November to 6 December, soften overt commercial-Christmas messaging and respect the Sinterklaas (Flanders) / Saint-Nicolas (Wallonia) gifting moment — pivot to child-/family-gift and in-store support, especially in NL.",
+      "peakCampaign": "Roll out the full holiday peak campaign from ~7–8 December through Christmas, when Sinterklaas is over and festive-food, hosting and last-minute gifting intent peaks. Scale TikTok only if the test shows traction."
+    },
+    "keyContentPillars": [
+      "Price Leadership — value-vs-premium Advent calendars and gift guides; cut-through is strongest now that premium beauty calendars (Rituals, Yves Rocher, Blissim) dominate.",
+      "Festive Range, Quality & Hosting — festive food, Advent, decor and hosting content with warm, celebratory 'magie de Noël' creative; extend into the festive-experience mood.",
+      "Cultural Relevance — ride 'magie de Noël' (topic volume 1,898) and the 'Noëliste' humour for cheap reach.",
+      "Platform Fit — lead with Instagram Reels (now #1), Facebook secondary; TikTok as a low-cost, separately-measured test."
+    ],
+    "regionalStrategy": {
+      "flanders": "Lead with cosy/kerstsfeer and humour-led Dutch content; explicitly bridge Sinterklaas/5 december with early gift content, then keep Sinterklaas sacred (mid Nov–6 Dec).",
+      "walloniaBrussels": "Lead French content on calendrier de l'Avent, idée cadeau and 'magie de Noël' with a warm, value-for-money tone; add festive-experience/market angle; respect Saint-Nicolas (6 Dec) before the December peak."
+    }
+  },
+  "dataQualityNotes": {
+    "sentimentCaveat": "Sentiment is probabilistic; mixed FR/NL content is a common misclassification source. Direction (strongly positive) is high-confidence; exact ratios are indicative.",
+    "topContentCaveat": "Top-visibility content is dominated by FR giveaway/concours mechanics and some non-Belgian creators. Theme sizing leans on keyword/topic/hashtag facets rather than the raw top-content list.",
+    "tiktokCaveat": "TikTok's near-absence (353 posts, <1%) may partly reflect search/ingestion coverage rather than true audience absence — verify before fully deprioritising.",
+    "geoCaveat": "The search captures French-language content that is not exclusively Belgian; the FR/NL split is directional for Belgium, not a clean Wallonia/Flanders cut.",
+    "baselineCaveat": "No prior-year baseline was pulled; 'warmest window analysed' and 'nearly tripled' are in-window observations, not YoY comparisons."
+  }
+}
